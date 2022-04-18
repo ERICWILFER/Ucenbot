@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="{% static '/css/index.css' %}">
+  
+  <title>UCEN BOT</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">   
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>UCEN</span>BOT<span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="services.html" data-after="Services">Services</a></li>
+            <li><a href="#projects" data-after="Gallery">Gallery</a></li>
+            <li><a href="about.html" data-after="About">About</a></li>
+            <li><a href="contact.html" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Welcome to <span></span></h1>
+       
+        <h1>UCEN BOT<span></span></h1>
+        <a href="#projects" type="button" class="cta">Click here to chat with BOT</a>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>UCEN<span>BOT</span></h1>
+      </div>
+      <h2>University College Of Engineering Nagercoil.</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        
+      </div>
+      <p>Copyright © 2022 . All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="{% static '/js/index.js' %}"></script>
+</body>
+
+</html>
