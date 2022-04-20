@@ -1,0 +1,11 @@
+{% extends 'form/base.html' %}
+
+{% block title %}Feedback Form{% endblock %}
+
+{% block body %}
+<form action="feedback_form.html" method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" />
+</form>
+{% endblock %}
