@@ -1,0 +1,30 @@
+{% extends 'main.html'%}
+
+{% block content %}
+
+<section id="header">
+    <div class="header">   
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>UCEN</span>BOT<span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            {% comment %} <li><a href="services.html" data-after="Services">Services</a></li> {% endcomment %}
+            <li><a href="#projects" data-after="Gallery">Gallery</a></li>
+            <li><a href="about.html" data-after="About">About</a></li>
+            <li><a href="contact.html" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  {% endblock %}

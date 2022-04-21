@@ -1,54 +1,21 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'main.html'%}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="{% static '/css/index.css' %}">
+{% block content %}
   
-  <title>UCEN BOT</title>
-</head>
-
-<body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">   
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>UCEN</span>BOT<span></h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="services.html" data-after="Services">Services</a></li>
-            <li><a href="#projects" data-after="Gallery">Gallery</a></li>
-            <li><a href="about.html" data-after="About">About</a></li>
-            <li><a href="contact.html" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header -->
-
+{% include 'navbar.html' %}
 
   <!-- Hero Section  -->
   <section id="hero">
     <div class="hero container">
       <div>
-        <h1>Welcome to <span></span></h1>
+        <h1>Now Get INFOS <span></span></h1>
        
-        <h1>UCEN BOT<span></span></h1>
-        <a href="#projects" type="button" class="cta">Click here to chat with BOT</a>
+        <h1>of UCEN Faster<span></span></h1>
+        <a href="services.html" type="button" class="cta">Click here to chat with a BOT</a>
       </div>
     </div>
   </section>
+
   <section id="footer">
     <div class="footer container">
       <div class="brand">
@@ -71,7 +38,5 @@
     </div>
   </section>
   <!-- End Footer -->
-  <script src="{% static '/js/index.js' %}"></script>
-</body>
 
-</html>
+{% endblock %}
