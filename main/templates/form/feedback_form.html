@@ -3,9 +3,25 @@
 {% block title %}Feedback Form{% endblock %}
 
 {% block body %}
-<form action="feedback_form.html" method="POST">
-    {% csrf_token %}
-    {{ form }}
-    <input type="submit" />
-</form>
+{% include 'navbar.html' %}
+
+<div class='container-sm'>
+    <div class='form-control'>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <form action="feedback_form.html" method="POST">
+             {% csrf_token %}
+             {{ form.as_p}}
+             <input type="submit" />
+        </form>
+        
+        
+    </div>
+</div>
+
 {% endblock %}

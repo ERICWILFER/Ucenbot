@@ -22,6 +22,7 @@ def contact(request):
 
 
 def feedback_form(request):
+    
     if request.method == 'POST':
         form = FeedbackForm(request.POST)
 
