@@ -20,6 +20,9 @@ def contact(request):
     context = {}
     return render(request, "contact.html")
 
+def gallery(request):
+    context ={}
+    return render(request, "gallery.html")
 
 def feedback_form(request):
     
