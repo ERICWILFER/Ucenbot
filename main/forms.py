@@ -1,6 +1,6 @@
 from django.forms import ModelForm
 from django import forms
-from .models import Feedback, Inputclas
+from .models import Feedback
 
 class FeedbackForm(ModelForm):
     class Meta:
@@ -12,10 +12,3 @@ class FeedbackForm(ModelForm):
             'details' : forms.Textarea(attrs={'class':'form-control'}),
             
         } 
-class InputCreateView(ModelForm):
-    class Meta: 
-        model = Inputclas
-        exclude = []
-        widgets = {
-            'inputmsg' : forms.TextInput(attrs={'class':'form-control'}),
-        }

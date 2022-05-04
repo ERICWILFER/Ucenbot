@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from .forms import FeedbackForm, InputCreateView
+from .forms import FeedbackForm
 
 # Create your views here.
 def index(request):
@@ -42,12 +42,12 @@ def feedback_form(request):
 
 def chatbot(request):
     if request.method == 'POST':
-        form = InputCreateView(request.POST)
-        # msg = request.POST.get('input')
-        if form.is_valid():
-            form.save()
-            return HttpResponse('<h1>ok</h1>')
-    else:
-        form = InputCreateView()
-    context = {'form' : form}
-    return render(request, 'chatbot.html', {'form': form})
+        msg = request.POST.get('input','')
+        if msg == 'eric':
+            return HttpResponse("eric is alive")
+        else:
+            return HttpResponse("eric is not alive")
+    return render(request, 'chatbot.html')
+    
+    
+    

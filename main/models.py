@@ -11,8 +11,3 @@ class Feedback(models.Model):
     def __str__(self):
         return self.user_name
 
-class Inputclas(models.Model):
-    inputmsg = models.CharField(max_length=200)
-
-    def __str__(self):
-        return self.inputmsg

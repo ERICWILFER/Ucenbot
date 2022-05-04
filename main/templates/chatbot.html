@@ -9,6 +9,10 @@
   <form action="chatbot.html" method="post">
     {% csrf_token %}
     {{ form }}
+    <div class="form-group">
+      <label> Talk with this chatbot </label>
+      <input type="text" class="form-control" id="input" name = 'input'>
+    </div>
     <button type="submit" class="btn btn-success">OK</button>
   </form>
 {% endblock %}
