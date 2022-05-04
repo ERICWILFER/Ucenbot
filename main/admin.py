@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Feedback
+from .models import Feedback, Inputclas
 
 
 class FeedbackAdmin(admin.ModelAdmin):
@@ -10,6 +10,11 @@ class FeedbackAdmin(admin.ModelAdmin):
 
     class Meta:
         model = Feedback
+        
+class InputAdmin(admin.ModelAdmin):
+    list_display = ('inputmsg',)
+    class Meta:
+        model = Inputclas
 
-
-admin.site.register(Feedback, FeedbackAdmin)
+admin.site.register(Feedback, FeedbackAdmin,)
+admin.site.register(Inputclas, InputAdmin,)
