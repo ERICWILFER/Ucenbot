@@ -13,6 +13,17 @@
         <br>
         <br>
         <br>
-        <p>{% chatbot %}</p>
+        
+        <h2>Enter input</h2>
+  <form action="pythonweb.html" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <div class="form-group">
+      <label> Talk with this chatbot </label>
+      <input type="text" class="form-control" id="input" name = 'input'>
+    </div>
+    <button type="submit" class="btn btn-success">OK</button>
+  </form>
+  <p>{% chatbot %}</p>
     </body>
 </html>
