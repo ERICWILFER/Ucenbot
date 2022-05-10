@@ -5,7 +5,6 @@ from . import modulechatbot
 
 # Create your views here.
 
-
 def index(request):
     context = {}
     return render(request, "index.html")
@@ -32,14 +31,18 @@ def gallery(request):
 
 
 def pythonweb(request):
+    context = {}
+
     def chat(msg):
         # print("Start chatting with the bot (type quit to stop)!")
-        return modulechatbot.response(msg)
-
+        return modulechatbot.response(msg) 
+        
     if request.method == 'POST':
         msg = request.POST.get('input', '')
-        chat(msg)
-    return render(request, "pythonweb.html")
+        context['chatresponse'] = chat(msg)
+        
+        # return HttpResponse(chatresponse, content_type='text/plain')
+    return render(request, "pythonweb.html",context)
 
 
 def feedback_form(request):

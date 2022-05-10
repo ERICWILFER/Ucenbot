@@ -9,7 +9,7 @@ import json
 import pickle
 import datetime
 import random
-import pyttsx3
+# import pyttsx3
 
 stemmer = LancasterStemmer()
 with open("static/intents.json") as file:
@@ -79,16 +79,16 @@ def bag_of_words(s, words):
     return numpy.array(bag)
 
 
-def talk(text):
-    engine = pyttsx3.init()  # object creation for text to speech
-    engine.setProperty('rate', 125)  # rate of speaking
-    voices = engine.getProperty('voices')
-    # 1 for female voice and 0 for male voice
-    engine.setProperty('voice', voices[1].id)
-    engine.say(text)
-    engine.runAndWait()
-    engine.startLoop(False)
-    engine.endLoop()
+# def talk(text):
+#     engine = pyttsx3.init()  # object creation for text to speech
+#     engine.setProperty('rate', 125)  # rate of speaking
+#     voices = engine.getProperty('voices')
+#     # 1 for female voice and 0 for male voice
+#     engine.setProperty('voice', voices[1].id)
+#     engine.say(text)
+#     engine.runAndWait()
+#     engine.startLoop(False)
+#     engine.endLoop()
 
 
 def response(inp):
@@ -101,7 +101,9 @@ def response(inp):
                 responses = tg['responses']
         rresponse = random.choice(responses)
         print(rresponse)
-        talk(rresponse)
+        # talk(rresponse)
     else:
-        print("I didn't really get that")
-        talk("I didn't really get that")
+        rresponse = "I didn't really get that"
+        # talk("I didn't really get that")
+    return rresponse
+ 

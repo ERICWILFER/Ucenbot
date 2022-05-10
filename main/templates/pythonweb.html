@@ -1,7 +1,7 @@
 {% load static %}
 {% include 'navbar.html'%}
 {% load my_custom_tags %}
-    
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
@@ -14,16 +14,22 @@
         <br>
         <br>
         
-        <h2>Enter input</h2>
+        <center>
+          {% comment %} <h2>Canteen bot</h2> {% endcomment %}
   <form action="pythonweb.html" method="post">
     {% csrf_token %}
     {{ form }}
     <div class="form-group">
-      <label> Talk with this chatbot </label>
-      <input type="text" class="form-control" id="input" name = 'input'>
+      <label> <h4>chat with this chatbot </h4></label>
+      <input type="text" class="form-control" autofocus="autofocus" id="input" name = 'input'>
     </div>
-    <button type="submit" class="btn btn-success">OK</button>
+    <button type="submit" class="btn btn-success">
+      <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+    </button>
   </form>
+  <br>
+    <h1>{{chatresponse}}</h1>
   <p>{% chatbot %}</p>
+        </center>
     </body>
 </html>
