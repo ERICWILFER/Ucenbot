@@ -12,11 +12,11 @@ import random
 # import pyttsx3
 
 stemmer = LancasterStemmer()
-with open("static/intents.json") as file:
+with open("static/canteenbot/intents.json") as file:
     data = json.load(file)
 try:
     # we_are_training
-    with open("static/data.pickle", "rb") as f:
+    with open("static/canteenbot/data.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
 except:
     words = []
@@ -62,10 +62,10 @@ net = tflearn.regression(net)
 model = tflearn.DNN(net)
 try:
     # we_are_training
-    model.load("static/model.tflearn")
+    model.load("static/canteenbot/model.tflearn")
 except:
     model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
-    model.save("static/model.tflearn")
+    model.save("static/canteenbot/model.tflearn")
 
 
 def bag_of_words(s, words):

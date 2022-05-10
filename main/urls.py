@@ -10,7 +10,7 @@ urlpatterns = [
     path('about.html', views.about),
     path('contact.html', views.contact),
     path('gallery.html', views.gallery),
-    path('pythonweb.html', views.pythonweb),
+    path('canteenbot.html', views.pythonweb),
     path('form/feedback_form.html', views.feedback_form),
     path('form/thanks.html',views.feedback_form),
     path('chatbot.html',views.chatbot)
