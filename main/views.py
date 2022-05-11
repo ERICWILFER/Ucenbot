@@ -30,7 +30,7 @@ def gallery(request):
     return render(request, "gallery.html")
 
 
-def pythonweb(request):
+def canteen(request):
     context = {}
 
     def chat(msg):

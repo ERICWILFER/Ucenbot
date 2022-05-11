@@ -51,7 +51,7 @@ except:
         output.append(output_row)
     training = numpy.array(training)
     output = numpy.array(output)
-    with open("data.pickle", "wb") as f:
+    with open("static/canteenbot/data.pickle", "wb") as f:
         pickle.dump((words, labels, training, output), f)
 tf.compat.v1.reset_default_graph()
 net = tflearn.input_data(shape=[None, len(training[0])])
