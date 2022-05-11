@@ -1,0 +1,35 @@
+{% load static %}
+{% include 'navbar.html'%}
+{% load my_custom_tags %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Intro</title>
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <center>
+          <h2>SSS bot</h2>
+  <form action="sssbot.html" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <div class="form-group">
+      <label> <h4>chat with this chatbot </h4></label>
+      <input type="text" class="form-control" autofocus="autofocus" id="input" name = 'input'>
+    </div>
+    <button type="submit" class="btn btn-success">
+      <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+    </button>
+  </form>
+  <br>
+    <h1>{{chatresponse}}</h1>
+  <p>{% chatbot %}</p>
+        </center>
+    </body>
+</html>

@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .forms import FeedbackForm
-from . import canteenbot
+from . import canteenbot, sssbot
 
 # Create your views here.
 
@@ -43,6 +43,20 @@ def canteen(request):
         
         # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "canteenbot.html",context)
+
+def sss(request):
+    context = {}
+
+    def chat(msg):
+        # print("Start chatting with the bot (type quit to stop)!")
+        return sssbot.response(msg) 
+        
+    if request.method == 'POST':
+        msg = request.POST.get('input', '')
+        context['chatresponse'] = chat(msg)
+        
+        # return HttpResponse(chatresponse, content_type='text/plain')
+    return render(request, "sssbot.html",context)
 
 
 def feedback_form(request):
