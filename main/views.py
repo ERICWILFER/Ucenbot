@@ -35,12 +35,17 @@ def canteen(request):
 
     def chat(msg):
         # print("Start chatting with the bot (type quit to stop)!")
-        return canteenbot.response(msg) 
+        rresponse, contextimg = canteenbot.response(msg) 
+        return rresponse
+
+    def img():
+        rresponse, contextimg = canteenbot.response(msg)
+        return contextimg
         
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['chatresponse'] = chat(msg)
-        
+        context['imgresponse'] = img()
         # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "canteenbot.html",context)
 
@@ -49,12 +54,14 @@ def sss(request):
 
     def chat(msg):
         # print("Start chatting with the bot (type quit to stop)!")
-        return sssbot.response(msg) 
+        rresponse = sssbot.response(msg) 
+        return rresponse
         
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['chatresponse'] = chat(msg)
-        
+
+
         # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "sssbot.html",context)
 

@@ -16,7 +16,7 @@
                 "nice to meet you",
                 "hello there , how can i help"
             ],
-            "context_set": ""
+            "context_set": ["./static/context/images/hello-hi.gif","./static/context/images/hi-hello.gif"]
         },
         {
             "tag": "Tea/Cofee",
@@ -28,7 +28,7 @@
             "responses": [
                 "9 Rupees for Tea and Cofee"
             ],
-            "context_set": ""
+            "context_set": [""]
         },
         {
             "tag": "Vadai",
@@ -39,7 +39,7 @@
             "responses": [
                 "7 Rupee for vadai"
             ],
-            "context_set": ""
+            "context_set": [""]
         },
         {
             "tag": "Idly",
@@ -51,7 +51,7 @@
             "responses": [
                 "7 Rupee for Idly"
             ],
-            "context_set": ""
+            "context_set": [""]
         },
         {
             "tag": "Pongal",
@@ -62,7 +62,7 @@
             "responses": [
                 "20 Rupee for pongal"
             ],
-            "context_set": ""
+            "context_set": [""]
         },
         {
             "tag": "Sandwich",
@@ -73,7 +73,7 @@
             "responses": [
                 "20 Rupee for sandwich"
             ],
-            "context_set": ""
+            "context_set": [""]
         },
         {
             "tag": "Omlete",
@@ -84,7 +84,7 @@
             "responses": [
                 "10 Rupee for Omlete"
             ],
-            "context_set": ""
+            "context_set": [""]
         },
         {
             "tag": "Dosai",
@@ -280,7 +280,7 @@
                 "I'm BOT!",
                 "I'm BOT."
             ],
-            "context_set": ""
+            "context_set": [""]
         },
         {
             "tag": "canteen info",

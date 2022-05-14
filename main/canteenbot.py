@@ -99,11 +99,16 @@ def response(inp):
         for tg in data["intents"]:
             if tg['tag'] == tag:
                 responses = tg['responses']
+                contexts = tg['context_set']
+        global contextimg
+        contextimg = random.choice(contexts)
         rresponse = random.choice(responses)
         print(rresponse)
+        # print(contextimg)
         # talk(rresponse)
     else:
         rresponse = "I didn't really get that"
         # talk("I didn't really get that")
-    return rresponse
+    return rresponse , contextimg;
+
  
