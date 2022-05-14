@@ -9,24 +9,44 @@
     </head>
     <body>
       <style>
+        *,*:after,*:before{
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -ms-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        body{
+          font-family: arial;
+          font-size: 16px;
+          margin: 0;
+          background:linear-gradient(to right top, #0066cc, #9933ff);
+          color: #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+        }
+
+        h1{
+          color: #fff;
+          font-size: 50px;
+        }
+        h2{
+          color: #33cc33;
+        }
+
         img.animated-gif{
           width: 300px;
           height: auto;
         }
-      </style>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
+      </style>  
         <center>
           <h2>Canteen bot</h2>
   <form action="canteenbot.html" method="post">
     {% csrf_token %}
     {{ form }}
     <div class="form-group">
-      <label> <h4>chat with this chatbot </h4></label>
+      <label> <h3>chat with this chatbot </h3></label>
       <input type="text" class="form-control" autofocus="autofocus" id="input" name = 'input'>
     </div>
     <button type="submit" class="btn btn-success">
