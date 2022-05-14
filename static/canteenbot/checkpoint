@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\ERIC WILFER\\PycharmProjects\\learntensor\\model.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\ERIC WILFER\\PycharmProjects\\learntensor\\model.tflearn"
+model_checkpoint_path: "D:\\Project\\UCEN BOT\\Program\\Front End\\Ucenbot\\static\\canteenbot\\model.tflearn"
+all_model_checkpoint_paths: "D:\\Project\\UCEN BOT\\Program\\Front End\\Ucenbot\\static\\canteenbot\\model.tflearn"

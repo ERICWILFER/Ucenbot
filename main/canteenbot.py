@@ -95,7 +95,7 @@ def response(inp):
     results = model.predict([bag_of_words(inp, words)])[0]
     results_index = numpy.argmax(results)
     tag = labels[results_index]
-    if results[results_index] > 0.7:
+    if results[results_index] > 0.6:
         for tg in data["intents"]:
             if tg['tag'] == tag:
                 responses = tg['responses']
