@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 {% load static %}
+{% comment %} {% include 'navbar.html'%} {% endcomment %}
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,7 +14,14 @@
  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
  crossorigin="anonymous"
 />
-
+<style>
+  *,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+</style>
 </head>
 <body>
 
@@ -30,7 +38,7 @@
         <div>
           <h2>COLLEGE INFO</h2>
           <p>For knowing about the college, this bot provides the General information like staff details, academic details, college rules, etc.</p>
-          <a href="#" class="btn btn-primary">
+          <a href="clginfobot.html" class="btn btn-primary">
             click to chat
           </a>
         </div>
@@ -46,7 +54,7 @@
         <div>
           <h2>PLACEMENT CELL</h2>
           <p>for placement cell section, this bot Provides information about the placement drive,the qualifications for the drive etc.</p>
-          <a href="#" class="btn btn-primary">
+          <a href="placementbot.html" class="btn btn-primary">
             click to chat
           </a>
         </div>
@@ -61,7 +69,7 @@
           <h2>LIBRARY</h2>
           <p>library details, book details are provided by the bot.</p>
           <br>
-          <a href="#" class="btn btn-primary">
+          <a href="librarybot.html" class="btn btn-primary">
             click to chat
           </a>
         </div>

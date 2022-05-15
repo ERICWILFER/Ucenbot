@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .forms import FeedbackForm
-from . import canteenbot, sssbot
+from . import canteenbot, sssbot ,clginfobot, librarybot, placementbot
 
 # Create your views here.
 
@@ -29,6 +29,69 @@ def gallery(request):
     context = {}
     return render(request, "gallery.html")
 
+def college(request):
+    context = {}
+    def chat(msg):
+        # print("Start chatting with the bot (type quit to stop)!")
+        rresponse, contextimg = clginfobot.response(msg) 
+        return rresponse
+    def img():
+        rresponse, contextimg = clginfobot.response(msg)
+        return contextimg
+    if request.method == 'POST':
+        msg = request.POST.get('input', '')
+        context['chatresponse'] = chat(msg)
+        context['imgresponse'] = img()
+        # return HttpResponse(chatresponse, content_type='text/plain')
+    return render(request, "clginfobot.html",context)
+
+def placement(request):
+    context = {}
+    def chat(msg):
+        # print("Start chatting with the bot (type quit to stop)!")
+        rresponse, contextimg = placementbot.response(msg) 
+        return rresponse
+    def img():
+        rresponse, contextimg = placementbot.response(msg)
+        return contextimg
+    if request.method == 'POST':
+        msg = request.POST.get('input', '')
+        context['chatresponse'] = chat(msg)
+        context['imgresponse'] = img()
+        # return HttpResponse(chatresponse, content_type='text/plain')
+    return render(request, "placementbot.html",context)
+
+def library(request):
+    context = {}
+    def chat(msg):
+        # print("Start chatting with the bot (type quit to stop)!")
+        rresponse, contextimg = librarybot.response(msg) 
+        return rresponse
+    def img():
+        rresponse, contextimg = librarybot.response(msg)
+        return contextimg
+    if request.method == 'POST':
+        msg = request.POST.get('input', '')
+        context['chatresponse'] = chat(msg)
+        context['imgresponse'] = img()
+        # return HttpResponse(chatresponse, content_type='text/plain')
+    return render(request, "librarybot.html",context)
+
+def sss(request):
+    context = {}
+
+    def chat(msg):
+        # print("Start chatting with the bot (type quit to stop)!")
+        rresponse = sssbot.response(msg) 
+        return rresponse
+        
+    if request.method == 'POST':
+        msg = request.POST.get('input', '')
+        context['chatresponse'] = chat(msg)
+
+
+        # return HttpResponse(chatresponse, content_type='text/plain')
+    return render(request, "sssbot.html",context)
 
 def canteen(request):
     context = {}
@@ -49,21 +112,7 @@ def canteen(request):
         # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "canteenbot.html",context)
 
-def sss(request):
-    context = {}
 
-    def chat(msg):
-        # print("Start chatting with the bot (type quit to stop)!")
-        rresponse = sssbot.response(msg) 
-        return rresponse
-        
-    if request.method == 'POST':
-        msg = request.POST.get('input', '')
-        context['chatresponse'] = chat(msg)
-
-
-        # return HttpResponse(chatresponse, content_type='text/plain')
-    return render(request, "sssbot.html",context)
 
 
 def feedback_form(request):
