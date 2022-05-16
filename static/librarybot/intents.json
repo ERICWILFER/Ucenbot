@@ -16,7 +16,7 @@
         "nice to meet you",
         "hello there , how can i help"
       ],
-      "context_set": "./hello-hi.gif"
+      "context_set": ["./static/context/images/hello-hi.gif"]
     },
     {
       "tag": "goodbye",
@@ -55,32 +55,32 @@
     },
     {
       "tag": "do i need to apply anyadmit card for entering library?",
-      "patterns": ["do i need to apply anyadmit card for entering library?"],
+      "patterns": ["do i need to apply any admit card for entering library","do we need to apply for admit card for library"],
       "responses": ["No, but you have to sign in the entry book."],
       "context_set": [""]
     },
     {
-      "tag": "can i go to library freely?",
-      "patterns": ["can i go to library freely?"],
+      "tag": "is library free",
+      "patterns": ["can i go to library freely?","is library free to go","is library free"],
       "responses": ["Yes, you can go to library freely."],
       "context_set": [""]
     },
     {
-      "tag": "what is the timing of the library?",
-      "patterns": ["what is the timing of the library?"],
+      "tag": "what is the timing of the library",
+      "patterns": ["what is the timing of the library"],
       "responses": ["As same as college hours"],
       "context_set": [""]
     },
     {
       "tag": "do we need to maintain silence in this library?",
-      "patterns": ["do we need to maintain silence in this library?"],
+      "patterns": ["do we need to maintain silence in this library"],
       "responses": ["Of course yes,"],
       "context_set": [""]
     },
     {
       "tag": "do your library have books arranged according to departaments?",
       "patterns": [
-        "do your library have books arranged according to departaments?"
+        "do your library have books arranged according to departaments"
       ],
       "responses": [
         "Yes, our library books are arranged according to departments"
@@ -99,7 +99,7 @@
     },
     {
       "tag": "is tinkle magazine in library?",
-      "patterns": ["do tinkle magazine books are available in your library?"],
+      "patterns": ["do tinkle magazine books are available in your library"],
       "responses": [
         "Sorry, we don't have tinkle books. But you will find it in english lab"
       ],
@@ -107,7 +107,7 @@
     },
     {
       "tag": "water bottel in library?",
-      "patterns": ["can we bring water bottle to your library?"],
+      "patterns": ["can we bring water bottle to your library"],
       "responses": [
         "Yes you can, but do not pour water in the bookes provided"
       ],
@@ -115,13 +115,13 @@
     },
     {
       "tag": "who is the incharge of library?",
-      "patterns": ["who is the incharge of library?"],
+      "patterns": ["who is the incharge of library"],
       "responses": ["answer will be provided soon"],
       "context_set": [""]
     },
     {
       "tag": "do your library have books about energy technology?",
-      "patterns": ["do your library have books about energy technology?"],
+      "patterns": ["do your library have books about energy technology"],
       "responses": ["Yes, we have books about energy technology."],
       "context_set": [""]
     },
@@ -137,7 +137,7 @@
     {
       "tag": "can we browse the books according to the author name?",
       "patterns": [
-        "can we browse the books according to the author name?",
+        "can we browse the books according to the author name",
         "can we check the books according to author name"
       ],
       "responses": ["Yes, you can"],
