@@ -186,7 +186,7 @@
         {
             "tag": "how much rating do u give for ucen college?",
             "patterns": [
-                "how much rating do u give for ucen college?"
+                "how much rating do u give for U C E N college?"
             ],
             "responses": [
                 "i rate 3.5 out of 5"
