@@ -23,7 +23,9 @@
             "patterns": [
                 "Tea/Cofee",
                 "what is the Price of Tea",
-                "what is the price of Cofee"
+                "what is the price of Cofee",
+                "how much a tea?",
+                "how much a cofee?"
             ],
             "responses": [
                 "9 Rupees for Tea and Cofee"
@@ -34,7 +36,10 @@
             "tag": "Vadai",
             "patterns": [
                 "Vadai",
-                "what is the price of vadai"
+                "what is the price of vadai",
+                "how much a vadai?",
+                "vadai rupees?",
+                "rupees of vadai?"
             ],
             "responses": [
                 "7 Rupee for vadai"
@@ -46,7 +51,9 @@
             "patterns": [
                 "Idly",
                 "Price of Idli",
-                "what is the price of Idly"
+                "what is the price of Idly",
+                "how much a idly?",
+                "idly price"
             ],
             "responses": [
                 "7 Rupee for Idly"
@@ -57,7 +64,10 @@
             "tag": "Pongal",
             "patterns": [
                 "Pongal",
-                "Price of pongal"
+                "Price of pongal",
+                "How much a pongal?",
+                "price of pongal?",
+                "for how much i can get for a pongal?"
             ],
             "responses": [
                 "20 Rupee for pongal"
@@ -68,7 +78,10 @@
             "tag": "Sandwich",
             "patterns": [
                 "Sandwich",
-                "Price of Sandwich"
+                "how much a sandwich",
+                "Price of Sandwich",
+                "sandwich price",
+                "tell me the price of sandwich"
             ],
             "responses": [
                 "20 Rupee for sandwich"
@@ -79,7 +92,9 @@
             "tag": "Omlete",
             "patterns": [
                 "Omlete",
-                "Price of Omlete"
+                "Price of Omlete",
+                "how much for a omelete",
+                "omelete price"
             ],
             "responses": [
                 "10 Rupee for Omlete"
@@ -90,7 +105,10 @@
             "tag": "Dosai",
             "patterns": [
                 "Dosai",
-                "Price of Dosai"
+                "Price of Dosai",
+                "how much for a dosai",
+                "dosai price",
+                "dosai amount"
             ],
             "responses": [
                 "10 Rupee Dosai"
@@ -101,7 +119,9 @@
             "tag": "Bread Omlete",
             "patterns": [
                 "Bread Omlete",
-                "Price of Bread Omlete"
+                "Price of Bread Omlete",
+                "how much for a bread omlete",
+                "bread omlete price"
             ],
             "responses": [
                 "20 Rupee for Bread omlete"
@@ -112,7 +132,12 @@
             "tag": "Lunch",
             "patterns": [
                 "Lunch",
-                "Price of Lunch"
+                "Price of Lunch",
+                "lunch price",
+                "how much for a lunch",
+                "luch amount",
+                "tell me the price of lunch",
+                "lunch price info"
             ],
             "responses": [
                 "40 Rupee for lunch"
@@ -123,7 +148,10 @@
             "tag": "Veg Fried Rice",
             "patterns": [
                 "Veg Fried Rice",
-                "Price of Veg Fried Rice"
+                "Price of Veg Fried Rice",
+                "veg fried rice price",
+                "how much for a veg fried rice",
+                "tell me the price of veg fried rice"
             ],
             "responses": [
                 "30 Rupee"
@@ -134,7 +162,11 @@
             "tag": "Egg Noodles",
             "patterns": [
                 "Egg Noodles",
-                "price of Egg Noodles"
+                "price of Egg Noodles",
+                "how much for a egg noodles",
+                "egg noodles price",
+                "egg noodles amount",
+                "tell me the price of egg noodles"
             ],
             "responses": [
                 "40 Rupee for Egg Noodles"
@@ -146,7 +178,11 @@
             "patterns": [
                 "Poori",
                 "Price of poori",
-                "what is the price of Poori"
+                "what is the price of Poori",
+                "how much for a poori",
+                "poori price",
+                "poori amount",
+                "amount of poori"
             ],
             "responses": [
                 "7 Rupee for Poori"
@@ -158,7 +194,10 @@
             "patterns": [
                 "Variety rice",
                 "price of Variety rice",
-                "what is the price of Variety rice"
+                "what is the price of Variety rice",
+                "how much for a variety rice",
+                "variety rice price",
+                "tell me the price of variety rice"
             ],
             "responses": [
                 "29 Rupee for variety of rice"
@@ -170,7 +209,10 @@
             "patterns": [
                 "Chapathi",
                 "price of Chapathi",
-                "what is the price of chapathi"
+                "what is the price of chapathi",
+                "how much for a chapathi",
+                "chapathi price",
+                "amount of chapathi"
             ],
             "responses": [
                 "10 Rupee for chapathi"
@@ -182,7 +224,9 @@
             "patterns": [
                 "Chicken Fry",
                 "price of Chicken Fry",
-                "what is the price of chicken Fry"
+                "what is the price of chicken Fry",
+                "chicken fry price",
+                "how much a chicken fry"
             ],
             "responses": [
                 "40 Rupee for chicken Fry"
@@ -194,7 +238,9 @@
             "patterns": [
                 "Chicken Chops",
                 "what is the price of Chicken Chops",
-                "price of chicken chops"
+                "price of chicken chops",
+                "chicken chops price",
+                "chicken chops amount"
             ],
             "responses": [
                 "40 Rupee for chicken chops"
@@ -205,7 +251,10 @@
             "tag": "Veg Noodles",
             "patterns": [
                 "Veg Noodles",
-                "price of veg Noodles"
+                "price of veg noodles",
+                "Veg Noodles price",
+                "how much veg noodles",
+                "tell me the price of veg noodles"
             ],
             "responses": [
                 "30 Rupee for veg noodles"
@@ -216,7 +265,10 @@
             "tag": "Egg Fried rice",
             "patterns": [
                 "Egg Fried rice",
-                "price of Egg Fried rice"
+                "price of Egg Fried rice",
+                "how much egg fried rice",
+                "egg fried rice price",
+                "tell me the price of egg fried rice"
             ],
             "responses": [
                 "40 Rupee for Egg Fried rice"
@@ -260,7 +312,9 @@
             "patterns": [
                 "where is canteen located",
                 "where can i find canteen",
-                "college canteen"
+                "college canteen",
+                "navigate me to canteen location",
+                "tell me the location of the canteen"
             ],
             "responses": [
                 "Back of the UCEN college",
@@ -273,7 +327,9 @@
             "patterns": [
                 "what is your name",
                 "what should I call you",
-                "whats your name?"
+                "whats your name?",
+                "who are you"
+
             ],
             "responses": [
                 "You can call me CHAT BOT.",
@@ -289,7 +345,8 @@
                 "whats on the menu",
                 "what do you sell",
                 "what to eat",
-                "could i get something to eat"
+                "could i get something to eat",
+                "what are available to eat?"
             ],
             "responses": [
                 "We sell Tea/Cofee, Vadai, Idly, Pongal, Sandwich, lunch, chapathi etcetra! ",
@@ -312,19 +369,26 @@
             "context_set": [""]
         },
         {
-            "tag": "who is cse hod",
+            "tag": "who is c s e hod",
             "patterns": [
-                "who is cse hod"
+                "who is c s e h o d",
+                "C S E  H O D name ?",
+                "C S E H O D",
+                "H O D of C S E",
+                "tell me who is the h o d of c s e"
+
             ],
             "responses": [
-                "Muthuselvi"
+                "Mrs.Muthuselvi"
             ],
             "context_set": [""]
         },
         {
-            "tag": "who is the dean of ucen",
+            "tag": "who is the dean of U C E N",
             "patterns": [
-                "who is the dean of ucen"
+                "who is the dean of U C E N",
+                "dean of U C E N?",
+                "U C E N dean"
             ],
             "responses": [
                 "nagarajan"
