@@ -16,7 +16,7 @@
         "nice to meet you",
         "hello there , how can i help"
       ],
-      "context_set": "./hello-hi.gif"
+      "context_set": ["./static/context/images/hello-hi.gif"]
     },
     {
       "tag": "goodbye",
@@ -54,33 +54,52 @@
       "context_set": [""]
     },
     {
-      "tag": "do i need to apply anyadmit card for entering library?",
-      "patterns": ["do i need to apply anyadmit card for entering library?"],
+      "tag": "admit card",
+      "patterns": ["do i need to apply any admit card for entering library",
+                   "do we need to apply for admit card for library",
+                   "is admit card necessary ?",
+                   "shoud we bring admit card",
+                   "is admit card mandatory?"],
       "responses": ["No, but you have to sign in the entry book."],
       "context_set": [""]
     },
     {
-      "tag": "can i go to library freely?",
-      "patterns": ["can i go to library freely?"],
+      "tag": "is library free", 
+      "patterns": ["can i go to library freely?",
+                   "is library free to go",
+                   "is library free",
+                   "can i walk into the library freely?",
+                   ""],
       "responses": ["Yes, you can go to library freely."],
       "context_set": [""]
     },
     {
-      "tag": "what is the timing of the library?",
-      "patterns": ["what is the timing of the library?"],
+      "tag": "timing library",
+      "patterns": ["what is the timing of the library",
+                   "tell me the timing of library",
+                   "what timing is the library are?",
+                   "library timing info please",
+                   "library timing?",
+                   "library timing information please",
+                   "can you tell me the library timing?"],
       "responses": ["As same as college hours"],
       "context_set": [""]
     },
     {
-      "tag": "do we need to maintain silence in this library?",
-      "patterns": ["do we need to maintain silence in this library?"],
+      "tag": "silence in library",
+      "patterns": ["do we need to maintain silence in this library",
+                   "is maintaining silence in library mandatory?",
+                   "is maintaining silence is good in library?"],
       "responses": ["Of course yes,"],
       "context_set": [""]
     },
     {
-      "tag": "do your library have books arranged according to departaments?",
+      "tag": "books arranged to departments",
       "patterns": [
-        "do your library have books arranged according to departaments?"
+        "do library have books arranged according to departaments",
+        "can i search the books according to the departments?",
+        "can i browse the books according to the departments?",
+        "is the books arranged according to the departments?"
       ],
       "responses": [
         "Yes, our library books are arranged according to departments"
@@ -88,9 +107,12 @@
       "context_set": [""]
     },
     {
-      "tag": "can we take your library books to home and return back later?",
+      "tag": "take and return back books",
       "patterns": [
-        "can we take your library books to home and return back later?"
+        "can we take your library books to home and return back later?",
+        "can we take and return back library books later?",
+        "can we take library books to home?",
+        "can i return the books after on week?"
       ],
       "responses": [
         "Yes, you can but you will need to sign in the registration and should return the book before deadline"
@@ -98,8 +120,10 @@
       "context_set": [""]
     },
     {
-      "tag": "is tinkle magazine in library?",
-      "patterns": ["do tinkle magazine books are available in your library?"],
+      "tag": "is tinkle magazine available in library?",
+      "patterns": ["do tinkle magazine books are available in your library",
+                   "can i expect thinkle magazine books?",
+                   "is there available thinkle magazine books?"],
       "responses": [
         "Sorry, we don't have tinkle books. But you will find it in english lab"
       ],
@@ -107,7 +131,9 @@
     },
     {
       "tag": "water bottel in library?",
-      "patterns": ["can we bring water bottle to your library?"],
+      "patterns": ["can we bring water bottle to your library",
+                   "can i drink water inside the library?",
+                   "can i use water bottle insidet the library?"],
       "responses": [
         "Yes you can, but do not pour water in the bookes provided"
       ],
@@ -115,37 +141,55 @@
     },
     {
       "tag": "who is the incharge of library?",
-      "patterns": ["who is the incharge of library?"],
+      "patterns": ["who is the incharge of library",
+                   "incharge of library?",
+                   "tell me the incharge of library"],
       "responses": ["answer will be provided soon"],
       "context_set": [""]
     },
     {
-      "tag": "do your library have books about energy technology?",
-      "patterns": ["do your library have books about energy technology?"],
+      "tag": "books about energy technology?",
+      "patterns": ["do your library have books about energy technology",
+                   "do library have books about Energy technology",
+                   "does library have Energy technology books",
+                   "is Energy technology books are available?",
+                   "Energy technology books?",
+                   "are Energy technology books available?"],
       "responses": ["Yes, we have books about energy technology."],
       "context_set": [""]
     },
     {
-      "tag": "do your library have books about chemical engineering",
+      "tag": "books about chemical engineering",
       "patterns": [
-        "do your library have books about chemical engineering",
-        "does library have chemical engineering books"
+        "do library have books about chemical engineering",
+        "does library have chemical engineering books",
+        "is chemical engineering books are available?",
+        "chemical engineering books?",
+        "are chemical engineering books available?"
       ],
       "responses": ["answer will be provided soon"],
       "context_set": [""]
     },
     {
-      "tag": "can we browse the books according to the author name?",
+      "tag": "browse books in author name",
       "patterns": [
-        "can we browse the books according to the author name?",
-        "can we check the books according to author name"
+        "can we browse the books according to the author name",
+        "can we check the books according to author name",
+        "is there any way to browse the books according to the author name?",
+        "browse the books according to author name?",
+        "can we search the books according to the author name?"
+
       ],
       "responses": ["Yes, you can"],
       "context_set": [""]
     },
     {
-      "tag": "can we browse the books according to the book number",
-      "patterns": ["can we browse the books according to the book number"],
+      "tag": "browse books in book numbers",
+      "patterns": ["can we browse the books according to the book number",
+                   "is there any way to browse the books according to the book number?",
+                   "browse the books according to book number?",
+                   "is the books arranged according to the book number?",
+                   "are the books arranged according to the book number?"],
       "responses": ["Yes, you can"],
       "context_set": [""]
     }
