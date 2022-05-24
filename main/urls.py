@@ -15,6 +15,7 @@ urlpatterns = [
     path('librarybot.html', views.library),
     path('sssbot.html', views.sss),
     path('canteenbot.html', views.canteen),
+    path('sportsbot.html', views.sports),
     path('form/feedback_form.html', views.feedback_form),
     path('form/thanks.html',views.feedback_form),
     path('chatbot.html',views.chatbot)

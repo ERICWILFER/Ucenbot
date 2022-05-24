@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .forms import FeedbackForm
-from . import canteenbot, sssbot ,clginfobot, librarybot, placementbot
+from . import canteenbot, sssbot ,clginfobot, librarybot, placementbot, sportsbot
 
 # Create your views here.
 
@@ -111,6 +111,25 @@ def canteen(request):
         context['imgresponse'] = img()
         # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "canteenbot.html",context)
+
+def sports(request):
+    context = {}
+
+    def chat(msg):
+        # print("Start chatting with the bot (type quit to stop)!")
+        rresponse, contextimg = sportsbot.response(msg) 
+        return rresponse
+
+    def img():
+        rresponse, contextimg = sportsbot.response(msg)
+        return contextimg
+        
+    if request.method == 'POST':
+        msg = request.POST.get('input', '')
+        context['chatresponse'] = chat(msg)
+        context['imgresponse'] = img()
+        # return HttpResponse(chatresponse, content_type='text/plain')
+    return render(request, "sportsbot.html",context)
 
 
 
