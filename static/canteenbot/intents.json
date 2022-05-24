@@ -30,7 +30,7 @@
             "responses": [
                 "9 Rupees for Tea and Cofee"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/tea.PNG"]
         },
         {
             "tag": "Vadai",
@@ -44,7 +44,7 @@
             "responses": [
                 "7 Rupee for vadai"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/vadai.jpg"]
         },
         {
             "tag": "Idly",
@@ -58,7 +58,7 @@
             "responses": [
                 "7 Rupee for Idly"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/idli.jpg"]
         },
         {
             "tag": "Pongal",
@@ -72,7 +72,7 @@
             "responses": [
                 "20 Rupee for pongal"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/pongal.jpg"]
         },
         {
             "tag": "Sandwich",
@@ -86,7 +86,7 @@
             "responses": [
                 "20 Rupee for sandwich"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/sandwich.jpg"]
         },
         {
             "tag": "Omlete",
@@ -99,7 +99,7 @@
             "responses": [
                 "10 Rupee for Omlete"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/omlette.jpg"]
         },
         {
             "tag": "Dosai",
@@ -113,7 +113,7 @@
             "responses": [
                 "10 Rupee Dosai"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/dosai.PNG"]
         },
         {
             "tag": "Bread Omlete",
@@ -126,7 +126,7 @@
             "responses": [
                 "20 Rupee for Bread omlete"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/breadomlette.jpg"]
         },
         {
             "tag": "Lunch",
@@ -142,7 +142,7 @@
             "responses": [
                 "40 Rupee for lunch"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/lunch.jpg"]
         },
         {
             "tag": "Veg Fried Rice",
@@ -156,7 +156,7 @@
             "responses": [
                 "30 Rupee"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/vegfriedrice.jpg"]
         },
         {
             "tag": "Egg Noodles",
@@ -171,7 +171,7 @@
             "responses": [
                 "40 Rupee for Egg Noodles"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/eggnoodles"]
         },
         {
             "tag": "Poori",
@@ -187,7 +187,7 @@
             "responses": [
                 "7 Rupee for Poori"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/poori.jpg"]
         },
         {
             "tag": "Variety rice",
@@ -202,7 +202,7 @@
             "responses": [
                 "29 Rupee for variety of rice"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/varietyrice.png"]
         },
         {
             "tag": "Chapathi",
@@ -217,7 +217,7 @@
             "responses": [
                 "10 Rupee for chapathi"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/chapathi.jpg"]
         },
         {
             "tag": "Chicken Fry",
