@@ -38,7 +38,7 @@
           "what should I call you",
           "whats your name?"
         ],
-        "responses": ["You can call me CHAT BOT.", "I'm BOT!", "I'm BOT."],
+        "responses": ["You can call me Library CHAT BOT.", "I'm library  BOT!", "I'm library BOT."],
         "context_set": [""]
       },
       {

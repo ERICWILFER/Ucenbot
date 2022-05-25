@@ -169,14 +169,15 @@
                 "tell me the price of egg noodles"
             ],
             "responses": [
-                "40 Rupee for Egg Noodles"
+                "40 Rupee for Egg Noodles 🍜"
             ],
-            "context_set": ["./static/context/images/eggnoodles"]
+            "context_set": ["./static/context/images/eggnoodles.jpg"]
         },
         {
             "tag": "Poori",
             "patterns": [
-                "Poori",
+                "Poori","pori","bori","buri",
+                "boori",
                 "Price of poori",
                 "what is the price of Poori",
                 "how much for a poori",
@@ -231,7 +232,7 @@
             "responses": [
                 "40 Rupee for chicken Fry"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/chickenFry.jpg"]
         },
         {
             "tag": "Chicken Chops",
@@ -245,7 +246,7 @@
             "responses": [
                 "40 Rupee for chicken chops"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/chickenchops.jpg"]
         },
         {
             "tag": "Veg Noodles",
@@ -332,9 +333,9 @@
 
             ],
             "responses": [
-                "You can call me CHAT BOT.",
-                "I'm BOT!",
-                "I'm BOT."
+                "You can call me canteen CHAT BOT.",
+                "I'm canteen BOT!",
+                "I'm canteen BOT."
             ],
             "context_set": [""]
         },
