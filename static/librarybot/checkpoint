@@ -1,2 +1,2 @@
-model_checkpoint_path: "D:\\programs\\front end\\Ucenbot\\static\\librarybot\\model.tflearn"
-all_model_checkpoint_paths: "D:\\programs\\front end\\Ucenbot\\static\\librarybot\\model.tflearn"
+model_checkpoint_path: "G:\\github\\Ucenbot\\static\\librarybot\\model.tflearn"
+all_model_checkpoint_paths: "G:\\github\\Ucenbot\\static\\librarybot\\model.tflearn"

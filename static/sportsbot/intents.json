@@ -29,7 +29,7 @@
           "bye"
         ],
         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-        "context_set": [""]
+        "context_set": ["./static/context/images/sad.gif"]
       },
       {
         "tag": "name",
@@ -51,7 +51,7 @@
           "Sports sir name"
         ],
         "responses": ["Mr. Saravana Moorthy"],
-        "context_set": [""]
+        "context_set": ["./static/context/images/sportsstaff.PNG"]
       },
       {
         "tag": "football timing",
@@ -60,8 +60,8 @@
                      "when can we play football",
                      "play football timing",
                      "timing to play football"],
-        "responses": ["5 pm"],
-        "context_set": [""]
+        "responses": ["The timing to play football is 5 pm"],
+        "context_set": ["./static/context/images/football.jpg"]
       },
       {
         "tag": "volleyball timing", 
@@ -70,8 +70,8 @@
           "when can we play volleyball",
           "play volleyball timing",
           "timing to play volleyball"],
-        "responses": ["4:30 pm"],
-        "context_set": [""]
+        "responses": ["The timing to play volleyball is 4:30 pm"],
+        "context_set": ["./static/context/images/volleyball.PNG"]
       },
       {
         "tag": "cricket timing",
@@ -80,8 +80,8 @@
           "when can we play cricket",
           "play cricket timing",
           "timing to play cricket"],
-        "responses": ["5 pm"],
-        "context_set": [""]
+        "responses": ["The timing to play cricket is 5 pm"],
+        "context_set": ["./static/context/images/cricket.PNG"]
       },
       {
         "tag": "table tennis timing",
@@ -90,8 +90,8 @@
           "when can we play table tennis",
           "play table tennis timing",
           "timing to play table tennis"],
-        "responses": ["4:45 pm"],
-        "context_set": [""]
+        "responses": ["The timing to play table tennis is 4:45 pm"],
+        "context_set": ["./static/context/images/tabletennis.png"]
       },
       {
         "tag": " staff P E T sir room number",
@@ -103,9 +103,9 @@
           "where is P E T sir room number"
         ],
         "responses": [
-          "402"
+          "402 is the room number of P E T sir"
         ],
-        "context_set": [""]
+        "context_set": ["./static/context/images/402.jpg"]
       },
       {
         "tag": "football team captain",
@@ -116,7 +116,7 @@
           "captain of football team"
         ],
         "responses": [
-          "Alan"
+          "Football team captain is Alan"
         ],
         "context_set": [""]
       },
@@ -129,7 +129,7 @@
           "captain of volleyball team"
         ],
         "responses": [
-          "Atiban"
+          "Volleyball team captain is Atiban"
         ],
         "context_set": [""]
       },
@@ -142,7 +142,7 @@
           "captain of cricket team"
         ],
         "responses": [
-          "Akash"
+          "Cricket team captain is Akash"
         ],
         "context_set": [""]
       },
@@ -154,7 +154,7 @@
           "tell the captain of table tennis team",
           "captain of table tennis team"
         ],
-        "responses": ["Bala"],
+        "responses": ["Table tennis team captain is Bala"],
         "context_set": [""]
       }
       

@@ -29,7 +29,7 @@
           "bye"
         ],
         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-        "context_set": [""]
+        "context_set": ["./static/context/images/sad.gif"]
       },
       {
         "tag": "name",
@@ -90,7 +90,7 @@
         "patterns": ["do we need to maintain silence in this library",
                      "is maintaining silence in library mandatory?",
                      "is maintaining silence is good in library?"],
-        "responses": ["Of course yes,"],
+        "responses": ["Of course yes, you need to maintain silent inside the library"],
         "context_set": [""]
       },
       {
@@ -140,7 +140,7 @@
         "context_set": [""]
       },
       {
-        "tag": "who is the incharge of library?",
+        "tag": "incharge of library?",
         "patterns": ["who is the incharge of library",
                      "incharge of library?",
                      "tell me the incharge of library"],
@@ -148,7 +148,7 @@
         "context_set": [""]
       },
       {
-        "tag": "books about energy technology?",
+        "tag": "energy technology?",
         "patterns": ["do your library have books about energy technology",
                      "do library have books about Energy technology",
                      "does library have Energy technology books",
@@ -159,7 +159,7 @@
         "context_set": [""]
       },
       {
-        "tag": "books about chemical engineering",
+        "tag": "chemical engineering",
         "patterns": [
           "do library have books about chemical engineering",
           "does library have chemical engineering books",
@@ -167,7 +167,7 @@
           "chemical engineering books?",
           "are chemical engineering books available?"
         ],
-        "responses": ["answer will be provided soon"],
+        "responses": ["Yes, chemical engineering books are available"],
         "context_set": [""]
       },
       {
@@ -180,7 +180,7 @@
           "can we search the books according to the author name?"
   
         ],
-        "responses": ["Yes, you can"],
+        "responses": ["Yes, you can browse the books according to the author name"],
         "context_set": [""]
       },
       {
@@ -192,7 +192,69 @@
                      "are the books arranged according to the book number?"],
         "responses": ["Yes, you can"],
         "context_set": [""]
+      },
+      {
+        "tag": "daily",
+        "patterns": ["can we use daily paper in library",
+                     "is daily papers available in library",
+                     "is there available daily paper",
+                     "daily paper available?",
+                     "daily paper?"],
+        "responses": ["Yes, Daily papers are available and you can use it"],
+        "context_set": [""]
+      },
+      {
+        "tag": "News",
+        "patterns": ["can we use news paper in library",
+                     "is news papers available in library",
+                     "is there available news paper",
+                     "news paper available?",
+                     "news paper?"],
+        "responses": ["Yes, News papers are available and you can use it"],
+        "context_set": [""]
+      },
+
+      {
+        "tag": "Engineering physics",
+        "patterns": ["do library have books about engineering physics",
+          "does library have engineering physics books",
+          "is engineering physics books are available?",
+          "engineering physics books?",
+          "engineering physics books available?"],
+        "responses": ["Yes, Engineering Physics books are available"],
+        "context_set": [""]
+      },
+      {
+        "tag": "Engineering mathematics",
+        "patterns": ["do library have books about engineering mathematics",
+          "does library have engineering mathematics books",
+          "is engineering mathematis books are available?",
+          "engineering mathematics books?",
+          "engineering mathematics books available?"],
+        "responses": ["Yes, Engineering mathematics books are available"],
+        "context_set": [""]
+      },
+      {
+        "tag": "phython",
+        "patterns": ["do library have books about phython",
+          "does library have python books",
+          "is python books are available?",
+          "python books?",
+          "python books available?"],
+        "responses": ["Yes, Python books are available"],
+        "context_set": [""]
+      },
+      {
+        "tag": "java",
+        "patterns": ["do library have books about java",
+          "does library have java books",
+          "is java books are available?",
+          "java books?",
+          "java books available?"],
+        "responses": ["Yes, Java books are available"],
+        "context_set": [""]
       }
+
     ]
   }
   
