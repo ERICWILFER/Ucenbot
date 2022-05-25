@@ -38,7 +38,7 @@
           "what should I call you",
           "whats your name?"
         ],
-        "responses": ["You can call me CHAT BOT.", "I'm BOT!", "I'm BOT."],
+        "responses": ["You can call me Sports CHAT BOT.", "I'm sports BOT!", "I'm sports BOT."],
         "context_set": [""]
       },
       {
@@ -100,7 +100,8 @@
           "where can i see P E T sir",
           "room number of P E T sir",
           "P E T sir room number",
-          "where is P E T sir room number"
+          "where is P E T sir room number",
+          "where is pet sir"
         ],
         "responses": [
           "402 is the room number of P E T sir"
