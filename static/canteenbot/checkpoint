@@ -1,2 +1,2 @@
-model_checkpoint_path: "g:\\github\\Ucenbot\\static\\canteenbot\\model.tflearn"
-all_model_checkpoint_paths: "g:\\github\\Ucenbot\\static\\canteenbot\\model.tflearn"
+model_checkpoint_path: "A:\\final project\\Ucenbot\\Ucenbot\\static\\canteenbot\\model.tflearn"
+all_model_checkpoint_paths: "A:\\final project\\Ucenbot\\Ucenbot\\static\\canteenbot\\model.tflearn"
