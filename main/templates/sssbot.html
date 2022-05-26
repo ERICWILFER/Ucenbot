@@ -6,55 +6,14 @@
 <html lang="en" dir="ltr">
     <head>
         <title>Intro</title>
+        <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static '/css/bot.css' %}"
+    />
     </head>
     <body>
-      <style>
-        *,*:after,*:before{
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          -ms-box-sizing: border-box;
-          box-sizing: border-box;
-        }
-        body{
-          font-family: arial;
-          font-size: 16px;
-          margin: 0;
-          background:linear-gradient(to right top, #0066cc, #9933ff);
-          color: #000;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          min-height: 100vh;
-        }
-        .voice_to_text{
-          width: 600px;
-          text-align: center;
-        }
-        h1{
-          color: #fff;
-          font-size: 50px;
-        }
-        h2{
-          color: #33cc33;
-        }
-
-        button{
-          padding: 5px 10px 1px;
-          background: #0ea4da;
-          border: 0;
-          color: #fff;
-          font-size: 18px;
-          cursor: pointer;
-          border-radius: 5px;
-        }
-        
-
-        img.animated-gif{
-          width: 300px;
-          height: auto;
-        }
-      </style>  
-        <center>
+      <center>
           <h2>SSS bot</h2>
   <form action="sssbot.html" method="post">
     {% csrf_token %}
@@ -77,7 +36,7 @@
       <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"></path>
     </svg></button>
   </div>
-
+    <h2>{{query}}<h2>
     <h1>{{chatresponse}}</h1>
     <img class="animated-gif" src="{{imgresponse}}">
   <p>{% chatbot %}</p>
