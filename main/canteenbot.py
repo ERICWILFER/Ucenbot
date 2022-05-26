@@ -15,7 +15,7 @@ stemmer = LancasterStemmer()
 with open("static/canteenbot/intents.json") as file:
     data = json.load(file)
 try:
-    #we_are_training
+    # we_are_training
     with open("static/canteenbot/data.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
 except:
@@ -61,7 +61,7 @@ net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
 net = tflearn.regression(net)
 model = tflearn.DNN(net)
 try:
-    #we_are_training
+    # we_are_training
     model.load("static/canteenbot/model.tflearn")
 except:
     model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
@@ -108,6 +108,7 @@ def response(inp):
         # talk(rresponse)
     else:
         rresponse = "I didn't really get that"
+        contextimg = "./static/context/images/error.gif"
         # talk("I didn't really get that")
     return rresponse , contextimg;
 

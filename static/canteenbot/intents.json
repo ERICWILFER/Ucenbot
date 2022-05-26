@@ -169,7 +169,7 @@
                 "tell me the price of egg noodles"
             ],
             "responses": [
-                "40 Rupee for Egg Noodles 🍜"
+                "40 Rupee for Egg Noodles"
             ],
             "context_set": ["./static/context/images/eggnoodles.jpg"]
         },

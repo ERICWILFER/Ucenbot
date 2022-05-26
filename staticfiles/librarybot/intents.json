@@ -68,8 +68,8 @@
         "patterns": ["can i go to library freely?",
                      "is library free to go",
                      "is library free",
-                     "can i walk into the library freely?",
-                     ""],
+                     "can i walk into the library freely?"
+                    ],
         "responses": ["Yes, you can go to library freely."],
         "context_set": [""]
       },
