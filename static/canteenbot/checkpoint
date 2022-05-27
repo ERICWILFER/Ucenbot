@@ -1,2 +1,7 @@
+<<<<<<< HEAD
+model_checkpoint_path: "A:\\final project\\Ucenbot\\Ucenbot\\static\\canteenbot\\model.tflearn"
+all_model_checkpoint_paths: "A:\\final project\\Ucenbot\\Ucenbot\\static\\canteenbot\\model.tflearn"
+=======
 model_checkpoint_path: "D:\\Project\\UCEN BOT\\Program\\Front End\\Ucenbot\\static\\canteenbot\\model.tflearn"
 all_model_checkpoint_paths: "D:\\Project\\UCEN BOT\\Program\\Front End\\Ucenbot\\static\\canteenbot\\model.tflearn"
+>>>>>>> db4da964c2caed0c7416b31af4598aa03717347c
