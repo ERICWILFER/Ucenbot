@@ -202,9 +202,9 @@
                 "i rate 3.5 out of 5"
             ],
             "context_set": [""]
-        }
+        },
         {
-            "tag": "About Civil department",
+            "tag": "Duration of the course",
             "patterns": [
                 "Duration of the course"
             ],
@@ -212,17 +212,307 @@
                 "the duration of the course is 4 years"
             ],
             "context_set": [""]
-        }
+        },
         {
-            "tag": "About Civil department",
+            "tag": "Staffs in  Civil department",
             "patterns": [
-                "Duration of the course"
+                "how many staffs are there in civil department"
             ],
             "responses": [
-                "the duration of the course is 4 years"
+                "There are currently 10 staffs available in civil department"
             ],
             "context_set": [""]
-        }
-        }
-    ]
-}
+        },
+        {
+            "tag": "how many non teaching staffs are there in civil department",
+            "patterns": [
+                "how many non teaching staffs are there in civil department"
+            ],
+            "responses": [
+                "There are currently 4 non teaching staffs available in civil department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "How many teaching staffs in computer science department",
+            "patterns": [
+                "How many teaching staffs in computer science department"
+            ],
+            "responses": [
+                "There are 6 teaching staffs in computer science department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "How many non teaching staffs in computer science department",
+            "patterns": [
+                "How many non teaching staffs in computer science department"
+            ],
+            "responses": [
+                "There are 3 non teaching staffs in computer science department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "who is the head of  Computer science department",
+            "patterns": [
+                "who is the head of computer science department","who is the hod of computer science department"
+            ],
+            "responses": [
+                "Dr M.Muthuselvi"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "who handles computer networks subject",
+            "patterns": [  "who handles computer networks subject"
+            ],
+            "responses": [
+                "Dr M.Muthuselvi"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "how many teaching staffs in ece department",
+            "patterns": [  "how many teaching staffs in ece department"
+            ],
+            "responses": [
+                "There are 7 teaching staffs in ece department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "how many non teaching staffs in ece department",
+            "patterns": [ "how many non teaching staffs in ece department"
+            ],
+            "responses": [
+                "There are cuurently 2 non teaching staffs in ece department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "who is the head of  ece department",
+            "patterns": [ "who is the head of  ece department"
+            ],
+            "responses": [
+               "DR Arul teen is the hod of ece department "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "how many teaching staffs in mechanical department",
+            "patterns": [  "how many teaching staffs in mechanical department"
+            ],
+            "responses": [
+                "There are 11 teaching staffs in mechanical department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "how many non teaching staffs in mechanical department",
+            "patterns": [ "how many non teaching staffs in mechanical department"
+            ],
+            "responses": [
+                "There are cuurently 2 non teaching staffs in mehanical department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "who is the head of mechanical department",
+            "patterns": [
+                "who is the head of mechanical department","who is the hod of mechanical science department"
+            ],
+            "responses": [
+                "Dr R Saravanan"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "how many teaching staffs in IT department",
+            "patterns": [  "how many teaching staffs in IT department"
+            ],
+            "responses": [
+                "There are 11 teaching staffs in IT department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "how many non teaching staffs in IT department",
+            "patterns": [ "how many non teaching staffs in IT department"
+            ],
+            "responses": [
+                "There are cuurently 4 non teaching staffs in IT department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "who is the head of IT department",
+            "patterns": [
+                "who is the head of IT department","who is the hod of IT department"
+            ],
+            "responses": [
+                "Dr Bhanumathi"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "how many teaching staffs in EEE department",
+            "patterns": [  "how many teaching staffs in EEE department"
+            ],
+            "responses": [
+                "There are 9 teaching staffs in EEE department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "how many non teaching staffs in EEE department",
+            "patterns": [ "how many non teaching staffs in EEE department"
+            ],
+            "responses": [
+                "There are cuurently 2 non teaching staffs in EEE department"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "who is the head of EEE department",
+            "patterns": [
+                "who is the head of EEE department","who is the hod of EEE department"
+            ],
+            "responses": [
+                "Dr Sree renga raja"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Who handles Cloud computing subject",
+            "patterns": [
+                "Who handles Cloud computing subject"
+            ],
+            "responses": [
+                "Mr Sugumaran"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Who handles Mobile computing subject",
+            "patterns": [
+                "Who handles Mobile computing subject"
+            ],
+            "responses": [
+                "Mr Sugumaran"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Who handles Information Retrieval techniques subject",
+            "patterns": [
+                "Who handles Information Retreival techniques subject"
+            ],
+            "responses": [
+                "Mr Sugumaran"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Who handles Professional ethics in egineering subject",
+            "patterns": [
+                "Who handles Professional ethics in egineering subject"
+            ],
+            "responses": [
+                "Dr mahendiran"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Who handles c# and .net programming subject",
+            "patterns": [
+                "Who handles  c# and .net programming subject"
+            ],
+            "responses": [
+                "Mrs antony sheela"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Who handles Software project management subject",
+            "patterns": [
+                "Who handles  Software project management subject"
+            ],
+            "responses": [
+                "Mrs Asha deepika"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Who handles Cryptography and network security subject",
+            "patterns": [
+                "Who handles  Cryptography and network security subject"
+            ],
+            "responses": [
+                "Mr Narendiran"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":  "where i can find sugumaran sir",
+            "patterns": [
+                "where i can find sugumaran sir"
+            ],
+            "responses": [
+                "You can find mr sugumaran in 206"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":  "where i can find narendiran sir",
+            "patterns": [
+                "where i can find narendiran sir"
+            ],
+            "responses": [
+                "You can find mr narendiran in 206"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":  "where i can find jeba anandh sir",
+            "patterns": [
+                "where i can find jeba anandh sir"
+            ],
+            "responses": [
+                "You can find mr jeba anandh in 205"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":  "where i can find Asha deepika mam",
+            "patterns": [
+                "where i can find Asha deepika mam"
+            ],
+            "responses": [
+                "You can find mrs Asha deepika in room number 206"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":  "where i can find muthuselvi mam",
+            "patterns": [
+                "where i can find muthuselvi mam"
+            ],
+            "responses": [
+                "You can find mrs muthuselvi in room number 220"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":  "where i can find karthika mam",
+            "patterns": [
+                "where i can find karthika mam"
+            ],
+            "responses": [
+                "You can find mrs karthika mam in room number 
+                200"
+            ],
+            "context_set": [""]
+        },
+        ]
+    }
