@@ -1,0 +1,27 @@
+{% extends 'form/base.html' %}
+
+{% block title %}Feedback Form{% endblock %}
+
+{% block body %}
+{% include 'navbar.html' %}
+
+<div class='container-sm'>
+    <div class='form-control'>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <form action="feedback_form.html" method="POST">
+             {% csrf_token %}
+             {{ form.as_p}}
+             <input class="btn btn-success" type="submit" />
+        </form>
+        
+        
+    </div>
+</div>
+
+{% endblock %}

@@ -403,8 +403,8 @@
       "tag": "location",
       "patterns": [
         "where is sss located",
-        "where can i find Sss store",
-        "SSS",
+        "where can i find S S S store",
+        "S S S",
         "triple S"
       ],
       "responses": [
@@ -419,7 +419,7 @@
         "what should I call you",
         "whats your name?"
       ],
-      "responses": ["You can call me CHAT BOT.", "I'm BOT!", "I'm BOT."],
+      "responses": ["You can call me SSS CHAT BOT.", "I'm SSS BOT!", "I'm SSS BOT."],
       "context_set": ""
     },
     {
