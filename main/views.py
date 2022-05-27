@@ -40,6 +40,7 @@ def college(request):
         return contextimg
     if request.method == 'POST':
         msg = request.POST.get('input', '')
+        context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
         # return HttpResponse(chatresponse, content_type='text/plain')
@@ -56,6 +57,7 @@ def placement(request):
         return contextimg
     if request.method == 'POST':
         msg = request.POST.get('input', '')
+        context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
         # return HttpResponse(chatresponse, content_type='text/plain')
@@ -72,6 +74,7 @@ def library(request):
         return contextimg
     if request.method == 'POST':
         msg = request.POST.get('input', '')
+        context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
         # return HttpResponse(chatresponse, content_type='text/plain')
@@ -87,7 +90,9 @@ def sss(request):
         
     if request.method == 'POST':
         msg = request.POST.get('input', '')
+        context['query'] = msg
         context['chatresponse'] = chat(msg)
+
 
 
         # return HttpResponse(chatresponse, content_type='text/plain')
@@ -107,6 +112,7 @@ def canteen(request):
         
     if request.method == 'POST':
         msg = request.POST.get('input', '')
+        context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
         # return HttpResponse(chatresponse, content_type='text/plain')
@@ -126,6 +132,7 @@ def sports(request):
         
     if request.method == 'POST':
         msg = request.POST.get('input', '')
+        context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
         # return HttpResponse(chatresponse, content_type='text/plain')

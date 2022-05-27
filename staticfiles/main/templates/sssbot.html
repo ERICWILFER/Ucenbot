@@ -1,0 +1,87 @@
+{% load static %}
+{% include 'navbar.html'%}
+{% load my_custom_tags %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Intro</title>
+    </head>
+    <body>
+      <style>
+        *,*:after,*:before{
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -ms-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        body{
+          font-family: arial;
+          font-size: 16px;
+          margin: 0;
+          background:linear-gradient(to right top, #0066cc, #9933ff);
+          color: #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+        }
+        .voice_to_text{
+          width: 600px;
+          text-align: center;
+        }
+        h1{
+          color: #fff;
+          font-size: 50px;
+        }
+        h2{
+          color: #33cc33;
+        }
+
+        button{
+          padding: 5px 10px 1px;
+          background: #0ea4da;
+          border: 0;
+          color: #fff;
+          font-size: 18px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+        
+
+        img.animated-gif{
+          width: 300px;
+          height: auto;
+        }
+      </style>  
+        <center>
+          <h2>SSS bot</h2>
+  <form action="sssbot.html" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <div class="form-group">
+      <label> <h3>chat with this chatbot </h3></label>
+      <input type="text" class="form-control" autofocus="autofocus" id="input" name = 'input'>
+    </div>
+    <button type="submit" class="btn btn-success">
+      <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+    </button>
+  </form>
+
+  <br>
+  <div class="voice_to_text"> 
+		{% comment %} <h1>Voice to Text Converter</h1> {% endcomment %}
+    <!-- <img src="./hello-hi.gif" alt="hello gif"> -->
+    <button id="click_to_record"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
+      <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"></path>
+      <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"></path>
+    </svg></button>
+  </div>
+
+    <h1>{{chatresponse}}</h1>
+    <img class="animated-gif" src="{{imgresponse}}">
+  <p>{% chatbot %}</p>
+        </center>
+    </body>
+    <script src="{% static '/js/bot.js' %}"></script>
+</html>

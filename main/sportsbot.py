@@ -108,5 +108,6 @@ def response(inp):
         # talk(rresponse)
     else:
         rresponse = "I didn't really get that"
+        contextimg = "./static/context/images/error.gif"
         # talk("I didn't really get that")
     return rresponse , contextimg;
