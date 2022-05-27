@@ -509,10 +509,249 @@
                 "where i can find karthika mam"
             ],
             "responses": [
-                "You can find mrs karthika mam in room number 
-                200"
+                "You can find mrs karthika mam in room number 200"
             ],
             "context_set": [""]
         },
-        ]
-    }
+        {
+            "tag":   "How many subjects are there in first sem",
+            "patterns": [
+                "How many subjects are there in first sem"
+            ],
+            "responses": [
+                "There are six Theory and two practicals"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "name the subjects  in first semester with subject code",
+            "patterns": [
+                "name the subjects in first semester with subject code"
+            ],
+            "responses": [
+                "HS8151-Communicative english,py8151 engineering physics,ma8151-engineering mathematics 1,Ge8152-engineering graphics and physics chemistry laboratory and problem solving and python programming laboratory"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "How many subjects are there in second sem",
+            "patterns": [
+                "How many subjects are there in second sem"
+            ],
+            "responses": [
+                "There are six Theory and two practicals"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "How many subjects are there in third sem",
+            "patterns": [
+                "How many subjects are there in third sem"
+            ],
+            "responses": [
+                "There are five Theory and four practicals"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "How many subjects are there in fourth sem",
+            "patterns": [
+                "How many subjects are there in fourth sem"
+            ],
+            "responses": [
+                "There are six Theory and three practicals"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "How many subjects are there in fifth sem",
+            "patterns": [
+                "How many subjects are there in fifth sem"
+            ],
+            "responses": [
+                "There are six Theory and three practicals"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "How many subjects are there in sixth sem",
+            "patterns": [
+                "How many subjects are there in sixth sem"
+            ],
+            "responses": [
+                "There are six Theory and four practicals"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "How many subjects are there in seventh sem",
+            "patterns": [
+                "How many subjects are there in seventh sem"
+            ],
+            "responses": [
+                "There are six Theory and two  practicals"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "How many subjects are there in eight sem",
+            "patterns": [
+                "How many subjects are there in eight sem"
+            ],
+            "responses": [
+                "There are two Theory and one practical"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "name the subjects  in eight sem",
+            "patterns": [
+                "name the subjects in eight sem"
+            ],
+            "responses": [
+                "professional elective 1 and professional elective 2"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for principles of management in seventh sem",
+            "patterns": [
+                "what is the subject code for principles of management in seventh sem"
+            ],
+            "responses": [
+                "MG8591 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for cloud computing in seventh sem",
+            "patterns": [
+                "what is the subject code for cloud computing in seventh sem"
+            ],
+            "responses": [
+                "CS8791 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for cns in seventh sem",
+            "patterns": [
+                "what is the subject code for cns in seventh sem"
+            ],
+            "responses": [
+                "CS8792 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for Information retireval techniques",
+            "patterns": [
+                "what is the subject code for Information retireval techniques"
+            ],
+            "responses": [
+                "CS8080 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for computer networks",
+            "patterns": [
+                "what is the subject code forcomputer networks"
+            ],
+            "responses": [
+                "CS8591 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for compiler design",
+            "patterns": [
+                "what is the subject code for compiler design"
+            ],
+            "responses": [
+                "CS8602 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for operating systems",
+            "patterns": [
+                "what is the subject code for operating systems"
+            ],
+            "responses": [
+                "CS8493 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for software engineering",
+            "patterns": [
+                "what is the subject code for software engineering"
+            ],
+            "responses": [
+                "CS8494 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for data structures",
+            "patterns": [
+                "what is the subject code for data structures"
+            ],
+            "responses": [
+                "CS8391 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for discrete mathematics",
+            "patterns": [
+                "what is the subject code for  discrete mathematics"
+            ],
+            "responses": [
+                "ma8351 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for c programming",
+            "patterns": [
+                "what is the subject code for c programming"
+            ],
+            "responses": [
+                "cs8251 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for engineering mathemtics 2",
+            "patterns": [
+                "what is the subject code for engineering mathemtics 2"
+            ],
+            "responses": [
+                "MA8251 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for engineering mathemtics 1",
+            "patterns": [
+                "what is the subject code for engineering mathemtics 1"
+            ],
+            "responses": [
+                "MA8151 is the subject code "
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag":   "what is the subject code for engineering physics",
+            "patterns": [
+                "what is the subject code for engineering physics"
+            ],
+            "responses": [
+                "PH8151 is the subject code "
+            ],
+            "context_set": [""]
+        }
+    ]
+}
