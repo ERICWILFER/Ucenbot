@@ -1,6 +1,5 @@
 {
-    "intents": [
-        {
+    "intents": [{
             "tag": "greeting",
             "patterns": [
                 "Hi",
@@ -63,107 +62,200 @@
             "context_set": [""]
         },
         {
-            "tag": "off campus placement drive 2022 for HCL company",
+            "tag": "List of students selected for internship 2019-2021",
             "patterns": [
-                "off campus placement drive 2022 for HCL company"
+                "In Electronics and communiction department who all are selected in intership",
+                "Selected students in Electronics department Who all are attending the internship",
+                "Students who all are Atending internship from Electronics department",
+                "Internship selected students from Electronics department",
+                "Electronics departmnt selected students for internship"
             ],
             "responses": [
-                "qualification-graduate,post graduate;job role-multiple;location-across india;apply link-https://www.freshersnow.com/hcl-off-campus/"
+                "Divya A(Tare Zameen Foundation),Christal Damini J V(Muskurahat Foundation),Maria Feora Vancy J(Muskurahat Foundation)"
             ],
             "context_set": [""]
         },
         {
-            "tag": "off campus placement drive 2022 for Tech Mahindra company",
-            "patterns": [
-                "off campus placement drive 2022 for Tech Mahindra company"
+            "tag": "List of students selected for internship 2019-2021",
+            "patters": [
+
+                "In Electrical and Electronics department who all are selected in intership ",
+                "Selected students in Electrical and Electronics department Who all are attending the internship",
+                "Students who all are Atending internship from Electrical and Electronics department",
+                "Internship selected students from Electrical and Electronics department",
+                "Electrical and Electronics departmnt selected students for internship"
+
             ],
             "responses": [
-                "qualification-BE,B.Tech,MCA,ME,M.Tech,MS,M.Sc;job role-fresher;location-across india;apply link-https://www.freshernow.com/tech-mahindra-off-campus/"
-            ],
-            "context_set": [""]
-        },
-        {
-            "tag": "off campus placement drive 2022 for Infosys company",
-            "patterns": [
-                "off campus placement drive 2022 for Infosys company"
-            ],
-            "responses": [
-                "qualification-B.E/B.Tech/M.E/M.Tech,MCAA/MSc,BCA/B.Sc.,Diploma;job role-fresher;location-across india;apply link-https://www.freshernow.com/infosys-off-campus/"
+                "Sahaya Jushma J(Lead & Sales),Mary Abisha S(Mash Project Foundation),Sathya Priya M(Bhumi)"
             ],
             "context_set": [""]
         },
 
         {
-            "tag": "off campus placement drive 2022 for Capgemini company",
+            "tag": "List of students selected for internship 2019-2021",
             "patterns": [
-                "off campus placement drive 2022 for Capgemini company"
+                "In Computer Science department who all are selected in intership ",
+                "Selected students in Computer Science department Who all are attending the internship",
+                "Students who all are Atending internship from Computer Science department",
+                "Internship selected students from Computer Science department",
+                "Computer Science departmnt selected students for internship"
             ],
             "responses": [
-                "qualification-graduate,post graduate;job role-fresher;location-across india;apply link-https://www.freshernow.com/capgemini-off-campus/"
+                "David D(The Consent Bank),Anto Subin(Rise Retail),Archana K.P(XcitEducation Foundations)"
             ],
             "context_set": [""]
         },
+        {
+            "tag": "List of students selected for internship 2019-2021",
+            "patterns": [
+                "In Information Technology department who all are selected in intership ",
+                "Selected students in Information Technology department Who all are attending the internship",
+                "Students who all are Atending internship from Information Technology department",
+                "Internship selected students from Information Technology department",
+                "Information Technology departmnt selected students for internship"
+            ],
+            "responeses": [
+                "Asha S(Tare Zameen Foundation),Abishek J(Grip T The Sparks Foundation)"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "List of students selected for internship 2019-2021",
+            "patterns": [
+                "In Civil department who all are selected in intership ",
+                "Selected students in Civil department Who all are attending the internship",
+                "Students who all are Atending internship from Civil department",
+                "Internship selected students from Civil department",
+                "Civil departmnt selected students for internship"
+            ],
+            "responses": [
+                "Safreen Sulaiga M(Lead & Sales),Letheesha S p(Dridhsankalp Foundation)"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "List of students selected for internship 2019-2021",
+            "patterns": [
+                "In Mechanical department who all are selected in intership ",
+                "Selected students in Mechanical department Who all are attending the internship",
+                "Students who all are Atending internship from Mechanical department",
+                "Internship selected students from Mechanical department",
+                "Mechanical departmnt selected students for internship"
+            ],
+            "responeses": [
+                "Mani Rajesh(Eximius IIM Bangalore)"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of students selected in Infosys Ltd company",
+                "Selected students in Infosys Ltd company",
+                "Infosys Ltd company selected students"
+            ],
+            "responses": [
+                "There are 3 students selected in Infosys Ltd company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of eligible students in Infosys Ltd company",
+                "Students who are eligible in Infosys Ltd company",
+                "Infosys Ltd company eligible students"
+            ],
+            "responses": [
+                "There are 150 Eligible students for Infosys Ltd company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of  students attended in Infosys Ltd company",
+                "Students who are attended in Infosys Ltd company",
+                "Infosys Ltd company attended students"
+            ],
+            "responses": [
+                "There are 40 students attended in Infosys Ltd company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of students selected in TCS  company",
+                "Selected students in TCS company",
+                "TCS company selected students"
+            ],
+            "responses": [
+                "There ae 2 Students selected in TCS company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of  students attended in TCS company",
+                "Students who are attended in TCS company",
+                "TCS company attended students"
+            ],
+            "responses": [
+                "There are 65 students attended in TCS company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of  students eligible TCS company",
+                "Students who are eligible in TCS company",
+                "TCS companyeligible students"
+            ],
+            "responses": [
+                "There are 90 students eligible in TCS company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of  students Selected  in FinSurge Pvt Ltd company",
+                "Students who are Selected in FinSurge Pvt Ltd company",
+                "FinSurge Pvt Ltd company Selected students"
+            ],
+            "responses": [
+                "There are 14 students Selected in FinSurge Pvt Ltd company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of  students attended in Finsurge Pvt Ltd company",
+                "Students who are attended in Finsurge Pvt Ltd company",
+                "Finsurge Pvt Ltd company attended students"
+            ],
+            "responses": [
+                "There are 55 students attended in Finsurge Pvt Ltd company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Training and Placement cell Activities 2021-2022",
+            "patterns": [
+                "Number of  students Eligible in Finsurge Pvt Ltd company",
+                "Students who are Eligible in Finsurge Pvt Ltd company",
+                "Finsurge Pvt Ltd company Eligible students"
+            ],
+            "responses": [
+                "There are 70 students Eligible in Finsurge Pvt Ltd company"
+            ],
+            "context_set": [""]
 
-
-        {
-            "tag": "off campus placement drive 2022 for Deloitte company",
-            "patterns": [
-                "off campus placement drive 2022 for Deloitte  company"
-            ],
-            "responses": [
-                "qualification-graduate,post graduate;job role-fresher;location-across india;apply link-https://www.freshernow.com/deloitte-off-campus/"
-            ],
-            "context_set": [""]
-        },
-        {
-            "tag": "off campus placement drive 2022 for Wipro company",
-            "patterns": [
-                "off campus placement drive 2022 for Wipro  company"
-            ],
-            "responses": [
-                "qualification-BCA,B.Sc;job role-senior project engineer;location-across india;apply link-https://www.freshernow.com/wipro-wilp-2021-campus/"
-            ],
-            "context_set": [""]
-        },
-        {
-            "tag": "off campus placement drive 2022 for Ericsson company",
-            "patterns": [
-                "off campus placement drive 2022 for Ericsson  company"
-            ],
-            "responses": [
-                "qualification-graduate,post graduate;job role-multiple;location-across india;apply link-https://www.freshernow.com/ericsson-off-campus/"
-            ],
-            "context_set": [""]
-        },
-        {
-            "tag": "off campus placement drive 2022 for NPCL company",
-            "patterns": [
-                "off campus placement drive 2022 for NPCL  company"
-            ],
-            "responses": [
-                "qualification-engineering students(any stream);job role-graduate engineer trainer;location-across india;apply link-https://www.freshernow.com/npci-off-campus/"
-            ],
-            "context_set": [""]
-        },
-        {
-            "tag": "off campus placement drive 2022 for TCS company",
-            "patterns": [
-                "off campus placement drive 2022 for TCS  company"
-            ],
-            "responses": [
-                "qualification-graduate,post graduate;job role-multiple(trainee engineer,software engineer etc);location-across india;apply link-https://www.freshernow.com/tcs-off-campus/"
-            ],
-            "context_set": [""]
-        },
-        {
-            "tag": "off campus placement drive 2022 for IBM company",
-            "patterns": [
-                "off campus placement drive 2022 for IBM  company"
-            ],
-            "responses": [
-                "qualification-graduate,post graduate;job role-fresher;location-across india;apply link-https://www.freshernow.com/ibm-off-campus/"
-            ],
-            "context_set": [""]
         }
     ]
 }
