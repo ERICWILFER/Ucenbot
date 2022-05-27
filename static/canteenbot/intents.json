@@ -1,5 +1,6 @@
 {
-    "intents": [{
+    "intents": [
+        {
             "tag": "greeting",
             "patterns": [
                 "Hi",
@@ -15,7 +16,7 @@
                 "nice to meet you",
                 "hello there , how can i help"
             ],
-            "context_set": ["./static/context/images/hello-hi.gif", "./static/context/images/hi-hello.gif"]
+            "context_set": ["./static/context/images/hello-hi.gif","./static/context/images/hi-hello.gif"]
         },
         {
             "tag": "Tea/Cofee",
@@ -175,7 +176,7 @@
         {
             "tag": "Poori",
             "patterns": [
-                "Poori", "pori", "bori", "buri",
+                "Poori","pori","bori","buri",
                 "boori",
                 "Price of poori",
                 "what is the price of Poori",
@@ -231,7 +232,7 @@
             "responses": [
                 "40 Rupee for chicken Fry"
             ],
-            "context_set": [""]
+            "context_set": ["./static/context/images/chickenfry.jpg"]
         },
         {
             "tag": "Chicken Chops",

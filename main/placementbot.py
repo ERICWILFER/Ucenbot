@@ -15,7 +15,7 @@ stemmer = LancasterStemmer()
 with open("static/placementbot/intents.json") as file:
     data = json.load(file)
 try:
-    # we_are_training~
+    # we_are_training
     with open("static/placementbot/data.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
 except:

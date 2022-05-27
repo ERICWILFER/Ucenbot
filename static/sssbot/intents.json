@@ -29,67 +29,67 @@
         "let pen",
         "pen"
       ],
-      "responses": ["it costs 4.5 Rupee for pen"],
-      "context_set": ["./static/context/images/images2.jpg"]
+      "responses": ["4.5 Rupee"],
+      "context_set": ""
     },
     {
       "tag": "Stapler",
       "patterns": ["price of Stapler", "stapler"],
-      "responses": ["it costs 40 Rupee for stapler"],
+      "responses": ["40 Rupee"],
       "context_set": ""
     },
     {
       "tag": " Stapler pin",
       "patterns": ["price of Stapler pin", "stapler"],
-      "responses": ["it costs 6 Rupee for stapler pin"],
+      "responses": ["6 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Double tag file",
       "patterns": ["price of Double tag file", "Double tag file"],
-      "responses": ["it costs 16 Rupee for double tag file"],
+      "responses": ["16 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Pencil",
       "patterns": ["price of Pencil", "what is the price of pencil", "pencil"],
-      "responses": ["it costs 5 Rupee for pen"],
+      "responses": ["5 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Pencil tip",
       "patterns": ["price of tip", "tip"],
-      "responses": ["it costs 4.5 Rupee for pencil tip"],
+      "responses": ["4.5 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Eraser",
       "patterns": ["price of Eraser", "Eraser"],
-      "responses": ["it costs 3 Rupee for eraser"],
+      "responses": ["3 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Sharpener ",
       "patterns": ["price of Sharpener", "Sharpener"],
-      "responses": ["it costs 3 Rupee for sharpener"],
+      "responses": ["3 Rupee"],
       "context_set": ""
     },
     {
       "tag": "sketch",
       "patterns": ["price of sketch", "sketch"],
-      "responses": ["it costs 22 Rupee for sketch"],
+      "responses": ["22 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Steel scale",
       "patterns": ["price of Steel scale", "steel scale", "steel ruler"],
-      "responses": ["it costs 14 Rupee for steel scale"],
+      "responses": ["14 Rupee"],
       "context_set": ""
     },
     {
       "tag": "long Plastic scale",
       "patterns": ["price of Plastic scale"],
-      "responses": ["it costs 10 Rupee for long plastic scale"],
+      "responses": ["10 Rupee"],
       "context_set": ""
     },
     {
@@ -99,14 +99,14 @@
         "small plastic scale",
         "plastic scale"
       ],
-      "responses": ["small plastic scale costs 4 Rupee"],
+      "responses": ["4 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Labels",
       "patterns": ["price of Labels", "labels"],
-      "responses": ["labels costs 2.5 Rupee"],
-      "context_set": ["./static/context/images/images3.jpg"]
+      "responses": ["2.5 Rupee"],
+      "context_set": ""
     },
     {
       "tag": "Cello tape",
@@ -123,19 +123,19 @@
         "big size note",
         "huge note"
       ],
-      "responses": ["long size note costs 33 Rupee"],
+      "responses": ["33 Rupee which has 160 pages"],
       "context_set": ""
     },
     {
       "tag": "Small size note",
       "patterns": ["price of Small size note", "small size note"],
-      "responses": ["small size note costs 22 Rupee"],
+      "responses": ["22 Rupee"],
       "context_set": ""
     },
     {
       "tag": " Chart papers",
       "patterns": ["price of Chart papers", "white chart paper"],
-      "responses": ["chart paper costs 5 Rupee"],
+      "responses": ["5 Rupee"],
       "context_set": ""
     },
     {
@@ -145,61 +145,61 @@
         "chart papers",
         "colored chart papers price"
       ],
-      "responses": ["chart paper costs 5 Rupee"],
+      "responses": ["5 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Semi log sheets",
       "patterns": ["price of Semi log sheets"],
-      "responses": ["semi log sheets costs 0.5 Rupee"],
-      "context_set":  ["./static/context/images/images4.PNG"]
+      "responses": ["0.5 Rupee"],
+      "context_set": ""
     },
     {
       "tag": "A4 stick file",
       "patterns": ["price of A4 stick file"],
-      "responses": ["a4 stick file costs 10 Rupee"],
+      "responses": ["10 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Punch machine",
       "patterns": ["price of Punch machine", "punching machine"],
-      "responses": ["punch machine costs 60 Rupee"],
-      "context_set":  ["./static/context/images/images5.jpg"]
+      "responses": ["60 Rupee"],
+      "context_set": ""
     },
     {
       "tag": "Highlighter",
       "patterns": ["price of Highlighter", "higlighter"],
-      "responses": ["highlighter costs 18 Rupee"],
+      "responses": ["18 Rupee"],
       "context_set": ""
     },
     {
       "tag": "whitener",
       "patterns": ["price of whitener", "whitener"],
-      "responses": ["whitener costs 24 Rupee"],
+      "responses": ["24 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Fevi stick gum",
       "patterns": ["price of Fevi stick gum", "fevi stick"],
-      "responses": ["fevi stick costs 18 Rupee"],
+      "responses": ["18 Rupee"],
       "context_set": ""
     },
     {
       "tag": " Mini drafter",
       "patterns": ["price of Mini drafter", "mini drafter"],
-      "responses": ["mini drafter costs 360 Rupee"],
-      "context_set":  ["./static/context/images/images6.jpg"]
+      "responses": ["360 Rupee"],
+      "context_set": ""
     },
     {
       "tag": "A2 paper",
       "patterns": ["price of A2 paper", "A2 size paper", "a2 paper"],
-      "responses": ["a2 paper costs 2.5 Rupee"],
+      "responses": ["2.5 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Mini stapler",
       "patterns": ["price of Mini stapler", "mini stapler"],
-      "responses": ["mini stapler costs 40 Rupee"],
+      "responses": ["40 Rupee"],
       "context_set": ""
     },
     {
@@ -208,99 +208,98 @@
         "price of Small cutter",
         "knife cutter",
         "small knife cutter"
-        "how much is small cutter"
       ],
-      "responses": ["small cutter costs 4 Rupee"],
+      "responses": ["4 Rupee"],
       "context_set": ""
     },
     {
       "tag": "plastic Scissor ",
-      "patterns": ["price of plastic Scissor", "plastic scissor","how much is plastic scissor"],
-      "responses": ["plastic scissor costs 14 Rupee"],
+      "patterns": ["price of plastic Scissor", "plastic scissor"],
+      "responses": ["14 Rupee"],
       "context_set": ""
     },
     {
       "tag": "steel Scissor",
-      "patterns": ["price of Scissor steel", "steel scissor","how much is steel scissor"],
-      "responses": ["steel scissor costs 30 Rupee"],
+      "patterns": ["price of Scissor steel", "steel scissor"],
+      "responses": ["30 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Stick pen",
       "patterns": ["price of Stick pen", "stick pen"],
-      "responses": ["stick pen costs 9 Rupee"],
+      "responses": ["9 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Radium pen",
       "patterns": ["price of Radium pen"],
-      "responses": ["radium pen costs 3 Rupee"],
-      "context_set":  ["./static/context/images/images7.jpg"]
+      "responses": ["3 Rupee"],
+      "context_set": ""
     },
     {
       "tag": "Reynolds gel pen",
       "patterns": ["price of Reynolds gel pen", "gel pen"],
-      "responses": ["reynolds gel pen costs 9 Rupee"],
+      "responses": ["9 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Big eraser",
-      "patterns": ["price of Big eraser", "big eraser", "huge eraser","how much does it cost for big eraser"],
-      "responses": ["big eraser costs 4.5 Rupee"],
+      "patterns": ["price of Big eraser", "big eraser", "huge eraser"],
+      "responses": ["4.5 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Sony DVD",
       "patterns": ["price of Sony DVD", "sony dvd cd"],
-      "responses": ["sony dvd costs 20 Rupee"],
+      "responses": ["20 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Sony CD",
       "patterns": ["price of Sony CD", "sony CD"],
-      "responses": ["sony cd costs 13 Rupee"],
+      "responses": ["13 Rupee"],
       "context_set": ""
     },
     {
       "tag": "10 leaf file",
       "patterns": ["price of 10 leaf file", "10 leaf files", "10 leaf file"],
-      "responses": ["10 leaf file costs 33 Rupee"],
+      "responses": ["33 Rupee"],
       "context_set": ""
     },
     {
       "tag": "12 leaf file",
       "patterns": ["price of 12 leaf file", "12 leaf file"],
-      "responses": ["12 leaf file costs 48 Rupee"],
+      "responses": ["48 Rupee"],
       "context_set": ""
     },
     {
       "tag": "pen pencil",
       "patterns": ["price of pen pencil", "pen pencil"],
-      "responses": ["pen pencil costs 9 Rupee"],
+      "responses": ["9 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Button file",
       "patterns": ["price of Button file", "button file"],
-      "responses": ["button file costs 18 Rupee"],
+      "responses": ["18 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Smith chart",
       "patterns": ["price of Smith chart", "smith chart"],
-      "responses": ["smith chart costs 0.5 Rupee"],
+      "responses": ["0.5 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Polar chart",
       "patterns": ["price of Polar chart", "polar chart"],
-      "responses": ["polar chart costs 0.5 Rupee"],
+      "responses": ["0.5 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Fevi gum",
       "patterns": ["price of Fevi gum"],
-      "responses": ["fevi gum costs 4.5 Rupee"],
+      "responses": ["4.5 Rupee"],
       "context_set": ""
     },
     {
@@ -308,33 +307,33 @@
       "patterns": [
         "price of 100 pages long note",
         "100 pages note",
-        "100 pages note book","how much cost for 100 pages long sized note"
+        "100 pages note book"
       ],
-      "responses": ["100 pages long note costs 20 Rupee"],
+      "responses": ["20 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Fevi kwick",
-      "patterns": ["price of Fevi kwick", "fevi quick", "fevi quwik","how much cost for fevicol"],
-      "responses": ["fevi kwick costs 4.5 Rupee"],
+      "patterns": ["price of Fevi kwick", "fevi quick", "fevi quwik"],
+      "responses": ["4.5 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Permanent marker",
-      "patterns": ["price of Permanent marker", "marker","how much cost for permanent marker"],
-      "responses": ["permanent marker costs 18 Rupee"],
+      "patterns": ["price of Permanent marker", "marker"],
+      "responses": ["18 Rupee"],
       "context_set": ""
     },
     {
       "tag": "Glitter pen ",
       "patterns": ["price of Glitter pen", "glitter pen"],
-      "responses": ["glitter pen costs 9 Rupee"],
+      "responses": ["9 Rupee"],
       "context_set": ""
     },
     {
       "tag": " Brown sheet",
       "patterns": ["price of Brown sheet", "price of Brown sheet"],
-      "responses": ["brown sheet costs 3 Rupee"],
+      "responses": ["3 Rupee"],
       "context_set": ""
     },
     {
@@ -350,19 +349,19 @@
         "pencil set",
         "pen with pencil"
       ],
-      "responses": ["pen with pencil set costs 17 Rupee"],
+      "responses": ["17 Rupee"],
       "context_set": ""
     },
     {
       "tag": "exam booklets",
       "patterns": ["price of exam booklets", "exam booklet"],
-      "responses": ["exam booklets costs 9 Rupee"],
+      "responses": ["9 Rupee"],
       "context_set": ""
     },
     {
       "tag": " Lab coat",
-      "patterns": ["price of Lab coat", "lab coat","how much does it cost for ucen lab coat"],
-      "responses": ["it costs 300 Rupee for lab coat "],
+      "patterns": ["price of Lab coat", "lab coat"],
+      "responses": ["300 Rupee"],
       "context_set": ""
     },
     {
@@ -372,13 +371,13 @@
         "160 long size note",
         "160 pages note"
       ],
-      "responses": ["it costs 33 Rupee for 160 page long note"],
+      "responses": ["33 Rupee"],
       "context_set": ""
     },
     {
       "tag": " 80 page long size note",
       "patterns": ["price of 80 page long size note", "80 pages note"],
-      "responses": ["80 page long note costs 23 Rupee"],
+      "responses": ["23 Rupee"],
       "context_set": ""
     },
     {
@@ -388,13 +387,13 @@
         "drawing graph sheet",
         "graph sheet"
       ],
-      "responses": ["graph sheet costs 0.5 Rupee"],
+      "responses": ["0.5 Rupee"],
       "context_set": ""
     },
     {
       "tag": " A4 stick file",
       "patterns": ["price of A 4 stick file", "a 4 stick file"],
-      "responses": ["a4 stick file costs 10 Rupee"],
+      "responses": "10 Rupee",
       "context_set": ""
     },
     {
@@ -417,7 +416,6 @@
         "where can i find S S S store",
         "S S S",
         "triple S"
-        "where is sss nearby"
       ],
       "responses": [
         "SSS is located on the second floor of the ucen college campus"
@@ -444,7 +442,7 @@
         "could i get something useful"
       ],
       "responses": [
-        "We sell all the stationary items required for a university college students! "
+        "We sell all the stationary items required for a university college student! "
       ],
       "context_set": ""
     },
@@ -455,10 +453,9 @@
         "what are your hours",
         "hours of operation",
         "operating hours",
-        "what are the working hours of sss"
+        "what are the working hours of canteen"
       ],
-      "responses": ["opening from  9am to 4
-      pm College hours!"],
+      "responses": ["We are open 9am to 5pm College hours!"],
       "context_set": ""
     }
   ]

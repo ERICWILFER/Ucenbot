@@ -11,8 +11,7 @@ class Feedback(models.Model):
     def __str__(self):
         return self.user_name
 
-class Intents(models.Model):
-    tag = models.CharField(max_length=200)
-    patterns = models.CharField(max_length=200)
-    responses = models.CharField(max_length=200)
-    context_set = models.CharField(max_length=200)
+class ClgInfoIntents(models.Model):
+    tag = models.CharField(max_length=140)
+    patterns = models.CharField(max_length=140)
+    responses = models.CharField(max_length=140)
