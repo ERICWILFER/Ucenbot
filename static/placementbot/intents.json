@@ -10,7 +10,7 @@
             ],
             "responses": [
                 "Hello!",
-                "Hi there, how can I help?",
+                "Hi there, how can I help",
                 "nice to meet you",
                 "hello there , how can i help"
             ],
@@ -27,7 +27,7 @@
                 "bye"
             ],
             "responses": [
-                "Sad to see you go :(",
+                "Sad to see you ",
                 "Talk to you later",
                 "Goodbye!"
             ],
@@ -38,7 +38,7 @@
             "patterns": [
                 "what is your name",
                 "what should I call you",
-                "whats your name?"
+                "whats your name"
             ],
             "responses": [
                 "You can call me Placement BOT.",
@@ -65,8 +65,8 @@
             "tag": "List of students selected for internship 2019-2021",
             "patterns": [
                 "In Electronics and communiction department who all are selected in intership",
-                "Selected students in Electronics department Who all are attending the internship",
-                "Students who all are Atending internship from Electronics department",
+                "Selected students in Electronics department Who all are seleced the internship",
+                "Students who all are selected internship from Electronics department",
                 "Internship selected students from Electronics department",
                 "Electronics departmnt selected students for internship"
             ],
@@ -76,12 +76,12 @@
             "context_set": [""]
         },
         {
-            "tag": "List of students selected for internship 2019-2021",
-            "patters": [
+            "tag": "In Electrical and Electronics department who all are selected in intership",
+            "patterns": [
 
-                "In Electrical and Electronics department who all are selected in intership ",
-                "Selected students in Electrical and Electronics department Who all are attending the internship",
-                "Students who all are Atending internship from Electrical and Electronics department",
+                "In Electrical and Electronics department who all are selected in intership",
+                "Selected students in Electrical and Electronics department Who all are selected the internship",
+                "Students who all are selected internship from Electrical and Electronics department",
                 "Internship selected students from Electrical and Electronics department",
                 "Electrical and Electronics departmnt selected students for internship"
 
@@ -93,11 +93,11 @@
         },
 
         {
-            "tag": "List of students selected for internship 2019-2021",
+            "tag": "In Computer Science department who all are selected in intership",
             "patterns": [
                 "In Computer Science department who all are selected in intership ",
-                "Selected students in Computer Science department Who all are attending the internship",
-                "Students who all are Atending internship from Computer Science department",
+                "Selected students in Computer Science department Who all are selected the internship",
+                "Students who all are selected internship from Computer Science department",
                 "Internship selected students from Computer Science department",
                 "Computer Science departmnt selected students for internship"
             ],
@@ -107,11 +107,11 @@
             "context_set": [""]
         },
         {
-            "tag": "List of students selected for internship 2019-2021",
+            "tag": "In Information Technology department who all are selected in intership",
             "patterns": [
                 "In Information Technology department who all are selected in intership ",
-                "Selected students in Information Technology department Who all are attending the internship",
-                "Students who all are Atending internship from Information Technology department",
+                "Selected students in Information Technology department Who all are selected the internship",
+                "Students who all are selected internship from Information Technology department",
                 "Internship selected students from Information Technology department",
                 "Information Technology departmnt selected students for internship"
             ],
@@ -121,11 +121,11 @@
             "context_set": [""]
         },
         {
-            "tag": "List of students selected for internship 2019-2021",
+            "tag": "In Civil department who all are selected in intership",
             "patterns": [
                 "In Civil department who all are selected in intership ",
-                "Selected students in Civil department Who all are attending the internship",
-                "Students who all are Atending internship from Civil department",
+                "Selected students in Civil department Who all are selected the internship",
+                "Students who all are selected internship from Civil department",
                 "Internship selected students from Civil department",
                 "Civil departmnt selected students for internship"
             ],
@@ -135,11 +135,11 @@
             "context_set": [""]
         },
         {
-            "tag": "List of students selected for internship 2019-2021",
+            "tag": "In Mechanical department who all are selected in intership",
             "patterns": [
                 "In Mechanical department who all are selected in intership ",
-                "Selected students in Mechanical department Who all are attending the internship",
-                "Students who all are Atending internship from Mechanical department",
+                "Selected students in Mechanical department Who all are selected the internship",
+                "Students who all are selected internship from Mechanical department",
                 "Internship selected students from Mechanical department",
                 "Mechanical departmnt selected students for internship"
             ],
@@ -149,7 +149,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of students selected in Infosys Ltd company",
             "patterns": [
                 "Number of students selected in Infosys Ltd company",
                 "Selected students in Infosys Ltd company",
@@ -161,7 +161,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of eligible students in Infosys Ltd company",
             "patterns": [
                 "Number of eligible students in Infosys Ltd company",
                 "Students who are eligible in Infosys Ltd company",
@@ -173,7 +173,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of  students attended in Infosys Ltd company",
             "patterns": [
                 "Number of  students attended in Infosys Ltd company",
                 "Students who are attended in Infosys Ltd company",
@@ -185,7 +185,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of students selected in TCS  company",
             "patterns": [
                 "Number of students selected in TCS  company",
                 "Selected students in TCS company",
@@ -197,7 +197,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of  students attended in TCS company",
             "patterns": [
                 "Number of  students attended in TCS company",
                 "Students who are attended in TCS company",
@@ -209,7 +209,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of  students eligible TCS company",
             "patterns": [
                 "Number of  students eligible TCS company",
                 "Students who are eligible in TCS company",
@@ -221,7 +221,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of  students Selected  in FinSurge Pvt Ltd company",
             "patterns": [
                 "Number of  students Selected  in FinSurge Pvt Ltd company",
                 "Students who are Selected in FinSurge Pvt Ltd company",
@@ -233,7 +233,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of  students attended in Finsurge Pvt Ltd company",
             "patterns": [
                 "Number of  students attended in Finsurge Pvt Ltd company",
                 "Students who are attended in Finsurge Pvt Ltd company",
@@ -245,7 +245,7 @@
             "context_set": [""]
         },
         {
-            "tag": "Training and Placement cell Activities 2021-2022",
+            "tag": "Number of  students Eligible in Finsurge Pvt Ltd company",
             "patterns": [
                 "Number of  students Eligible in Finsurge Pvt Ltd company",
                 "Students who are Eligible in Finsurge Pvt Ltd company",
@@ -256,6 +256,48 @@
             ],
             "context_set": [""]
 
+        },
+        {
+            "tag": "Number of  students Selected  in Mphasis company",
+
+            "patterns": [
+                "Number of  students Selected  in Mphasis company",
+                "Students who are Selected in Mphasis company",
+                "Mphasis company Selected students"
+            ],
+            "responses": [
+                "There are 04 students Selected in Mphasis company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Number of  students attended in Mphasis company",
+
+
+            "patterns": [
+                "Number of  students attended in Mphasis  company",
+                "Students who are attended in Mphasis company",
+                "Mphasis company attended students"
+            ],
+            "responses": [
+                "There are 45 students attended in Mphasis company"
+            ],
+            "context_set": [""]
+        },
+        {
+            "tag": "Number of  students Eligible in Mphasis company",
+            "patterns": [
+                "Number of  students Eligible in Mphasis company",
+                "Students who are Eligible in Mphasis company",
+                "Mphasis company Eligible students"
+            ],
+            "responses": [
+                "There are 150 students Eligible in Mphasis company"
+            ],
+            "context_set": [""]
+
         }
     ]
+
+
 }
