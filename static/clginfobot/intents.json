@@ -69,7 +69,7 @@
                 "who is cse hod"
             ],
             "responses": [
-                "muthuselvi"
+                "name of cse HOD is muthuselvi"
             ],
             "context_set": [""]
         },
@@ -79,7 +79,7 @@
                 "who is dean of the college"
             ],
             "responses": [
-                "nagarajan"
+                "the name of the dean is nagarajan"
             ],
             "context_set": [""]
         },

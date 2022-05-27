@@ -139,16 +139,6 @@
       "context_set": ""
     },
     {
-      "tag": "Chart papers",
-      "patterns": [
-        "price of Chart papers with color",
-        "chart papers",
-        "colored chart papers price"
-      ],
-      "responses": ["5 Rupee"],
-      "context_set": ""
-    },
-    {
       "tag": "Semi log sheets",
       "patterns": ["price of Semi log sheets"],
       "responses": ["0.5 Rupee"],
@@ -391,8 +381,8 @@
       "context_set": ""
     },
     {
-      "tag": " A4 stick file",
-      "patterns": ["price of A 4 stick file", "a 4 stick file"],
+      "tag": " A4 sheet",
+      "patterns": ["price of A 4 sheet", "a 4 sheet","is a 4 sheet available"],
       "responses": "10 Rupee",
       "context_set": ""
     },
