@@ -2,6 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from .forms import FeedbackForm
 from . import canteenbot, sssbot ,clginfobot, librarybot, placementbot, sportsbot
+import sqlite3
 
 # Create your views here.
 
@@ -65,18 +66,44 @@ def placement(request):
 
 def library(request):
     context = {}
-    def chat(msg):
-        # print("Start chatting with the bot (type quit to stop)!")
-        rresponse, contextimg = librarybot.response(msg) 
-        return rresponse
-    def img():
-        rresponse, contextimg = librarybot.response(msg)
-        return contextimg
+    def findingbook(inp):
+        query = f"SELECT books,author FROM library WHERE books ='{inp}'" 
+        conn = sqlite3.connect("db.sqlite3")
+        c = conn.cursor()
+        c.execute(query)
+
+        results = c.fetchall()
+        # print(results)
+        
+        print(results)
+        conn.close()
+        return results
+    
+    def findingauthor(inp):
+        query = f"SELECT books,author FROM library WHERE author = '{inp}'"
+        conn = sqlite3.connect("db.sqlite3")
+        c = conn.cursor()
+        c.execute(query)
+
+        results = c.fetchall()
+        # print(results)
+        
+        print(results)
+        conn.close()
+        return results
+
+
     if request.method == 'POST':
-        msg = request.POST.get('input', '')
-        context['query'] = msg
-        context['chatresponse'] = chat(msg)
-        context['imgresponse'] = img()
+        book = request.POST.get('bookname', '')
+        author = request.POST.get('authorname', '')
+        context['book_query'] = book
+        context['author_query'] = author
+        if book != "":
+            context['bookresponse'] = findingbook(book)
+        elif author != "": 
+            context['authorresponse'] = findingauthor(author)
+
+        # context['imgresponse'] = img()
         # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "librarybot.html",context)
 

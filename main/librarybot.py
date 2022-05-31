@@ -9,6 +9,7 @@ import json
 import pickle
 import datetime
 import random
+import sqlite3
 # import pyttsx3
 
 stemmer = LancasterStemmer()
@@ -78,30 +79,17 @@ def bag_of_words(s, words):
                 bag[i] = 1
     return numpy.array(bag)
 
-
-# def talk(text):
-#     engine = pyttsx3.init()  # object creation for text to speech
-#     engine.setProperty('rate', 125)  # rate of speaking
-#     voices = engine.getProperty('voices')
-#     # 1 for female voice and 0 for male voice
-#     engine.setProperty('voice', voices[1].id)
-#     engine.say(text)
-#     engine.runAndWait()
-#     engine.startLoop(False)
-#     engine.endLoop()
-
-
 def response(inp):
     results = model.predict([bag_of_words(inp, words)])[0]
     results_index = numpy.argmax(results)
     tag = labels[results_index]
-    if results[results_index] > 0.8:
+    if results[results_index] > 0.7:
         for tg in data["intents"]:
-            if tg['tag'] == tag:
-                responses = tg['responses']
-                contexts = tg['context_set']
+            
+            responses = tg['responses']
+            contexts = tg['context_set']
         global contextimg
-        contextimg = random.choice(contexts)
+        contextimg = None
         rresponse = random.choice(responses)
         print(rresponse)
         # print(contextimg)

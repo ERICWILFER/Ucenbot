@@ -15,3 +15,5 @@ class ClgInfoIntents(models.Model):
     tag = models.CharField(max_length=140)
     patterns = models.CharField(max_length=140)
     responses = models.CharField(max_length=140)
+
+# class Librarydb(models.Model):
