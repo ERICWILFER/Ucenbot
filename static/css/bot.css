@@ -8,7 +8,10 @@
     font-family: arial;
     font-size: 16px;
     margin: 0;
-    background:linear-gradient(to right top, #0066cc, #9933ff);
+    background-color: #ebebff;
+    opacity: 1;
+    background-image: radial-gradient(#191dff 1.25px, #ebebff 1.25px);
+    background-size: 25px 25px;
     color: #000;
     display: flex;
     align-items: center;
@@ -21,11 +24,12 @@
     text-align: center;
   }
   h1{
-    color: #fff;
+    color: black;
     font-size: 50px;
   }
   h2{
     color: #33cc33;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
   button{
@@ -37,11 +41,6 @@
     cursor: pointer;
     border-radius: 5px;
   }
-
-  table, th, td {
-    border:1px solid black;
-  }
-  
 
   img.animated-gif{
     width: 300px;
