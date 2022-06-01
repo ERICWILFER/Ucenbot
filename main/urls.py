@@ -13,6 +13,8 @@ urlpatterns = [
     path('clginfobot.html', views.college),
     path('placementbot.html', views.placement),
     path('librarybot.html', views.library),
+    path('booksearch.html', views.booksearch),
+    path('authorsearch.html', views.authorsearch),
     path('sssbot.html', views.sss),
     path('canteenbot.html', views.canteen),
     path('sportsbot.html', views.sports),

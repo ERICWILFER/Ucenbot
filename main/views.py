@@ -66,46 +66,55 @@ def placement(request):
 
 def library(request):
     context = {}
+    def chat(msg):
+        # print("Start chatting with the bot (type quit to stop)!")
+        rresponse, contextimg = librarybot.response(msg) 
+        return rresponse
+        return contextimg
+    if request.method == 'POST':
+        msg = request.POST.get('input', '')
+        context['query'] = msg
+        context['chatresponse'] = chat(msg)
+    return render(request, "librarybot.html",context)
+
+def booksearch(request):
+    context = {}
     def findingbook(inp):
-        query = f"SELECT books,author FROM library WHERE books ='{inp}'" 
+        query = f"SELECT books,author,year,book_availability FROM library WHERE books ='{inp}'" 
         conn = sqlite3.connect("db.sqlite3")
         c = conn.cursor()
         c.execute(query)
-
         results = c.fetchall()
-        # print(results)
         
-        print(results)
         conn.close()
         return results
-    
-    def findingauthor(inp):
-        query = f"SELECT books,author FROM library WHERE author = '{inp}'"
-        conn = sqlite3.connect("db.sqlite3")
-        c = conn.cursor()
-        c.execute(query)
-
-        results = c.fetchall()
-        # print(results)
-        
-        print(results)
-        conn.close()
-        return results
-
 
     if request.method == 'POST':
-        book = request.POST.get('bookname', '')
-        author = request.POST.get('authorname', '')
-        context['book_query'] = book
-        context['author_query'] = author
-        if book != "":
-            context['bookresponse'] = findingbook(book)
-        elif author != "": 
-            context['authorresponse'] = findingauthor(author)
+        book = request.POST.get('input', '')
+        context['query'] = book
+        context['details'] = findingbook(book)
+      
+    return render(request, "booksearch.html",context)
 
-        # context['imgresponse'] = img()
-        # return HttpResponse(chatresponse, content_type='text/plain')
-    return render(request, "librarybot.html",context)
+def authorsearch(request):
+    context = {}
+    def findingbook(inp):
+        query = f"SELECT books,author,year,book_availability FROM library WHERE author ='{inp}'" 
+        conn = sqlite3.connect("db.sqlite3")
+        c = conn.cursor()
+        c.execute(query)
+        results = c.fetchall()
+        
+        conn.close()
+        return results
+
+    if request.method == 'POST':
+        author = request.POST.get('input', '')
+        context['query'] = author
+        context['details'] = findingbook(author)
+
+    return render(request, "authorsearch.html",context)
+
 
 def sss(request):
     context = {}

@@ -10,7 +10,6 @@ import pickle
 import datetime
 import random
 import sqlite3
-# import pyttsx3
 
 stemmer = LancasterStemmer()
 with open("static/librarybot/intents.json") as file:
@@ -83,13 +82,13 @@ def response(inp):
     results = model.predict([bag_of_words(inp, words)])[0]
     results_index = numpy.argmax(results)
     tag = labels[results_index]
-    if results[results_index] > 0.7:
+    if results[results_index] > 0.6:
         for tg in data["intents"]:
-            
-            responses = tg['responses']
-            contexts = tg['context_set']
+            if tg['tag'] == tag:
+                responses = tg['responses']
+                contexts = tg['context_set']
         global contextimg
-        contextimg = None
+        contextimg = random.choice(contexts)
         rresponse = random.choice(responses)
         print(rresponse)
         # print(contextimg)
@@ -99,5 +98,3 @@ def response(inp):
         contextimg = "./static/context/images/error.gif"
         # talk("I didn't really get that")
     return rresponse , contextimg;
-
- 

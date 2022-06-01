@@ -37,6 +37,10 @@
     cursor: pointer;
     border-radius: 5px;
   }
+
+  table, th, td {
+    border:1px solid black;
+  }
   
 
   img.animated-gif{
