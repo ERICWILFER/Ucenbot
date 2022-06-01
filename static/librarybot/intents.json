@@ -144,7 +144,7 @@
       "patterns": ["who is the incharge of library",
                    "incharge of library?",
                    "tell me the incharge of library"],
-      "responses": ["answer will be provided soon"],
+      "responses": ["Jerin Sir"],
       "context_set": [""]
     },
   {
@@ -152,11 +152,12 @@
     "patterns": [
       "name of the book",
       "what is the name of the book",
-      "book name of "
+      "book name of",
+      "author name of the book"
       
       ],
-    "responses": [""],
-    "context_set": ["SELECT books FROM library"]
+    "responses": ["please search using the below buttons"],
+    "context_set": [""]
   }
 
   ]

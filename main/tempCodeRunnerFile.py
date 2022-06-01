@@ -1,1 +1,2 @@
-print(sssbot.contextimg)
+
+    c = conn.cursor()

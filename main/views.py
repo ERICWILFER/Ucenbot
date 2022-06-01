@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .forms import FeedbackForm
-from . import canteenbot, sssbot ,clginfobot, librarybot, placementbot, sportsbot
+from . import canteenbot, sssbot ,clginfobot, librarybot, placementbot, sportsbot, stringerrorforgiver
 import sqlite3
 
 # Create your views here.
@@ -91,8 +91,9 @@ def booksearch(request):
 
     if request.method == 'POST':
         book = request.POST.get('input', '')
+        correct_string = stringerrorforgiver.forgive_bookname(book)
         context['query'] = book
-        context['details'] = findingbook(book)
+        context['details'] = findingbook(correct_string)
       
     return render(request, "booksearch.html",context)
 
@@ -104,14 +105,14 @@ def authorsearch(request):
         c = conn.cursor()
         c.execute(query)
         results = c.fetchall()
-        
         conn.close()
         return results
 
     if request.method == 'POST':
         author = request.POST.get('input', '')
+        correct_string = stringerrorforgiver.forgive_authorname(author)
         context['query'] = author
-        context['details'] = findingbook(author)
+        context['details'] = findingbook(correct_string)
 
     return render(request, "authorsearch.html",context)
 
@@ -157,8 +158,19 @@ def canteen(request):
 def sports(request):
     context = {}
 
+    def query_data(inp):
+        query = f"SELECT time_of_game,game_list,captain_of_game,staff,grounds,tournament_timing,overview FROM sports_details WHERE game_details ='{inp}'" 
+        conn = sqlite3.connect("db.sqlite3")
+        c = conn.cursor()
+        c.execute(query)
+        results = c.fetchall()
+        conn.close()
+
+    
+        return results[0]
+
+
     def chat(msg):
-        # print("Start chatting with the bot (type quit to stop)!")
         rresponse, contextimg = sportsbot.response(msg) 
         return rresponse
 
@@ -171,10 +183,12 @@ def sports(request):
         context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
-        # return HttpResponse(chatresponse, content_type='text/plain')
+
+        tag = sportsbot.response.tagg
+
+        context['dataresponse'] = query_data(tag)
+
     return render(request, "sportsbot.html",context)
-
-
 
 
 def feedback_form(request):

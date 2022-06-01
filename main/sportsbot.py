@@ -15,7 +15,7 @@ stemmer = LancasterStemmer()
 with open("static/sportsbot/intents.json") as file:
     data = json.load(file)
 try:
-    #we_are_training
+    # we_are_training
     with open("static/sportsbot/data.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
 except:
@@ -61,7 +61,7 @@ net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
 net = tflearn.regression(net)
 model = tflearn.DNN(net)
 try:
-    #we_are_training
+    # we_are_training
     model.load("static/sportsbot/model.tflearn")
 except:
     model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
@@ -95,6 +95,8 @@ def response(inp):
     results = model.predict([bag_of_words(inp, words)])[0]
     results_index = numpy.argmax(results)
     tag = labels[results_index]
+    response.tagg = tag
+    
     if results[results_index] > 0.6:
         for tg in data["intents"]:
             if tg['tag'] == tag:
@@ -104,8 +106,7 @@ def response(inp):
         contextimg = random.choice(contexts)
         rresponse = random.choice(responses)
         print(rresponse)
-        # print(contextimg)
-        # talk(rresponse)
+
     else:
         rresponse = "I didn't really get that"
         contextimg = "./static/context/images/error.gif"

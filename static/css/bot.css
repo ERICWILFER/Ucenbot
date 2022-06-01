@@ -8,10 +8,9 @@
     font-family: arial;
     font-size: 16px;
     margin: 0;
-    background-color: #ebebff;
+    background-color: #ffffff;
     opacity: 1;
-    background-image: radial-gradient(#191dff 1.25px, #ebebff 1.25px);
-    background-size: 25px 25px;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 40px ), repeating-linear-gradient( #dcdeff55, #dcdeff );
     color: #000;
     display: flex;
     align-items: center;
@@ -25,9 +24,10 @@
   }
   h1{
     color: black;
-    font-size: 50px;
+    font-size: 40px;
   }
   h2{
+    font-weight: lighter;
     color: #33cc33;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
