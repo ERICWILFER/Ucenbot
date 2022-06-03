@@ -9,7 +9,7 @@
         "nice to meet you",
         "hello there , how can i help"
       ],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " Record note",
@@ -17,7 +17,7 @@
       "responses": [
         "you have prepare it yourself or it will be given with respect to your department "
       ],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "pen ",
@@ -30,67 +30,67 @@
         "pen"
       ],
       "responses": ["4.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Stapler",
       "patterns": ["price of Stapler", "stapler"],
       "responses": ["40 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " Stapler pin",
       "patterns": ["price of Stapler pin", "stapler"],
       "responses": ["6 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Double tag file",
       "patterns": ["price of Double tag file", "Double tag file"],
       "responses": ["16 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Pencil",
       "patterns": ["price of Pencil", "what is the price of pencil", "pencil"],
       "responses": ["5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Pencil tip",
       "patterns": ["price of tip", "tip"],
       "responses": ["4.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Eraser",
       "patterns": ["price of Eraser", "Eraser"],
       "responses": ["3 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Sharpener ",
       "patterns": ["price of Sharpener", "Sharpener"],
       "responses": ["3 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "sketch",
       "patterns": ["price of sketch", "sketch"],
       "responses": ["22 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Steel scale",
       "patterns": ["price of Steel scale", "steel scale", "steel ruler"],
       "responses": ["14 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "long Plastic scale",
       "patterns": ["price of Plastic scale"],
       "responses": ["10 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "small Plastic scale",
@@ -100,19 +100,19 @@
         "plastic scale"
       ],
       "responses": ["4 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Labels",
       "patterns": ["price of Labels", "labels"],
       "responses": ["2.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Cello tape",
       "patterns": ["price of Cello tape", "cello tape"],
       "responses": ["15 Rupee for 1 inch 30 Rupee for 2 inch"],
-      "context_set": ""
+      "context_set": [""]
     },
 
     {
@@ -124,19 +124,19 @@
         "huge note"
       ],
       "responses": ["33 Rupee which has 160 pages"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Small size note",
       "patterns": ["price of Small size note", "small size note"],
       "responses": ["22 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " Chart papers",
       "patterns": ["price of Chart papers", "white chart paper"],
       "responses": ["5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Chart papers",
@@ -146,61 +146,61 @@
         "colored chart papers price"
       ],
       "responses": ["5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Semi log sheets",
       "patterns": ["price of Semi log sheets"],
       "responses": ["0.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "A4 stick file",
       "patterns": ["price of A4 stick file"],
       "responses": ["10 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Punch machine",
       "patterns": ["price of Punch machine", "punching machine"],
       "responses": ["60 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Highlighter",
       "patterns": ["price of Highlighter", "higlighter"],
       "responses": ["18 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "whitener",
       "patterns": ["price of whitener", "whitener"],
       "responses": ["24 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Fevi stick gum",
       "patterns": ["price of Fevi stick gum", "fevi stick"],
       "responses": ["18 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " Mini drafter",
       "patterns": ["price of Mini drafter", "mini drafter"],
       "responses": ["360 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "A2 paper",
       "patterns": ["price of A2 paper", "A2 size paper", "a2 paper"],
       "responses": ["2.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Mini stapler",
       "patterns": ["price of Mini stapler", "mini stapler"],
       "responses": ["40 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Small cutter",
@@ -210,97 +210,97 @@
         "small knife cutter"
       ],
       "responses": ["4 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "plastic Scissor ",
       "patterns": ["price of plastic Scissor", "plastic scissor"],
       "responses": ["14 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "steel Scissor",
       "patterns": ["price of Scissor steel", "steel scissor"],
       "responses": ["30 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Stick pen",
       "patterns": ["price of Stick pen", "stick pen"],
       "responses": ["9 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Radium pen",
       "patterns": ["price of Radium pen"],
       "responses": ["3 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Reynolds gel pen",
       "patterns": ["price of Reynolds gel pen", "gel pen"],
       "responses": ["9 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Big eraser",
       "patterns": ["price of Big eraser", "big eraser", "huge eraser"],
       "responses": ["4.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Sony DVD",
       "patterns": ["price of Sony DVD", "sony dvd cd"],
       "responses": ["20 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Sony CD",
       "patterns": ["price of Sony CD", "sony CD"],
       "responses": ["13 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "10 leaf file",
       "patterns": ["price of 10 leaf file", "10 leaf files", "10 leaf file"],
       "responses": ["33 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "12 leaf file",
       "patterns": ["price of 12 leaf file", "12 leaf file"],
       "responses": ["48 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "pen pencil",
       "patterns": ["price of pen pencil", "pen pencil"],
       "responses": ["9 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Button file",
       "patterns": ["price of Button file", "button file"],
       "responses": ["18 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Smith chart",
       "patterns": ["price of Smith chart", "smith chart"],
       "responses": ["0.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Polar chart",
       "patterns": ["price of Polar chart", "polar chart"],
       "responses": ["0.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Fevi gum",
       "patterns": ["price of Fevi gum"],
       "responses": ["4.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "100 pages long note",
@@ -310,37 +310,37 @@
         "100 pages note book"
       ],
       "responses": ["20 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Fevi kwick",
       "patterns": ["price of Fevi kwick", "fevi quick", "fevi quwik"],
       "responses": ["4.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Permanent marker",
       "patterns": ["price of Permanent marker", "marker"],
       "responses": ["18 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Glitter pen ",
       "patterns": ["price of Glitter pen", "glitter pen"],
       "responses": ["9 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " Brown sheet",
       "patterns": ["price of Brown sheet", "price of Brown sheet"],
       "responses": ["3 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Sanitary pads",
       "patterns": ["price of Sanitary pads"],
       "responses": [" dont know"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Pen with pencil set",
@@ -350,19 +350,19 @@
         "pen with pencil"
       ],
       "responses": ["17 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "exam booklets",
       "patterns": ["price of exam booklets", "exam booklet"],
       "responses": ["9 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " Lab coat",
       "patterns": ["price of Lab coat", "lab coat"],
       "responses": ["300 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " 160 page long size note",
@@ -372,13 +372,13 @@
         "160 pages note"
       ],
       "responses": ["33 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " 80 page long size note",
       "patterns": ["price of 80 page long size note", "80 pages note"],
       "responses": ["23 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "Graph sheet",
@@ -388,13 +388,13 @@
         "graph sheet"
       ],
       "responses": ["0.5 Rupee"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": " A4 stick file",
       "patterns": ["price of A 4 stick file", "a 4 stick file"],
       "responses": "10 Rupee",
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "goodbye",
@@ -407,7 +407,7 @@
         "bye"
       ],
       "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "location",
@@ -420,7 +420,7 @@
       "responses": [
         "SSS is located on the second floor of the ucen college campus"
       ],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "name",
@@ -430,7 +430,7 @@
         "whats your name?"
       ],
       "responses": ["You can call me SSS CHAT BOT.", "I'm SSS BOT!", "I'm SSS BOT."],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "sss info",
@@ -444,7 +444,7 @@
       "responses": [
         "We sell all the stationary items required for a university college student! "
       ],
-      "context_set": ""
+      "context_set": [""]
     },
     {
       "tag": "hours",
@@ -456,7 +456,7 @@
         "what are the working hours of canteen"
       ],
       "responses": ["We are open 9am to 5pm College hours!"],
-      "context_set": ""
+      "context_set": [""]
     }
   ]
 }

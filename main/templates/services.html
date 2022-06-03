@@ -21,12 +21,12 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
   }
-  {% comment %} body{
-    background-color: #ebebff;
-    opacity: 1;
-    background-image: radial-gradient(#191dff 1.25px, #ebebff 1.25px);
-    background-size: 25px 25px;
-  } {% endcomment %}
+ body{
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient( ellipse farthest-corner at 40px 40px , #eeeeff, #eeeeff 50%, #ffffff 50%);
+  background-size: 40px 40px;
+ }
 </style>
 </head>
 <body>
@@ -43,7 +43,7 @@
         </div>
         <div>
           <h2>COLLEGE INFO</h2>
-          <p>For knowing about the college, this bot provides the General information like staff details, academic details, college rules, etc.</p>
+          <p>Chat to know about UCEN college General information like staff details, academic details, college rules</p>
           <a href="clginfobot.html" class="btn btn-primary">
             click to chat
           </a>
@@ -59,7 +59,7 @@
         </div>
         <div>
           <h2>PLACEMENT CELL</h2>
-          <p>for placement cell section, this bot Provides information about the placement drive,the qualifications for the drive etc.</p>
+          <p>Chat to know the information about placement drive, qualifications for the drive, etc.</p>
           <a href="placementbot.html" class="btn btn-primary">
             click to chat
           </a>
@@ -73,11 +73,19 @@
         </div>
         <div>
           <h2>LIBRARY</h2>
-          <p>library details, book details are provided by the bot.</p>
+          <p>To know about library details, book details .</p>
           <br>
-          <a href="librarybot.html" class="btn btn-primary">
-            click to chat
-          </a>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Click to chat
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <li><a class="dropdown-item" href="librarybot.html">general library bot</a></li>
+              <li><a class="dropdown-item" href="booksearch.html">search using book name</a></li>
+              <li><a class="dropdown-item" href="authorsearch.html">search using author name</a></li>
+            </ul>
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -95,7 +103,7 @@
         </div>
         <div>
           <h2>SSS</h2>
-          <p>This bot provides all the details and prices of the Stationary items present in the Students Stationary Store.</p>
+          <p>Chat to know about the details and prices of the Stationary items present in the Students Stationary Store.</p>
           <a href="sssbot.html" class="btn btn-primary">
             click to chat
           </a>
@@ -110,7 +118,7 @@
         </div>
         <div>
           <h2>CANTEEN</h2>
-          <p>In here the bot provides all the information about the food with their prices and their timings of the Students Akshaya Canteen.</p>
+          <p>Chat to know about the food information with their prices and timings of the Students Akshaya Canteen.</p>
           <a href="canteenbot.html" class="btn btn-primary">
             click to chat
           </a>
@@ -127,13 +135,14 @@
         </div>
         <div>
           <h2>SPORTS</h2>
-          <p>For Sports section the bot provides the informations about the sports in ucen college and their training timings.</p>
+          <p>Chat to know about the sports in ucen college and their training timings.</p>
           <a href="sportsbot.html" class="btn btn-primary">
             click to chat
           </a>
         </div>
       </div>
     </div>
+    <button type="button" class="btn btn-danger" onclick="history.back()">Go Back</button>
   </div>
 
 

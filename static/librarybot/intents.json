@@ -35,130 +35,371 @@
       "tag": "name",
       "patterns": [
         "what is your name",
-        "what should I call you",
         "whats your name?"
       ],
-      "responses": ["You can call me Library CHAT BOT.", "I'm library  BOT!", "I'm library BOT."],
+      "responses": ["I'm library  BOT!", "I'm library BOT."],
       "context_set": [""]
     },
     {
       "tag": "hours",
       "patterns": [
-        "when are you guys open",
-        "what are your hours",
+        "when is library open",
+        "what are the working hours",
         "hours of operation",
         "operating hours",
-        "what are the working hours of college"
+        "what are the working hours of library"
       ],
       "responses": ["We are open 9am to 5pm College hours!"],
       "context_set": [""]
     },
     {
-      "tag": "admit card",
-      "patterns": ["do i need to apply any admit card for entering library",
-                   "do we need to apply for admit card for library",
-                   "is admit card necessary ",
-                   "shoud we bring admit card",
-                   "is admit card mandatory"],
-      "responses": ["No,but you have to sign in the entry book and you should have college id carrd."],
-      "context_set": [""]
+        "tag": "where is library ",
+        "patterns": [
+            "where is library "
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
     {
-      "tag": "is library free", 
-      "patterns": ["can i go to library freely?",
-                   "is library free to go",
-                   "is library free",
-                   "can i walk into the library freely?"
-                   ],
-      "responses": ["Yes, you can go to library freely."],
-      "context_set": [""]
+        "tag": "are books arrange according to departments",
+        "patterns": [
+            "are books arrange according to departments"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
     {
-      "tag": "timing library",
-      "patterns": ["what is the timing of the library",
-                   "tell me the timing of library",
-                   "what timing is the library are?",
-                   "library timing info please",
-                   "library timing?",
-                   "library timing information please",
-                   "can you tell me the library timing?"],
-      "responses": ["As same as college hours"],
-      "context_set": [""]
+        "tag": "where can i find library",
+        "patterns": [
+            "where can i find library"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
     {
-      "tag": "silence in library",
-      "patterns": ["do we need to maintain silence in this library",
-                   "is maintaining silence in library mandatory?",
-                   "is maintaining silence is good in library?"],
-      "responses": ["Of course yes, you need to maintain silent inside the library"],
-      "context_set": [""]
+        "tag": "room number of library",
+        "patterns": [
+            "room number of library"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
     {
-      "tag": "books arranged to departments",
-      "patterns": [
-        "do library have books arranged according to departaments",
-        "can i search the books according to the departments",
-        "can i browse the books according to the departments",
-        "is the books arranged according to the departments"
-      ],
-      "responses": [
-        "Yes, our library books are arranged according to departments"
-      ],
-      "context_set": [""]
+        "tag": "where is library located",
+        "patterns": [
+            "where is library located"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
     {
-      "tag": "take and return back books",
-      "patterns": [
-        "can we take your library books to home and return back later",
-        "can we take and return back library books later?",
-        "can we take library books to home",
-        "can i return the books after on week"
-      ],
-      "responses": [
-        "Yes, you can but you will need to sign in the registration and should return the book before deadline"
-      ],
-      "context_set": [""]
+        "tag": "UCEN Library",
+        "patterns": [
+            "UCEN Library"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
     {
-      "tag": "is tinkle magazine available in library",
-      "patterns": ["do tinkle magazine books are available in your library",
-                   "can i expect thinkle magazine books",
-                   "is there available thinkle magazine books"],
-      "responses": [
-        "Sorry, we don't have tinkle books. But you will find it in english lab"
-      ],
-      "context_set": [""]
+        "tag": "who is library officer",
+        "patterns": [
+            "who is library officer"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
     {
-      "tag": "water bottel in library",
-      "patterns": ["can we bring water bottle to your library",
-                   "can i drink water inside the library?",
-                   "can i use water bottle insidet the library"],
-      "responses": [
-        "Yes you can, but do not pour water in the bookes provided"
-      ],
-      "context_set": [""]
+        "tag": "who is incharge of library",
+        "patterns": [
+            "who is incharge of library"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
     {
-      "tag": "incharge of library",
-      "patterns": ["who is the incharge of library",
-                   "incharge of library?",
-                   "tell me the incharge of library"],
-      "responses": ["Jerin Sir"],
-      "context_set": [""]
+        "tag": "library officer",
+        "patterns": [
+            "library officer"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
     },
-  {
-    "tag": "Book name searching",
-    "patterns": [
-      "name of the book",
-      "what is the name of the book",
-      "book name of",
-      "author name of the book"
-      
-      ],
-    "responses": ["please search using the below buttons"],
-    "context_set": [""]
-  }
+    {
+        "tag": "incharge of library",
+        "patterns": [
+            "incharge of library"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "library hours",
+        "patterns": [
+            "library hours"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "what is the timing of library",
+        "patterns": [
+            "what is the timing of library"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "library timings",
+        "patterns": [
+            "library timings"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "how many text books are available",
+        "patterns": [
+            "how many text books are available"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "validity of books in days",
+        "patterns": [
+            "validity of books in days"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "number of text books",
+        "patterns": [
+            "number of text books"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "total number of text books in library",
+        "patterns": [
+            "total number of text books in library"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "total number of books in civil department",
+        "patterns": [
+            "total number of books in civil department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "number of books in civil department",
+        "patterns": [
+            "number of books in civil department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "total number of books in CSE department",
+        "patterns": [
+            "total number of books in CSE department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "number of books in CSE department",
+        "patterns": [
+            "number of books in CSE department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "total number of books in Mechnical department",
+        "patterns": [
+            "total number of books in Mechnical department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "number of books in Mechanical department",
+        "patterns": [
+            "number of books in Mechanical department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "total number of books in ECE department",
+        "patterns": [
+            "total number of books in ECE department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "number of books in ECE department",
+        "patterns": [
+            "number of books in ECE department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "number of books in EEE department",
+        "patterns": [
+            "number of books in EEE department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "total number of books in EEE department",
+        "patterns": [
+            "total number of books in EEE department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "total number of books in IT department",
+        "patterns": [
+            "total number of books in IT department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    },
+    {
+        "tag": "number of books in IT department",
+        "patterns": [
+            "number of books in IT department"
+        ],
+        "responses": [
+            ""
+        ],
+        "context_set": [
+            ""
+        ]
+    }
 
   ]
 }

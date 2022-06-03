@@ -30,52 +30,66 @@ def gallery(request):
     context = {}
     return render(request, "gallery.html")
 
+
 def college(request):
     context = {}
     def chat(msg):
-        # print("Start chatting with the bot (type quit to stop)!")
-        rresponse, contextimg = clginfobot.response(msg) 
+        rresponse = clginfobot.response(msg) 
         return rresponse
     def img():
-        rresponse, contextimg = clginfobot.response(msg)
-        return contextimg
+        image = clginfobot.response.contextimg
+        return image
+
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
-        # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "clginfobot.html",context)
+
 
 def placement(request):
     context = {}
     def chat(msg):
-        # print("Start chatting with the bot (type quit to stop)!")
-        rresponse, contextimg = placementbot.response(msg) 
+        rresponse = placementbot.response(msg) 
         return rresponse
     def img():
-        rresponse, contextimg = placementbot.response(msg)
-        return contextimg
+        image = placementbot.response.contextimg
+        return image
+
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
-        # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "placementbot.html",context)
+
 
 def library(request):
     context = {}
+    def query_data(inp):
+        query = f"SELECT details1 FROM library_details WHERE library_details_tag ='{inp}'" 
+        conn = sqlite3.connect("db.sqlite3")
+        c = conn.cursor()
+        c.execute(query)
+        results = c.fetchall()
+        conn.close()
+        # print(results)
+        return results
+
     def chat(msg):
-        # print("Start chatting with the bot (type quit to stop)!")
-        rresponse, contextimg = librarybot.response(msg) 
+        rresponse = librarybot.response(msg) 
         return rresponse
-        return contextimg
+    
+
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
         context['chatresponse'] = chat(msg)
+        tag = librarybot.response.tagg
+        context['dataresponse'] = query_data(tag)
     return render(request, "librarybot.html",context)
+
 
 def booksearch(request):
     context = {}
@@ -85,7 +99,6 @@ def booksearch(request):
         c = conn.cursor()
         c.execute(query)
         results = c.fetchall()
-        
         conn.close()
         return results
 
@@ -94,8 +107,8 @@ def booksearch(request):
         correct_string = stringerrorforgiver.forgive_bookname(book)
         context['query'] = book
         context['details'] = findingbook(correct_string)
-      
     return render(request, "booksearch.html",context)
+
 
 def authorsearch(request):
     context = {}
@@ -119,71 +132,59 @@ def authorsearch(request):
 
 def sss(request):
     context = {}
-
     def chat(msg):
-        # print("Start chatting with the bot (type quit to stop)!")
         rresponse = sssbot.response(msg) 
         return rresponse
-        
+
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
         context['chatresponse'] = chat(msg)
-
-
-
-        # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "sssbot.html",context)
+
 
 def canteen(request):
     context = {}
-
     def chat(msg):
-        # print("Start chatting with the bot (type quit to stop)!")
-        rresponse, contextimg = canteenbot.response(msg) 
+        rresponse = canteenbot.response(msg) 
         return rresponse
-
     def img():
-        rresponse, contextimg = canteenbot.response(msg)
-        return contextimg
-        
+        image = canteenbot.response.contextimg
+        return image
+
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
-        # return HttpResponse(chatresponse, content_type='text/plain')
     return render(request, "canteenbot.html",context)
+
 
 def sports(request):
     context = {}
-
     def query_data(inp):
-        query = f"SELECT time_of_game,game_list,captain_of_game,staff,grounds,tournament_timing,overview FROM sports_details WHERE game_details ='{inp}'" 
+        
+        query = f"SELECT time_of_game,game_list,captain_of_game,staff,grounds,tournament_timing,overview FROM sports_details WHERE game_details_tag ='{inp}'" 
         conn = sqlite3.connect("db.sqlite3")
         c = conn.cursor()
         c.execute(query)
         results = c.fetchall()
         conn.close()
 
-    
-        return results[0]
-
-
+        print(results)
+        return results
     def chat(msg):
-        rresponse, contextimg = sportsbot.response(msg) 
+        rresponse = sportsbot.response(msg) 
         return rresponse
-
     def img():
-        rresponse, contextimg = sportsbot.response(msg)
-        return contextimg
+        image = sportsbot.response.contextimg
+        return image
         
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
-
         tag = sportsbot.response.tagg
 
         context['dataresponse'] = query_data(tag)

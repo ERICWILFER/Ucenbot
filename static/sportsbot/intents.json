@@ -1,492 +1,527 @@
 {
     "intents": [
-      {
-        "tag": "greeting",
-        "patterns": [
-          "Hi",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day",
-          "Whats up"
-        ],
-        "responses": [
-          "Hello!",
-          "Hi there, how can I help?",
-          "nice to meet you",
-          "hello there , how can i help"
-        ],
-        "context_set": [""]
-      },
-      {
-        "tag": "goodbye",
-        "patterns": [
-          "see ya",
-          "See you later",
-          "Goodbye",
-          "I am Leaving",
-          "Have a Good day",
-          "bye"
-        ],
-        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-        "context_set": [""]
-      },
-      {
-        "tag": "name",
-        "patterns": [
-          "what is your name",
-          "what should I call you",
-          "whats your name?"
-        ],
-        "responses": ["You can call me Sports CHAT BOT.", "I'm sports BOT!", "I'm sports BOT."],
-        "context_set": [""]
-      },
-      {
-        "tag": "football",
-        "patterns": [
-            "football"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "cricket",
-        "patterns": [
-            "cricket"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "tabletennis",
-        "patterns": [
-            "tabletennis"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "volleyball",
-        "patterns": [
-            "volleyball"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "game list",
-        "patterns": [
-            "game list"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "P E T staff name",
-        "patterns": [
-            "P E T staff name"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "sports staff name",
-        "patterns": [
-            "sports staff name"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "sports sir name",
-        "patterns": [
-            "sports sir name"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "name of sports staff",
-        "patterns": [
-            "name of sports staff"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "name of P E T sir",
-        "patterns": [
-            "name of P E T sir"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "who is the incharge of sports",
-        "patterns": [
-            "who is the incharge of sports"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "sports incharge",
-        "patterns": [
-            "sports incharge"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "incharge of sports",
-        "patterns": [
-            "incharge of sports"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "incharge",
-        "patterns": [
-            "incharge"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "who is P E T sir",
-        "patterns": [
-            "who is P E T sir"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "list of games",
-        "patterns": [
-            "list of games"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "list of sports",
-        "patterns": [
-            "list of sports"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "what sports are available",
-        "patterns": [
-            "what sports are available"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "what games are available",
-        "patterns": [
-            "what games are available"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "number of grounds",
-        "patterns": [
-            "number of grounds"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "how many grounds are available",
-        "patterns": [
-            "how many grounds are available"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "grounds in our college",
-        "patterns": [
-            "grounds in our college"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "when is cricket tournament conducted",
-        "patterns": [
-            "when is cricket tournament conducted"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "cricket tournment ",
-        "patterns": [
-            "cricket tournment "
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "timing of cricket tournament",
-        "patterns": [
-            "timing of cricket tournament"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "football tournament",
-        "patterns": [
-            "football tournament"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "timing of football tournament",
-        "patterns": [
-            "timing of football tournament"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "when is football tournament is conducted",
-        "patterns": [
-            "when is football tournament is conducted"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "sports overview",
-        "patterns": [
-            "sports overview"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "overview",
-        "patterns": [
-            "overview"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "overview of sports",
-        "patterns": [
-            "overview of sports"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "where is sports sir located",
-        "patterns": [
-            "where is sports sir located"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "sports staff location",
-        "patterns": [
-            "sports staff location"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "where can i find sports sir",
-        "patterns": [
-            "where can i find sports sir"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "where can i find P E T sir",
-        "patterns": [
-            "where can i find P E T sir"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "P E T sir location",
-        "patterns": [
-            "P E T sir location"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    },
-    {
-        "tag": "where is P E T sir located",
-        "patterns": [
-            "where is P E T sir located"
-        ],
-        "responses": [
-            ""
-        ],
-        "context_set": [
-            ""
-        ]
-    }
-    
-      
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there, how can I help?",
+                "nice to meet you",
+                "hello there , how can i help"
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "see ya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day",
+                "bye"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!"
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Sports CHAT BOT.",
+                "I'm sports BOT!",
+                "I'm sports BOT."
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "football",
+            "patterns": [
+                "football"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "cricket"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "tabletennis",
+            "patterns": [
+                "tabletennis"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "volleyball",
+            "patterns": [
+                "volleyball"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "game list",
+            "patterns": [
+                "game list"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "P E T staff name",
+            "patterns": [
+                "P E T staff name"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "sports staff name",
+            "patterns": [
+                "sports staff name"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "sports sir name",
+            "patterns": [
+                "sports sir name"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "name of sports staff",
+            "patterns": [
+                "name of sports staff"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "name of P E T sir",
+            "patterns": [
+                "name of P E T sir"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who is the incharge of sports",
+            "patterns": [
+                "who is the incharge of sports"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "sports incharge",
+            "patterns": [
+                "sports incharge"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "incharge of sports",
+            "patterns": [
+                "incharge of sports"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "incharge",
+            "patterns": [
+                "incharge"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who is P E T sir",
+            "patterns": [
+                "who is P E T sir"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list of games",
+            "patterns": [
+                "list of games"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list of sports",
+            "patterns": [
+                "list of sports"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "what sports are available",
+            "patterns": [
+                "what sports are available"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "what games are available",
+            "patterns": [
+                "what games are available"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "number of grounds",
+            "patterns": [
+                "number of grounds"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "how many grounds are available",
+            "patterns": [
+                "how many grounds are available"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "grounds in our college",
+            "patterns": [
+                "grounds in our college"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "when is cricket tournament conducted",
+            "patterns": [
+                "when is cricket tournament conducted"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "cricket tournment ",
+            "patterns": [
+                "cricket tournment "
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "timing of cricket tournament",
+            "patterns": [
+                "timing of cricket tournament"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "football tournament",
+            "patterns": [
+                "football tournament"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "timing of football tournament",
+            "patterns": [
+                "timing of football tournament"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "when is football tournament is conducted",
+            "patterns": [
+                "when is football tournament is conducted"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "sports overview",
+            "patterns": [
+                "sports overview"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "overview",
+            "patterns": [
+                "overview"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "overview of sports",
+            "patterns": [
+                "overview of sports"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "where is sports sir located",
+            "patterns": [
+                "where is sports sir located"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "sports staff location",
+            "patterns": [
+                "sports staff location"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "where can i find sports sir",
+            "patterns": [
+                "where can i find sports sir"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "where can i find P E T sir",
+            "patterns": [
+                "where can i find P E T sir"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "P E T sir location",
+            "patterns": [
+                "P E T sir location"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "where is P E T sir located",
+            "patterns": [
+                "where is P E T sir located"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "pet sir details",
+            "patterns": [
+                "pet sir details"
+            ],
+            "responses": [
+                "answer need to be provided"
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "where is pet sir located",
+            "patterns": [
+                "where is pet sir located"
+            ],
+            "responses": [
+                "answer need to be provided"
+            ],
+            "context_set": [
+                ""
+            ]
+        }
     ]
-  }
-  
+}
