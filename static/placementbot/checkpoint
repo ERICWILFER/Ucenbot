@@ -1,2 +1,2 @@
-model_checkpoint_path: "D:\\Project\\UCEN BOT\\Program\\Front End\\Ucenbot\\Ucenbot\\static\\placementbot\\model.tflearn"
-all_model_checkpoint_paths: "D:\\Project\\UCEN BOT\\Program\\Front End\\Ucenbot\\Ucenbot\\static\\placementbot\\model.tflearn"
+model_checkpoint_path: "D:\\Project\\ucen bot web code\\Ucenbot\\static\\placementbot\\model.tflearn"
+all_model_checkpoint_paths: "D:\\Project\\ucen bot web code\\Ucenbot\\static\\placementbot\\model.tflearn"

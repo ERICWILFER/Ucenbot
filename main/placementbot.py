@@ -41,6 +41,7 @@ def response(inp):
     results = model.predict([bag_of_words(inp, words)])[0]
     results_index = numpy.argmax(results)
     tag = labels[results_index]
+    response.tagg = tag
     if results[results_index] > 0.7:
         for tg in data["intents"]:
             if tg['tag'] == tag:
@@ -51,7 +52,7 @@ def response(inp):
         print(rresponse)
     else:
         rresponse = "I didn't really get that"
-        response.contextimg = "./static/placementbot/images/error.gif"
+        response.contextimg = "./static/context/images/error.gif"
         file.close()
 
         if inp == "":

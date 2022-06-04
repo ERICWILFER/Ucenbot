@@ -33,6 +33,15 @@ def gallery(request):
 
 def college(request):
     context = {}
+    def query_data(inp):
+        query = f"SELECT staff_details,staff_expyr,staff_doj,staff_room,staff_qualification,staff_handle_subs,year,class,staff_cont_num,staff_name,class_location,ucen_common_details,bus_cons_details,mark_sheet_ver,academic_details FROM clg_info_details WHERE clg_info_tag ='{inp}'" 
+        conn = sqlite3.connect("db.sqlite3")
+        c = conn.cursor()
+        c.execute(query)
+        results = c.fetchall()
+        conn.close()
+        # print(results)
+        return results
     def chat(msg):
         rresponse = clginfobot.response(msg) 
         return rresponse
@@ -45,11 +54,22 @@ def college(request):
         context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
+        tag = clginfobot.response.tagg
+        context['dataresponse'] = query_data(tag)        
     return render(request, "clginfobot.html",context)
 
 
 def placement(request):
     context = {}
+    def query_data(inp):
+        query = f"SELECT details,company,Atos2021_2022,officer,internship2021,tcs FROM placement_details WHERE placement_details_tag ='{inp}'" 
+        conn = sqlite3.connect("db.sqlite3")
+        c = conn.cursor()
+        c.execute(query)
+        results = c.fetchall()
+        conn.close()
+        # print(results)
+        return results
     def chat(msg):
         rresponse = placementbot.response(msg) 
         return rresponse
@@ -62,6 +82,8 @@ def placement(request):
         context['query'] = msg
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
+        tag = placementbot.response.tagg
+        context['dataresponse'] = query_data(tag)
     return render(request, "placementbot.html",context)
 
 

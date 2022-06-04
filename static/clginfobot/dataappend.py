@@ -4,7 +4,7 @@ import json
 conn = sqlite3.connect("db.sqlite3")
 c = conn.cursor()
 
-sql_query = "SELECT library_details_tag FROM library_details"
+sql_query = "SELECT clg_info_tag FROM clg_info_details"
 
 c.execute(sql_query)
 
@@ -48,7 +48,7 @@ for i in range(len(tag_list)):
     # print(intents_template)
     # intent_list.append(intents_template)
     # print(intent_list)
-    def write_json(new_data, filename='static/librarybot/intents.json'):
+    def write_json(new_data, filename='static/clginfobot/intents.json'):
         with open(filename,'r+') as file:
               # First we load existing data into a dict.
             file_data = json.load(file)

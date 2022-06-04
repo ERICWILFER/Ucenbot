@@ -1,5 +1,6 @@
 {
-    "intents": [{
+    "intents": [
+        {
             "tag": "greeting",
             "patterns": [
                 "Hi",
@@ -14,7 +15,9 @@
                 "nice to meet you",
                 "hello there , how can i help"
             ],
-            "context_set": ["./static/context/images/hello-hi.gif"]
+            "context_set": [
+                "./static/context/images/hello-hi.gif"
+            ]
         },
         {
             "tag": "goodbye",
@@ -31,7 +34,9 @@
                 "Talk to you later",
                 "Goodbye!"
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "name",
@@ -45,7 +50,9 @@
                 "I'm Placement BOT!",
                 "I'm Placement BOT."
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "hours",
@@ -59,245 +66,1365 @@
             "responses": [
                 "We are open 9am to 5pm College hours!"
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "List of students selected for internship 2019-2021",
             "patterns": [
-                "In Electronics and communiction department who all are selected in intership",
-                "Selected students in Electronics department Who all are seleced the internship",
-                "Students who all are selected internship from Electronics department",
-                "Internship selected students from Electronics department",
+                "List of students selected for internship 2019-2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "selected students in 2019-2021",
+            "patterns": [
+                "selected students in 2019-2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list the students selected in 2019-2021",
+            "patterns": [
+                "list the students selected in 2019-2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "UCEN selected students in 2019-2021",
+            "patterns": [
+                "UCEN selected students in 2019-2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who are all selected in 2019-2021",
+            "patterns": [
+                "who are all selected in 2019-2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "In Electronics and communiction department who all are selected in intership",
+            "patterns": [
+                "In Electronics and communiction department who all are selected in intership"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Electronics departmnt selected students for internship",
+            "patterns": [
                 "Electronics departmnt selected students for internship"
             ],
             "responses": [
-                "Divya A(Tare Zameen Foundation),Christal Damini J V(Muskurahat Foundation),Maria Feora Vancy J(Muskurahat Foundation)"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Internship selected students from Electronics department",
+            "patterns": [
+                "Internship selected students from Electronics department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who all are selected internship from Electronics department",
+            "patterns": [
+                "Students who all are selected internship from Electronics department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Selected students in Electronics department Who all are seleced the internship",
+            "patterns": [
+                "Selected students in Electronics department Who all are seleced the internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "List the students selected in ECE department",
+            "patterns": [
+                "List the students selected in ECE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Electrical and Electronics departmnt selected students for internship",
+            "patterns": [
+                "Electrical and Electronics departmnt selected students for internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students who are all ECE department",
+            "patterns": [
+                "students who are all ECE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who are all selected in ECE department",
+            "patterns": [
+                "who are all selected in ECE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Internship selected students from Electrical and Electronics department",
+            "patterns": [
+                "Internship selected students from Electrical and Electronics department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who all are selected internship from Electrical and Electronics department",
+            "patterns": [
+                "Students who all are selected internship from Electrical and Electronics department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Selected students in Electrical and Electronics department Who all are selected the internship",
+            "patterns": [
+                "Selected students in Electrical and Electronics department Who all are selected the internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "In Electrical and Electronics department who all are selected in intership",
             "patterns": [
-
-                "In Electrical and Electronics department who all are selected in intership",
-                "Selected students in Electrical and Electronics department Who all are selected the internship",
-                "Students who all are selected internship from Electrical and Electronics department",
-                "Internship selected students from Electrical and Electronics department",
-                "Electrical and Electronics departmnt selected students for internship"
-
+                "In Electrical and Electronics department who all are selected in intership"
             ],
             "responses": [
-                "Sahaya Jushma J(Lead & Sales),Mary Abisha S(Mash Project Foundation),Sathya Priya M(Bhumi)"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
-
+        {
+            "tag": "who are all selected in CSE department",
+            "patterns": [
+                "who are all selected in CSE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students who are all CSE department",
+            "patterns": [
+                "students who are all CSE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "List the students selected in CSE department",
+            "patterns": [
+                "List the students selected in CSE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
         {
             "tag": "In Computer Science department who all are selected in intership",
             "patterns": [
-                "In Computer Science department who all are selected in intership ",
-                "Selected students in Computer Science department Who all are selected the internship",
-                "Students who all are selected internship from Computer Science department",
-                "Internship selected students from Computer Science department",
+                "In Computer Science department who all are selected in intership"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Selected students in Computer Science department Who all are selected the internship",
+            "patterns": [
+                "Selected students in Computer Science department Who all are selected the internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who all are selected internship from Computer Science department",
+            "patterns": [
+                "Students who all are selected internship from Computer Science department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Internship selected students from Computer Science department",
+            "patterns": [
+                "Internship selected students from Computer Science department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Computer Science departmnt selected students for internship",
+            "patterns": [
                 "Computer Science departmnt selected students for internship"
             ],
             "responses": [
-                "David D(The Consent Bank),Anto Subin(Rise Retail),Archana K.P(XcitEducation Foundations)"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who are all selected in IT department",
+            "patterns": [
+                "who are all selected in IT department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students who are all IT department",
+            "patterns": [
+                "students who are all IT department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "List the students selected in IT department",
+            "patterns": [
+                "List the students selected in IT department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "In Information Technology department who all are selected in intership",
             "patterns": [
-                "In Information Technology department who all are selected in intership ",
-                "Selected students in Information Technology department Who all are selected the internship",
-                "Students who all are selected internship from Information Technology department",
-                "Internship selected students from Information Technology department",
-                "Information Technology departmnt selected students for internship"
+                "In Information Technology department who all are selected in intership"
             ],
-            "responeses": [
-                "Asha S(Tare Zameen Foundation),Abishek J(Grip T The Sparks Foundation)"
+            "responses": [
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
         {
-            "tag": "In Civil department who all are selected in intership",
+            "tag": "Selected students in Information Technology department Who all are selected the internship",
             "patterns": [
-                "In Civil department who all are selected in intership ",
-                "Selected students in Civil department Who all are selected the internship",
-                "Students who all are selected internship from Civil department",
-                "Internship selected students from Civil department",
+                "Selected students in Information Technology department Who all are selected the internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who all are selected internship from Information Technology department",
+            "patterns": [
+                "Students who all are selected internship from Information Technology department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Internship selected students from Information Technology department",
+            "patterns": [
+                "Internship selected students from Information Technology department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Information Technology departmnt selected students for internship",
+            "patterns": [
+                "Information Technology departmnt selected students for internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "List the students selected in ECE department",
+            "patterns": [
+                "List the students selected in ECE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who are all selected in ECE department",
+            "patterns": [
+                "who are all selected in ECE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students who are all ECE department",
+            "patterns": [
+                "students who are all ECE department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Civil departmnt selected students for internship",
+            "patterns": [
                 "Civil departmnt selected students for internship"
             ],
             "responses": [
-                "Safreen Sulaiga M(Lead & Sales),Letheesha S p(Dridhsankalp Foundation)"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
         {
-            "tag": "In Mechanical department who all are selected in intership",
+            "tag": "Internship selected students from Civil department",
             "patterns": [
-                "In Mechanical department who all are selected in intership ",
-                "Selected students in Mechanical department Who all are selected the internship",
-                "Students who all are selected internship from Mechanical department",
-                "Internship selected students from Mechanical department",
+                "Internship selected students from Civil department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who all are selected internship from Civil department",
+            "patterns": [
+                "Students who all are selected internship from Civil department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Selected students in civil Who all are selected the internship",
+            "patterns": [
+                "Selected students in civil Who all are selected the internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mechanical departmnt selected students for internship",
+            "patterns": [
                 "Mechanical departmnt selected students for internship"
             ],
-            "responeses": [
-                "Mani Rajesh(Eximius IIM Bangalore)"
+            "responses": [
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who all are selected internship from Mechanical department",
+            "patterns": [
+                "Students who all are selected internship from Mechanical department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Selected students in Mechanical Who all are selected the internship",
+            "patterns": [
+                "Selected students in Mechanical Who all are selected the internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Internship selected students from Mechanical department",
+            "patterns": [
+                "Internship selected students from Mechanical department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mechanical departmnt selected students for internship",
+            "patterns": [
+                "Mechanical departmnt selected students for internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "In Mechanical department who all are selected in intership ",
+            "patterns": [
+                "In Mechanical department who all are selected in intership "
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Selected students in Mechanical department Who all are selected the internship",
+            "patterns": [
+                "Selected students in Mechanical department Who all are selected the internship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who all are selected internship from Mechanical department",
+            "patterns": [
+                "Students who all are selected internship from Mechanical department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Internship selected students from Mechanical department",
+            "patterns": [
+                "Internship selected students from Mechanical department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students selected in Infosys Ltd",
+            "patterns": [
+                "students selected in Infosys Ltd"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Infosys Ltd",
+            "patterns": [
+                "Infosys Ltd"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "Number of students selected in Infosys Ltd company",
             "patterns": [
-                "Number of students selected in Infosys Ltd company",
-                "Selected students in Infosys Ltd company",
+                "Number of students selected in Infosys Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Infosys Ltd company selected students",
+            "patterns": [
                 "Infosys Ltd company selected students"
             ],
             "responses": [
-                "There are 3 students selected in Infosys Ltd company"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
         {
-            "tag": "Number of eligible students in Infosys Ltd company",
+            "tag": "Selected students in Infosys Ltd company",
             "patterns": [
-                "Number of eligible students in Infosys Ltd company",
-                "Students who are eligible in Infosys Ltd company",
+                "Selected students in Infosys Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "eligible students in Infosys Ltd company",
+            "patterns": [
+                "eligible students in Infosys Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "number of eligible students in Infosys Ltd company",
+            "patterns": [
+                "number of eligible students in Infosys Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are eligible in Infosys Ltd company",
+            "patterns": [
+                "Students who are eligible in Infosys Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Infosys Ltd company eligible students",
+            "patterns": [
                 "Infosys Ltd company eligible students"
             ],
             "responses": [
-                "There are 150 Eligible students for Infosys Ltd company"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "Number of  students attended in Infosys Ltd company",
             "patterns": [
-                "Number of  students attended in Infosys Ltd company",
-                "Students who are attended in Infosys Ltd company",
-                "Infosys Ltd company attended students"
+                "Number of  students attended in Infosys Ltd company"
             ],
             "responses": [
-                "There are 40 students attended in Infosys Ltd company"
+                ""
             ],
-            "context_set": [""]
-        },
-        {
-            "tag": "Number of students selected in TCS  company",
-            "patterns": [
-                "Number of students selected in TCS  company",
-                "Selected students in TCS company",
-                "TCS company selected students"
-            ],
-            "responses": [
-                "There ae 2 Students selected in TCS company"
-            ],
-            "context_set": [""]
-        },
-        {
-            "tag": "Number of  students attended in TCS company",
-            "patterns": [
-                "Number of  students attended in TCS company",
-                "Students who are attended in TCS company",
-                "TCS company attended students"
-            ],
-            "responses": [
-                "There are 65 students attended in TCS company"
-            ],
-            "context_set": [""]
-        },
-        {
-            "tag": "Number of  students eligible TCS company",
-            "patterns": [
-                "Number of  students eligible TCS company",
-                "Students who are eligible in TCS company",
-                "TCS companyeligible students"
-            ],
-            "responses": [
-                "There are 90 students eligible in TCS company"
-            ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "Number of  students Selected  in FinSurge Pvt Ltd company",
             "patterns": [
-                "Number of  students Selected  in FinSurge Pvt Ltd company",
-                "Students who are Selected in FinSurge Pvt Ltd company",
+                "Number of  students Selected  in FinSurge Pvt Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Infosys Ltd company attended students",
+            "patterns": [
+                "Infosys Ltd company attended students"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are attended in Infosys Ltd company",
+            "patterns": [
+                "Students who are attended in Infosys Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "total number of students attended in Infosys Ltd company",
+            "patterns": [
+                "total number of students attended in Infosys Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Number of students selected in TCS  company",
+            "patterns": [
+                "Number of students selected in TCS  company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "total number of students attended in TCS company",
+            "patterns": [
+                "total number of students attended in TCS company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "TCS company selected students",
+            "patterns": [
+                "TCS company selected students"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Selected students in TCS company",
+            "patterns": [
+                "Selected students in TCS company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "TCS company attended students",
+            "patterns": [
+                "TCS company attended students"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are attended in TCS company",
+            "patterns": [
+                "Students who are attended in TCS company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Number of  students attended in TCS company",
+            "patterns": [
+                "Number of  students attended in TCS company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "TCS companyeligible students",
+            "patterns": [
+                "TCS companyeligible students"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Number of  students eligible TCS company",
+            "patterns": [
+                "Number of  students eligible TCS company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Number of  students eligible TCS company",
+            "patterns": [
+                "Number of  students eligible TCS company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "FinSurge Pvt Ltd company Selected students",
+            "patterns": [
                 "FinSurge Pvt Ltd company Selected students"
             ],
             "responses": [
-                "There are 14 students Selected in FinSurge Pvt Ltd company"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are Selected in FinSurge Pvt Ltd company",
+            "patterns": [
+                "Students who are Selected in FinSurge Pvt Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Finsurge Pvt Ltd company attended students",
+            "patterns": [
+                "Finsurge Pvt Ltd company attended students"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are attended in Finsurge Pvt Ltd company",
+            "patterns": [
+                "Students who are attended in Finsurge Pvt Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "Number of  students attended in Finsurge Pvt Ltd company",
             "patterns": [
-                "Number of  students attended in Finsurge Pvt Ltd company",
-                "Students who are attended in Finsurge Pvt Ltd company",
-                "Finsurge Pvt Ltd company attended students"
+                "Number of  students attended in Finsurge Pvt Ltd company"
             ],
             "responses": [
-                "There are 55 students attended in Finsurge Pvt Ltd company"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Number of  students Selected  in Mphasis company",
+            "patterns": [
+                "Number of  students Selected  in Mphasis company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Finsurge Pvt Ltd company Eligible students",
+            "patterns": [
+                "Finsurge Pvt Ltd company Eligible students"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are Eligible in Finsurge Pvt Ltd company",
+            "patterns": [
+                "Students who are Eligible in Finsurge Pvt Ltd company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "Number of  students Eligible in Finsurge Pvt Ltd company",
             "patterns": [
-                "Number of  students Eligible in Finsurge Pvt Ltd company",
-                "Students who are Eligible in Finsurge Pvt Ltd company",
-                "Finsurge Pvt Ltd company Eligible students"
+                "Number of  students Eligible in Finsurge Pvt Ltd company"
             ],
             "responses": [
-                "There are 70 students Eligible in Finsurge Pvt Ltd company"
+                ""
             ],
-            "context_set": [""]
-
+            "context_set": [
+                ""
+            ]
         },
         {
-            "tag": "Number of  students Selected  in Mphasis company",
-
+            "tag": "Mphasis company Selected students",
             "patterns": [
-                "Number of  students Selected  in Mphasis company",
-                "Students who are Selected in Mphasis company",
                 "Mphasis company Selected students"
             ],
             "responses": [
-                "There are 04 students Selected in Mphasis company"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are Selected in Mphasis company",
+            "patterns": [
+                "Students who are Selected in Mphasis company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "Number of  students attended in Mphasis company",
-
-
             "patterns": [
-                "Number of  students attended in Mphasis  company",
-                "Students who are attended in Mphasis company",
+                "Number of  students attended in Mphasis company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mphasis company attended students",
+            "patterns": [
                 "Mphasis company attended students"
             ],
             "responses": [
-                "There are 45 students attended in Mphasis company"
+                ""
             ],
-            "context_set": [""]
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are attended in Mphasis company",
+            "patterns": [
+                "Students who are attended in Mphasis company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mphasis company Eligible students",
+            "patterns": [
+                "Mphasis company Eligible students"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students who are Eligible in Mphasis company",
+            "patterns": [
+                "Students who are Eligible in Mphasis company"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
         },
         {
             "tag": "Number of  students Eligible in Mphasis company",
             "patterns": [
-                "Number of  students Eligible in Mphasis company",
-                "Students who are Eligible in Mphasis company",
-                "Mphasis company Eligible students"
+                "Number of  students Eligible in Mphasis company"
             ],
             "responses": [
-                "There are 150 students Eligible in Mphasis company"
+                ""
             ],
-            "context_set": [""]
-
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "List of companies held in 2022",
+            "patterns": [
+                "List of companies held in 2022"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "companies held in 2022",
+            "patterns": [
+                "companies held in 2022"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "what are the companies held in 2022",
+            "patterns": [
+                "what are the companies held in 2022"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list of students who are all selected in Atos",
+            "patterns": [
+                "list of students who are all selected in Atos"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students placed in atos",
+            "patterns": [
+                "students placed in atos"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "atos placed students",
+            "patterns": [
+                "atos placed students"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "incharge of placement",
+            "patterns": [
+                "incharge of placement"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who is incharge of placement",
+            "patterns": [
+                "who is incharge of placement"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement officer",
+            "patterns": [
+                "placement officer"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who is placement officer",
+            "patterns": [
+                "who is placement officer"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "display the students selected in intership 2021",
+            "patterns": [
+                "display the students selected in intership 2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who are all selected in internship 2021",
+            "patterns": [
+                "who are all selected in internship 2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Students selected in internship 2021",
+            "patterns": [
+                "Students selected in internship 2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "List of Students Selected for Internship 2021",
+            "patterns": [
+                "List of Students Selected for Internship 2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students internship 2021",
+            "patterns": [
+                "students internship 2021"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": " list of students placed in TCS",
+            "patterns": [
+                " list of students placed in TCS"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list the students who are all placed in TCS",
+            "patterns": [
+                "list the students who are all placed in TCS"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Tata consultancy services",
+            "patterns": [
+                "Tata consultancy services"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list the students who are all placed in Tata consultancy services",
+            "patterns": [
+                "list the students who are all placed in Tata consultancy services"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list the students who are all placed in Tata Consultancy Services",
+            "patterns": [
+                "list the students who are all placed in Tata Consultancy Services"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list of students placed in TCS",
+            "patterns": [
+                "list of students placed in TCS"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list of students placed in Tata consultancy services",
+            "patterns": [
+                "list of students placed in Tata consultancy services"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
         }
     ]
-
-
 }
