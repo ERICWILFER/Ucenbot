@@ -51,7 +51,7 @@ def response(inp):
         rresponse = random.choice(responses)
         print(rresponse)
     else:
-        rresponse = "I didn't really get that"
+        rresponse = "PLEASE GIVE A VALID QUESTION"
         response.contextimg = "./static/context/images/error.gif"
         file.close()
 
