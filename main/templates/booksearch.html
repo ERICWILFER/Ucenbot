@@ -1,6 +1,5 @@
 {% load static %}
 {% include 'navbar.html'%}
-{% load my_custom_tags %}
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -62,16 +61,10 @@
               <td>{{detail.3}}</td>
           </tr>
           {%endfor%}
-          
-      
-      
-          
         </tbody>
       </table>
     </h3>
     
-
-  <p>{% chatbot %}</p>
         </center>
     </body>
     <script src="{% static '/js/bot.js' %}"></script>

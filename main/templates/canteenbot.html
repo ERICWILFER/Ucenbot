@@ -1,6 +1,5 @@
 {% load static %}
 {% include 'navbar.html'%}
-{% load my_custom_tags %}
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -9,7 +8,7 @@
         <link
       rel="stylesheet"
       type="text/css"
-      href="{% static '/css/canteenbot.css' %}"
+      href="{% static '/css/bot.css' %}"
     />
     </head>
     <body>
@@ -43,7 +42,6 @@
                      <h3>{{query}}</h3>
                        <h1>{{chatresponse}}</h1>
                        <img class="animated-gif" src="{{imgresponse}}">
-                     <p>{% chatbot %}</p>
                            </center>
             </div>
 

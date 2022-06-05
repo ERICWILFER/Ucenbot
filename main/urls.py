@@ -20,5 +20,4 @@ urlpatterns = [
     path('sportsbot.html', views.sports),
     path('form/feedback_form.html', views.feedback_form),
     path('form/thanks.html',views.feedback_form),
-    path('chatbot.html',views.chatbot)
 ]

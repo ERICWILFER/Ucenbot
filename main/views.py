@@ -226,13 +226,3 @@ def feedback_form(request):
         form = FeedbackForm()
     context = {'form': form}
     return render(request, 'form/feedback_form.html', {'form': form})
-
-
-def chatbot(request):
-    if request.method == 'POST':
-        msg = request.POST.get('input', '')
-        if msg == 'eric':
-            return HttpResponse("eric is alive")
-        else:
-            return HttpResponse("eric is not alive")
-    return render(request, 'chatbot.html')
