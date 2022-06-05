@@ -26,11 +26,6 @@ def contact(request):
     return render(request, "contact.html")
 
 
-def gallery(request):
-    context = {}
-    return render(request, "gallery.html")
-
-
 def college(request):
     context = {}
     def query_data(inp):
