@@ -55,7 +55,11 @@
     {
         "tag": "where is library ",
         "patterns": [
-            "where is library "
+            "where is library",
+            "library location",
+            "location of library",
+            "where can i find library",
+            "where i can find the library"
         ],
         "responses": [
             ""
@@ -67,7 +71,9 @@
     {
         "tag": "are books arrange according to departments",
         "patterns": [
-            "are books arrange according to departments"
+            "are books arrange according to departments",
+            "can we browse the books according departments",
+            "can we search the books according to departments"
         ],
         "responses": [
             ""
@@ -79,7 +85,12 @@
     {
         "tag": "where can i find library",
         "patterns": [
-            "where can i find library"
+            "where can i find library",
+            "where is library",
+            "library location",
+            "location of library",
+            "where can i find library",
+            "where i can find the library"
         ],
         "responses": [
             ""
@@ -91,7 +102,13 @@
     {
         "tag": "room number of library",
         "patterns": [
-            "room number of library"
+            "room number of library",
+            "where can i find library",
+            "where is library",
+            "library location",
+            "location of library",
+            "where can i find library",
+            "where i can find the library"
         ],
         "responses": [
             ""
@@ -103,7 +120,14 @@
     {
         "tag": "where is library located",
         "patterns": [
-            "where is library located"
+            "where is library located",
+            "room number of library",
+            "where can i find library",
+            "where is library",
+            "library location",
+            "location of library",
+            "where can i find library",
+            "where i can find the library"
         ],
         "responses": [
             ""
@@ -115,7 +139,9 @@
     {
         "tag": "UCEN Library",
         "patterns": [
-            "UCEN Library"
+            "UCEN Library",
+            "library UCEN",
+            "library of UCEN"
         ],
         "responses": [
             ""
@@ -127,7 +153,13 @@
     {
         "tag": "who is library officer",
         "patterns": [
-            "who is library officer"
+            "who is library officer",
+            "who is the officer of library",
+            "officer of library",
+            "library officer",
+            "incharge of library",
+            "library incharge",
+            "incharge library"
         ],
         "responses": [
             ""
@@ -139,7 +171,14 @@
     {
         "tag": "who is incharge of library",
         "patterns": [
-            "who is incharge of library"
+            "who is incharge of library",
+            "who is library officer",
+            "who is the officer of library",
+            "officer of library",
+            "library officer",
+            "incharge of library",
+            "library incharge",
+            "incharge library"
         ],
         "responses": [
             ""
@@ -151,7 +190,15 @@
     {
         "tag": "library officer",
         "patterns": [
-            "library officer"
+            "library officer",
+            "who is incharge of library",
+            "who is library officer",
+            "who is the officer of library",
+            "officer of library",
+            "library officer",
+            "incharge of library",
+            "library incharge",
+            "incharge library"
         ],
         "responses": [
             ""
@@ -163,7 +210,15 @@
     {
         "tag": "incharge of library",
         "patterns": [
-            "incharge of library"
+            "incharge of library",
+            "who is incharge of library",
+            "who is library officer",
+            "who is the officer of library",
+            "officer of library",
+            "library officer",
+            "incharge of library",
+            "library incharge",
+            "incharge library"
         ],
         "responses": [
             ""
@@ -175,7 +230,10 @@
     {
         "tag": "library hours",
         "patterns": [
-            "library hours"
+            "library hours",
+            "timing of library",
+            "timing library",
+            "library timings"
         ],
         "responses": [
             ""
@@ -187,7 +245,11 @@
     {
         "tag": "what is the timing of library",
         "patterns": [
-            "what is the timing of library"
+            "what is the timing of library",
+            "library hours",
+            "timing of library",
+            "timing library",
+            "library timings"
         ],
         "responses": [
             ""
@@ -199,6 +261,11 @@
     {
         "tag": "library timings",
         "patterns": [
+            "library timings",
+            "what is the timing of library",
+            "library hours",
+            "timing of library",
+            "timing library",
             "library timings"
         ],
         "responses": [
@@ -211,7 +278,12 @@
     {
         "tag": "how many text books are available",
         "patterns": [
-            "how many text books are available"
+            "number of text books",
+            "how many text books are available",
+            "number of text books available in library",
+            "availability of library text books",
+            "total number of availability of library text books",
+            "total number of text books in library"
         ],
         "responses": [
             ""
@@ -223,7 +295,10 @@
     {
         "tag": "validity of books in days",
         "patterns": [
-            "validity of books in days"
+            "validity of books in days",
+            "books validity",
+            "book validity",
+            "books time validity"
         ],
         "responses": [
             ""
@@ -235,7 +310,12 @@
     {
         "tag": "number of text books",
         "patterns": [
-            "number of text books"
+            "number of text books",
+            "how many text books are available",
+            "number of text books available in library",
+            "availability of library text books",
+            "total number of availability of library text books",
+            "total number of text books in library"
         ],
         "responses": [
             ""
@@ -247,6 +327,12 @@
     {
         "tag": "total number of text books in library",
         "patterns": [
+            "total number of text books in library",
+            "number of text books",
+            "how many text books are available",
+            "number of text books available in library",
+            "availability of library text books",
+            "total number of availability of library text books",
             "total number of text books in library"
         ],
         "responses": [
@@ -259,7 +345,21 @@
     {
         "tag": "total number of books in civil department",
         "patterns": [
-            "total number of books in civil department"
+            "total number of books in civil department",
+            "number of books in civil department",
+            "total number of books in civil department",
+            "number of books in civil department",
+            "total number of books in civil department",
+            "number of books in civil department",
+            "number of books in civil department",
+            "total number of books in civil department",
+            "total number of books in civil department",
+            "number of books in civil department",
+            "how many books are available in civil department",
+            "total how many books are available in civil departments",
+            "total number of civil books in library",
+            "number of civil books in libarary"
+            
         ],
         "responses": [
             ""
@@ -271,7 +371,19 @@
     {
         "tag": "number of books in civil department",
         "patterns": [
-            "number of books in civil department"
+            "number of books in civil department",
+            "total number of books in civil department",
+            "number of books in civil department",
+            "total number of books in civil department",
+            "number of books in civil department",
+            "number of books in civil department",
+            "total number of books in civil department",
+            "total number of books in civil department",
+            "number of books in civil department",
+            "how many books are available in civil department",
+            "total how many books are available in civil departments",
+            "total number of civil books in library",
+            "number of civil books in libarary"
         ],
         "responses": [
             ""
@@ -283,7 +395,32 @@
     {
         "tag": "total number of books in CSE department",
         "patterns": [
-            "total number of books in CSE department"
+            "total number of books in CSE department",
+            "number of books in CSE department",
+            "total number of books in CSE department",
+            "number of books in CSE department",
+            "total number of books in CSE department",
+            "number of books in CSE department",
+            "number of books in CSE department",
+            "total number of books in CSE department",
+            "total number of books in CSE department",
+            "number of books in CSE department",
+            "how many books are available in CSE department",
+            "total how many books are available in CSE departments",
+            "total number of CSE books in library",
+            "number of CSE books in libarary",
+            "total number of books in computer science department",
+            "number of books in computer science department",
+            "total number of books in computer science department",
+            "number of books in computer science department",
+            "number of books in computer science department",
+            "total number of books in computer science department",
+            "total number of books in computer science department",
+            "number of books in computer science department",
+            "how many books are computer science in computer science department",
+            "total how many books are available in computer science departments",
+            "total number of computer science books in library",
+            "number of computer science books in libarary"
         ],
         "responses": [
             ""
@@ -295,7 +432,32 @@
     {
         "tag": "number of books in CSE department",
         "patterns": [
-            "number of books in CSE department"
+            "number of books in CSE department",
+            "total number of books in CSE department",
+            "number of books in CSE department",
+            "total number of books in CSE department",
+            "number of books in CSE department",
+            "number of books in CSE department",
+            "total number of books in CSE department",
+            "total number of books in CSE department",
+            "number of books in CSE department",
+            "how many books are available in CSE department",
+            "total how many books are available in CSE departments",
+            "total number of CSE books in library",
+            "number of CSE books in libarary",
+            "total number of books in computer science department",
+            "number of books in computer science department",
+            "total number of books in computer science department",
+            "number of books in computer science department",
+            "number of books in computer science department",
+            "total number of books in computer science department",
+            "total number of books in computer science department",
+            "number of books in computer science department",
+            "how many books are computer science in computer science department",
+            "total how many books are available in computer science departments",
+            "total number of computer science books in library",
+            "number of computer science books in libarary"
+            
         ],
         "responses": [
             ""
@@ -307,7 +469,18 @@
     {
         "tag": "total number of books in Mechnical department",
         "patterns": [
-            "total number of books in Mechnical department"
+            "total number of books in Mechnical department",
+            "number of books in Mechanical department",
+            "total number of books in Mechanical department",
+            "number of books in Mechanical department",
+            "number of books in Mechanical department",
+            "total number of books in Mechanical department",
+            "total number of books in Mechanical department",
+            "number of books in Mechanical department",
+            "how many books are available in Mechanical department",
+            "total how many books are available in Mechanical departments",
+            "total number of Mechanical books in library",
+            "number of Mechanical books in libarary"
         ],
         "responses": [
             ""
@@ -319,7 +492,17 @@
     {
         "tag": "number of books in Mechanical department",
         "patterns": [
-            "number of books in Mechanical department"
+            "number of books in Mechanical department",
+            "total number of books in Mechanical department",
+            "number of books in Mechanical department",
+            "number of books in Mechanical department",
+            "total number of books in Mechanical department",
+            "total number of books in Mechanical department",
+            "number of books in Mechanical department",
+            "how many books are available in Mechanical department",
+            "total how many books are available in Mechanical departments",
+            "total number of Mechanical books in library",
+            "number of Mechanical books in libarary"
         ],
         "responses": [
             ""
@@ -331,7 +514,16 @@
     {
         "tag": "total number of books in ECE department",
         "patterns": [
-            "total number of books in ECE department"
+            "total number of books in ECE department",
+            "number of books in ECE department",
+            "number of books in ECE department",
+            "total number of books in ECE department",
+            "total number of books in ECE department",
+            "number of books in ECE department",
+            "how many books are available in ECE department",
+            "total how many books are available in ECE departments",
+            "total number of ECE books in library",
+            "number of ECE books in libarary"
         ],
         "responses": [
             ""
@@ -343,8 +535,17 @@
     {
         "tag": "number of books in ECE department",
         "patterns": [
-            "number of books in ECE department"
+            "number of books in ECE department",
+            "number of books in ECE department",
+            "total number of books in ECE department",
+            "total number of books in ECE department",
+            "number of books in ECE department",
+            "how many books are available in ECE department",
+            "total how many books are available in ECE departments",
+            "total number of ECE books in library",
+            "number of ECE books in libarary"
         ],
+            
         "responses": [
             ""
         ],
@@ -355,7 +556,14 @@
     {
         "tag": "number of books in EEE department",
         "patterns": [
-            "number of books in EEE department"
+            "number of books in EEE department",
+            "total number of books in EEE department",
+            "total number of books in EEE department",
+            "number of books in EEE department",
+            "how many books are available in EEE department",
+            "total how many books are available in EEE departments",
+            "total number of EEE books in library",
+            "number of EEE books in libarary"
         ],
         "responses": [
             ""
@@ -367,7 +575,13 @@
     {
         "tag": "total number of books in EEE department",
         "patterns": [
-            "total number of books in EEE department"
+            "total number of books in EEE department",
+            "total number of books in EEE department",
+            "number of books in EEE department",
+            "how many books are available in EEE department",
+            "total how many books are available in EEE departments",
+            "total number of EEE books in library",
+            "number of EEE books in libarary"
         ],
         "responses": [
             ""
@@ -378,8 +592,15 @@
     },
     {
         "tag": "total number of books in IT department",
+        
+        
         "patterns": [
-            "total number of books in IT department"
+            "total number of books in IT department",
+            "number of books in IT department",
+            "how many books are available in IT department",
+            "total how many books are available in IT departments",
+            "total number of IT books in library",
+            "number of IT books in libarary"
         ],
         "responses": [
             ""
@@ -391,7 +612,11 @@
     {
         "tag": "number of books in IT department",
         "patterns": [
-            "number of books in IT department"
+            "number of books in IT department",
+            "how many books are available in IT department",
+            "total how many books are available in IT departments",
+            "total number of IT books in library",
+            "number of IT books in libarary"
         ],
         "responses": [
             ""
