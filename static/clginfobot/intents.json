@@ -1538,7 +1538,8 @@
         {
             "tag": "where is second year class located",
             "patterns": [
-                "where is second year class located"
+                "where is second year class located",
+                "second year class location"
             ],
             "responses": [
                 ""
