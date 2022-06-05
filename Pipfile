@@ -62,12 +62,12 @@ Werkzeug = "==2.1.2"
 tensorboard = "==2.9.0"
 tensorboard-data-server = "==0.6.1"
 tensorboard-plugin-wit = "==1.8.1"
-tensorflow = "==2.9.1"
 tensorflow-estimator = "==2.9.0"
 tensorflow-io-gcs-filesystem = "==0.26.0"
 termcolor = "==1.1.0"
 tf-estimator-nightly = "==2.8.0.dev2021122109"
 tflearn = "==0.5.0"
+tensorflow = "*"
 
 [dev-packages]
 
