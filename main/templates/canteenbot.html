@@ -40,8 +40,14 @@
                        </svg></button>
                      </div>
                      <h3>{{query}}</h3>
-                       <h1>{{chatresponse}}</h1>
-                       <img class="animated-gif" src="{{imgresponse}}">
+             {% comment %} chatresponse {% endcomment %}
+                {% if chatresponse == "PLEASE GIVE A VALID QUESTION"%}
+                     <h3 class="text-danger">{{chatresponse}}</h3>
+                {% else %}
+                      <h1>{{chatresponse}}</h1>                            
+                {% endif %}
+
+                <img class="animated-gif" src="{{imgresponse}}">
                            </center>
             </div>
 
@@ -108,16 +114,33 @@
               </div>
               <div class="suggestionbox">
 
-                <h2> QUERY SUGGESIONS </h2>
+                <h2> QUERY SUGGESTIONS </h2>
                 <div id="scroll-container">
                   <div id="scroll-text">
                     <h3>
-                      Hi.</br>
-                    Who is the hod of CSE.</br>
-                    who is the placement officer of ucen</br>
-                    where is ucen.</br>
-                    when was ucen opened.</br>
-                  <div>
+                      Lunch </br>
+                      Veg fried rice </br>
+                      Egg noodles</br>
+                      poori </br>
+                      variety rice </br>
+                      chappathi </br>
+                      chicken fry </br>
+                      chicken chops </br>
+                      veg noodles </br>
+                      List of items </br>
+                      egg fried rice </br>
+                      who is the incharge of canteen </br>
+                      incharge of ucen canteen </br>
+                      incharge of UCEN Students akshaya Canteen </br>
+                      who is the incharge of students akshaya canteen </br>
+                      where is ucen canteen located </br>
+                      location of ucen canteen </br>
+                      location of SAC </br>
+                      location of students akshaya canteen </br>
+                      where is students akshaya canteen located </br>
+                      todays menu </br>
+                      tommorows menu </br>
+                      yesterdays menu </br>
                     </h3>
                 </div>
               </div>

@@ -1538,8 +1538,7 @@
         {
             "tag": "where is second year class located",
             "patterns": [
-                "where is second year class located",
-                "second year class location"
+                "where is second year class located"
             ],
             "responses": [
                 ""
@@ -2401,21 +2400,249 @@
             ]
         },
         {
+            "tag": "list  of staffs in  computer science department",
+            "patterns": [
+                "list  of staffs in  computer science department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
             "tag": "who handles operating system",
             "patterns": [
                 "who handles operating system"
             ],
             "responses": [
-                "answer need to be provided"
+                ""
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "jeba",
+            "tag": "who handles compiler design",
             "patterns": [
-                "jeba"
+                "who handles compiler design"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles mobile computing",
+            "patterns": [
+                "who handles mobile computing"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles database management system",
+            "patterns": [
+                "who handles database management system"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles design and analysys of algorithm",
+            "patterns": [
+                "who handles design and analysys of algorithm"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles information retrival system",
+            "patterns": [
+                "who handles information retrival system"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles computer architecture",
+            "patterns": [
+                "who handles computer architecture"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles c# and .net programming",
+            "patterns": [
+                "who handles c# and .net programming"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles probability queueing theory",
+            "patterns": [
+                "who handles probability queueing theory"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles software engineering",
+            "patterns": [
+                "who handles software engineering"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles advanced reading and writing",
+            "patterns": [
+                "who handles advanced reading and writing"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles internet programming",
+            "patterns": [
+                "who handles internet programming"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles artificial intelligence",
+            "patterns": [
+                "who handles artificial intelligence"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles proffesional ethics in engineering",
+            "patterns": [
+                "who handles proffesional ethics in engineering"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles distributed system",
+            "patterns": [
+                "who handles distributed system"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "does ucen college have symposium",
+            "patterns": [
+                "does ucen college have symposium"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "does ucen college have sports day",
+            "patterns": [
+                "does ucen college have sports day"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "does ucen college have cultural day",
+            "patterns": [
+                "does ucen college have cultural day"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "how many functions were conducted by ucen college",
+            "patterns": [
+                "how many functions were conducted by ucen college"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "subjects in 7th sem",
+            "patterns": [
+                "subjects in 7th sem"
             ],
             "responses": [
                 "answer need to be provided"
@@ -2425,9 +2652,9 @@
             ]
         },
         {
-            "tag": "JEBA",
+            "tag": "who is dean",
             "patterns": [
-                "JEBA"
+                "who is dean"
             ],
             "responses": [
                 "answer need to be provided"
@@ -2437,9 +2664,9 @@
             ]
         },
         {
-            "tag": "JEBA",
+            "tag": "who is the dean of ucen college",
             "patterns": [
-                "JEBA"
+                "who is the dean of ucen college"
             ],
             "responses": [
                 "answer need to be provided"
@@ -2449,201 +2676,9 @@
             ]
         },
         {
-            "tag": "JEBA",
+            "tag": "who is muthu selvi",
             "patterns": [
-                "JEBA"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba",
-            "patterns": [
-                "jeba"
+                "who is muthu selvi"
             ],
             "responses": [
                 "answer need to be provided"

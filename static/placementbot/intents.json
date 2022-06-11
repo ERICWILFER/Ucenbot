@@ -1417,7 +1417,89 @@
         {
             "tag": "list of students placed in Tata consultancy services",
             "patterns": [
-                "list of students placed in Tata consultancy services"
+                "list of students placed in Tata consultancy services",
+                "students placed in tata company",
+                "tata consultansy service",
+                "students placed in tcs"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "how many students placed 2020",
+            "patterns": [
+                "how many students placed 2020",
+                "students placed in 2020"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students placed in 2021 ",
+            "patterns": [
+                "students placed in 2021 "," list of students placed in TCS",
+                "number of students placed in 2021 so far"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students placed so far",
+            "patterns": [
+                "students placed so far",
+                "how many students placed so far"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "student placed in 2019",
+            "patterns": [
+                "student placed in 2019",
+                "in 2019 how many students placed"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "students placed in 2018",
+            "patterns": [
+                "students placed in 2018",
+                "how much students placed in 2018"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "companies list that commes in ucen college",
+            "patterns": [
+                "companies list that commes in ucen college",
+                "companies came to ucen so far",
+                "what are the companies came to ucen"
             ],
             "responses": [
                 ""

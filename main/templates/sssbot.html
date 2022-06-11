@@ -38,7 +38,14 @@
             </svg></button>
           </div>
             <h2>{{query}}<h2>
-            <h1>{{chatresponse}}</h1>
+              {% comment %} chatresponse {% endcomment %}
+                {% if chatresponse == "PLEASE GIVE A VALID QUESTION"%}
+                     <h3 class="text-danger">{{chatresponse}}</h3>
+                {% else %}
+                      <h1>{{chatresponse}}</h1>                            
+                {% endif %}
+
+                <img class="animated-gif" src="{{imgresponse}}">
                 </center>
             </div>
 
@@ -103,17 +110,32 @@
               </div>
               <div class="suggestionbox">
 
-                <h2> QUERY SUGGESIONS </h2>
+                <h2> QUERY SUGGESTIONS </h2>
                 <div id="scroll-container">
                   <div id="scroll-text">
-                    <h3>
-                      Hi.</br>
-                    Who is the hod of CSE.</br>
-                    who is the placement officer of ucen</br>
-                    where is ucen.</br>
-                    when was ucen opened.</br>
-                  <div>
-                    </h3>
+                    
+                      <ul>
+                      <li>whitener</li> 
+                      <li> highlighter </li>
+                      <li> single punch </li>
+                      <li> punch machine double </li>
+                      <li> a4 stick file </li>
+                      <li> semi log sheets </li>
+                      <li> graph sheets </li>
+                      <li> colour chart paper </li>
+                      <li> white chart paper </li>
+                      <li> small size note </li>
+                      <li> 160 pages long size note </li>
+                      <li> cello tape 2inch </li>
+                      <li> cello tape 1inch </li>
+                      <li> labels </li>
+                      <li> plastic scale small </li>
+                      <li> plastic scale long </li>
+                      <li> steel scale long </li>
+                      <li> sketch </li>
+                      <li> sharpener </li>
+                      <li> eraser small </li>
+                      </ul>
                 </div>
               </div>
             </div>

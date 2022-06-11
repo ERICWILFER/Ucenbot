@@ -29,7 +29,7 @@ def contact(request):
 def college(request):
     context = {}
     def query_data(inp):
-        query = f"SELECT staff_details,staff_expyr,staff_doj,staff_room,staff_qualification,staff_handle_subs,year,class,staff_cont_num,staff_name,class_location,ucen_common_details,bus_cons_details,mark_sheet_ver,academic_details FROM clg_info_details WHERE clg_info_tag ='{inp}'" 
+        query = f"SELECT staff_details,staff_expyr,staff_doj,staff_room,staff_qualification,staff_handle_subs,year,class,staff_cont_num,staff_name,class_location,ucen_common_details,bus_cons_details,mark_sheet_ver,academic_details,common_details FROM clg_info_details WHERE clg_info_tag ='{inp}'" 
         conn = sqlite3.connect("db.sqlite3")
         c = conn.cursor()
         c.execute(query)
@@ -91,12 +91,7 @@ def library(request):
         c.execute(query)
         results = c.fetchall()
         conn.close()
-        # print(results)
         return results
-    
-    def img():
-        image = canteenbot.response.contextimg
-        return image
 
     def chat(msg):
         rresponse = librarybot.response(msg) 
@@ -109,7 +104,6 @@ def library(request):
         context['chatresponse'] = chat(msg)
         tag = librarybot.response.tagg
         context['dataresponse'] = query_data(tag)
-        context['imgresponse'] = img()
     return render(request, "librarybot.html",context)
 
 
@@ -186,7 +180,7 @@ def sports(request):
     context = {}
     def query_data(inp):
         
-        query = f"SELECT time_of_game,game_list,captain_of_game,staff,grounds,tournament_timing,overview FROM sports_details WHERE game_details_tag ='{inp}'" 
+        query = f"SELECT time_of_game,game_list,captain_of_game,staff,grounds,tournament_timing,overview FROM sports_details WHERE sports_details_tag ='{inp}'" 
         conn = sqlite3.connect("db.sqlite3")
         c = conn.cursor()
         c.execute(query)

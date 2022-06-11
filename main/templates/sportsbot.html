@@ -36,8 +36,7 @@
           </svg></button>
         </div>
           <h2>{{query}}<h2>
-          <h1>{{chatresponse}}</h1>
-          <img class="animated-gif" src="{{imgresponse}}">
+
       <h3>
         <ul style="list-style-type:none;">
           {% for data in dataresponse.0%}
@@ -51,6 +50,13 @@
           {%endfor%}
       </ul>
       </h3>
+                     {% comment %} chatresponse {% endcomment %}
+         {% if chatresponse == "PLEASE GIVE A VALID QUESTION"%}
+              <h3 class="text-danger">{{chatresponse}}</h3>
+         {% else %}
+               <h1>{{chatresponse}}</h1>                            
+         {% endif %}
+         <img class="animated-gif" src="{{imgresponse}}">
               </center>
             </div>
 
@@ -119,13 +125,21 @@
                 <div id="scroll-container">
                   <div id="scroll-text">
                     <h3>
-                      Hi.</br>
-                    Who is the hod of CSE.</br>
-                    who is the placement officer of ucen</br>
-                    where is ucen.</br>
-                    when was ucen opened.</br>
-                  <div>
-                    </h3>
+                      how many volleyball grounds here </br>
+                      how many football grounds here </br>
+                      where is volleyball ground located </br>
+                      where is football ground located </br>
+                      is there any coach for athletics </br>
+                      where is sports room located </br>
+                      when will the badminton tournament conducted </br>
+                      when will the cricket tournament conducted </br>
+                      when will the football tournament conducted </br>
+                      when will the chess tournament conducted </br>
+                      when will the carromboard tournament conducted </br>
+                      when will the tennis tournament conducted </br>
+                      when will the volleyball tournament conducted </br>
+                  </h3>
+                    </div>
                 </div>
               </div>
             </div>

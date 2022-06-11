@@ -47,7 +47,6 @@ def response(inp):
             if tg['tag'] == tag:
                 responses = tg['responses']
                 contexts = tg['context_set']
-        response.contextimg = random.choice(contexts)
         rresponse = random.choice(responses)
         print(rresponse)
     else:

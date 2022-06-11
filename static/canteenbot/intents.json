@@ -241,11 +241,10 @@
             "tag": "Chapathi",
             "patterns": [
                 "Chapathi",
-                "price of Chapathi",
                 "what is the price of chapathi",
                 "how much for a chapathi",
-                "chapathi price",
-                "amount of chapathi"
+                "amount of chapathi",
+                "chappathi"
             ],
             "responses": [
                 "10 Rupee for chapathi"
@@ -451,6 +450,45 @@
             "context_set": [
                 ""
             ]
-        }
-    ]
+        },
+        {
+            "tag": "todays menu",
+            "patterns": [
+                "what are the todays menu",
+                "tell me about todays menu"
+            ],
+            "responses": [
+                "idly, pongal, vadai, poori, briyani"
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "tommorows menu",
+            "patterns": [
+                "what are the tommorows menu",
+                "tell me about tommorows menu"
+            ],
+            "responses": [
+                "idly, pongal, vadai, poori, briyani"
+            ],
+            "context_set": [
+                ""
+            ]
+        }, 
+        {
+            "tag": "yesterdays menu",
+            "patterns": [
+                "what are the yesterdays menu",
+                "tell me about yesterdays menu"
+            ],
+            "responses": [
+                "idly, pongal, tea, poori, rice"
+            ],
+            "context_set": [
+                ""
+            ]
+        }   
+     ]
 }
