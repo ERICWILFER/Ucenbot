@@ -1,2 +1,2 @@
-model_checkpoint_path: "D:\\New folder\\Ucenbot\\static\\clginfobot\\model.tflearn"
-all_model_checkpoint_paths: "D:\\New folder\\Ucenbot\\static\\clginfobot\\model.tflearn"
+model_checkpoint_path: "D:\\Project\\ucen bot web code\\Ucenbot\\static\\clginfobot\\model.tflearn"
+all_model_checkpoint_paths: "D:\\Project\\ucen bot web code\\Ucenbot\\static\\clginfobot\\model.tflearn"

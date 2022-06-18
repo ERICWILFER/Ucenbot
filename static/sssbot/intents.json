@@ -825,8 +825,7 @@
                 "what do you have",
                 "whats on the menu",
                 "what do you sell",
-                "what to we get",
-                "could i get something useful"
+                "what to we get"
             ],
             "responses": [
                 "We sell all the stationary items required for a university college student! "
@@ -852,12 +851,12 @@
             ]
         },
         {
-            "tag": "timing of ss",
+            "tag": "timing of sss",
             "patterns": [
-                "timing of ss"
+                "timing of sss"
             ],
             "responses": [
-                "answer need to be provided"
+                "As usual College hours"
             ],
             "context_set": [
                 ""

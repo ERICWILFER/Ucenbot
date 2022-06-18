@@ -1445,7 +1445,8 @@
         {
             "tag": "students placed in 2021 ",
             "patterns": [
-                "students placed in 2021 "," list of students placed in TCS",
+                "students placed in 2021 ",
+                " list of students placed in TCS",
                 "number of students placed in 2021 so far"
             ],
             "responses": [
@@ -1503,6 +1504,18 @@
             ],
             "responses": [
                 ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who are all selected in 2021",
+            "patterns": [
+                "who are all selected in 2021"
+            ],
+            "responses": [
+                "answer need to be provided"
             ],
             "context_set": [
                 ""

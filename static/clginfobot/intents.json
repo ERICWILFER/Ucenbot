@@ -5,9 +5,7 @@
             "patterns": [
                 "Hi",
                 "How are you",
-                "Is anyone there?",
                 "Hello",
-                "Good day",
                 "Whats up"
             ],
             "responses": [
@@ -23,11 +21,9 @@
         {
             "tag": "goodbye",
             "patterns": [
-                "see ya",
                 "See you later",
                 "Goodbye",
                 "I am Leaving",
-                "Have a Good day",
                 "bye"
             ],
             "responses": [
@@ -58,11 +54,9 @@
         {
             "tag": "hours",
             "patterns": [
-                "when are you guys open",
-                "what are your hours",
-                "hours of operation",
+                "what are college hours",
                 "operating hours",
-                "what are the working hours of college"
+                "working hours of college"
             ],
             "responses": [
                 "We are open 9am to 5pm College hours!"
@@ -89,15 +83,12 @@
         {
             "tag": "number of floors in ucen",
             "patterns": [
-                "how many floors does ucen have",
-                "Floors of ucen",
                 "ucen floors",
                 "number of floors in ucen",
-                "U C E N floors",
-                "number of floors in U C E N"
+                "U C E N have floors"
             ],
             "responses": [
-                "there are 3 floors in ucen"
+                "there are 3 floors in ucen college building"
             ],
             "context_set": [
                 ""
@@ -108,7 +99,7 @@
             "patterns": [
                 "does ucen have medical facilities",
                 "ucen provides medical fcilities",
-                "medical facility available in our college"
+                "is medical facility available in ucen college"
             ],
             "responses": [
                 "yes there is medical support and failities in our UCEN"
@@ -133,20 +124,6 @@
             ]
         },
         {
-            "tag": "ucen after 4.30 pm",
-            "patterns": [
-                "does ucen works after 4.30 pm",
-                "ucen stil work after 4.30",
-                "after 4.30 does ucen works"
-            ],
-            "responses": [
-                "not,but if there  is important meeting"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
             "tag": "does ucen labs contain proper equipments",
             "patterns": [
                 "does ucen labs contain proper equipments",
@@ -155,20 +132,6 @@
             ],
             "responses": [
                 "yes ucen contain all lab equipments"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "does ucen is the number 1 college in kanyakumari?",
-            "patterns": [
-                "does ucen is the number 1 college in kanyakumari",
-                "ucen the number 1 college in kk",
-                "is ucen the number 1 colllege"
-            ],
-            "responses": [
-                "im not sure"
             ],
             "context_set": [
                 ""
@@ -206,8 +169,7 @@
             "tag": "ucen eco-friendly",
             "patterns": [
                 "does ucen eco-friendly",
-                "ucen eco-friendfly",
-                "ucen ecofriendly",
+                "is ucen ecofriendly",
                 "u c e n ecofriendly"
             ],
             "responses": [
@@ -220,1111 +182,74 @@
         {
             "tag": "first year coordinator",
             "patterns": [
-                "who was the first year coordinator at present",
-                "first year coordinator",
-                "current coordinator of first year",
+                "who is first year coordinator",
                 "coordinator of first year"
             ],
             "responses": [
-                "idk"
+                "will provide answer soon"
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "rating ucen",
+            "tag": "Total Strength",
             "patterns": [
-                "how much rating do u give for U C E N college",
-                "rating of ucen college",
-                "rating of u c e n college",
-                "ucen college rating"
+                "Total Strength of Students",
+                "number of students totally in college"
             ],
             "responses": [
-                "i rate 3.5 out of 5"
+                "40,000 students in all dept & year"
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "Duration of course",
+            "tag": "paying SSS",
             "patterns": [
-                "Duration of the course",
-                "course duration",
-                "duration of coursr",
-                "duration course",
-                "what is the duration of course"
+                "how to pay sss",
+                "procedure for pay sss"
             ],
             "responses": [
-                "the duration of the course is 4 years"
+                "they first give you a sss slip, using that slip you can get sss items"
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "Civil department staffs",
+            "tag": "Total Strength",
             "patterns": [
-                "how many staffs are there in civil department",
-                "number of staffs in civil department",
-                "civil department staffs"
+                "Total Strength of Students",
+                "number of students totally in college"
             ],
             "responses": [
-                "There are currently 10 staffs available in civil department"
+                "40,000 students in all dept & year"
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "non teaching staffs civil department",
+            "tag": "clg moto",
             "patterns": [
-                "how many non teaching staffs are there in civil department",
-                "non teaching staffs in civil department",
-                "number of non teaching staffs in civil department"
+                "what is the college moto"
             ],
             "responses": [
-                "There are currently 4 non teaching staffs available in civil department"
+                "success :=)"
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "staffs computer science department",
+            "tag": "Muthuselvi",
             "patterns": [
-                "how many staffs are there in computer science department",
-                "number of staffs in computer science department",
-                "computer science department staffs"
+                "Muthuselvi",
+                "Muthu selvi"
             ],
             "responses": [
-                "There are 6 teaching staffs in computer science department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "non teaching staffs computer science",
-            "patterns": [
-                "how many non teaching staffs are there in computer science department",
-                "non teaching staffs in computer science department",
-                "number of non teaching staffs in computer science department"
-            ],
-            "responses": [
-                "There are 3 non teaching staffs in computer science department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "head of Computer science department",
-            "patterns": [
-                "who is the head of computer science department",
-                "head of computer science department",
-                "computer science head",
-                "H O D computer science",
-                "H O D of computer science",
-                "cse hod"
-            ],
-            "responses": [
-                "Dr M.Muthuselvi is the head of Computer Science department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "handles computer networks subject",
-            "patterns": [
-                "who handles computer networks subject",
-                "computer networks subject staff",
-                "staff of computer networks subject"
-            ],
-            "responses": [
-                "Dr.Muthuselvi handles the Computer Network subject"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "staffs ece department",
-            "patterns": [
-                "how many staffs are there in ece department",
-                "number of staffs in ece department",
-                "ece department staffs"
-            ],
-            "responses": [
-                "There are 7 teaching staffs in ece department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "non teaching staffs ece department",
-            "patterns": [
-                "how many non teaching staffs are there in ece department",
-                "non teaching staffs in ece department",
-                "number of non teaching staffs in ece department"
-            ],
-            "responses": [
-                "There are cuurently 2 non teaching staffs in ece department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who is the head of  ece department",
-            "patterns": [
-                "who is the head of ece department",
-                "head of ece department",
-                "ece head",
-                "H O D ece",
-                "H O D of ece"
-            ],
-            "responses": [
-                "DR Arul teen is the hod of ece department "
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "staffs mechanical department",
-            "patterns": [
-                "how many staffs are there in mechanical department",
-                "number of staffs in mechanical department",
-                "mechanical department staffs"
-            ],
-            "responses": [
-                "There are 11 teaching staffs in mechanical department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "non teaching staffs mechanical department",
-            "patterns": [
-                "how many non teaching staffs are there in mechanical department",
-                "non teaching staffs in mechanical department",
-                "number of non teaching staffs in mechanical department"
-            ],
-            "responses": [
-                "There are cuurently 2 non teaching staffs in mehanical department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "head of mechanical department",
-            "patterns": [
-                "who is the head of mechanical department",
-                "head of mechanical department",
-                "mechanical head",
-                "H O D mechanical",
-                "H O D of mechanical"
-            ],
-            "responses": [
-                "Dr R Saravanan is the head of Mechanical department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "staffs IT department",
-            "patterns": [
-                "how many staffs are there in IT department",
-                "number of staffs in IT department",
-                "IT department staffs",
-                "how many staffs are there in I T department",
-                "number of staffs in I T department",
-                "Information Technology department staffs",
-                "how many staffs are there in information technology department",
-                "number of staffs in information technology department",
-                "information technology department staffs"
-            ],
-            "responses": [
-                "There are 11 teaching staffs in IT department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "non teaching staffs IT department",
-            "patterns": [
-                "how many non teaching staffs in IT department"
-            ],
-            "responses": [
-                "how many non teaching staffs are there in IT department",
-                "non teaching staffs in IT department",
-                "number of non teaching staffs in IT department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "head of IT department",
-            "patterns": [
-                "who is the head of IT department",
-                "head of IT department",
-                "IT head",
-                "H O D IT",
-                "H O D of IT",
-                "who is the head of it department",
-                "head of it department",
-                "it hod",
-                "H O D it",
-                "H O D of it"
-            ],
-            "responses": [
-                "Dr Bhanumathi is the head of IT department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "staffs in EEE department",
-            "patterns": [
-                "how many teaching staffs in EEE department"
-            ],
-            "responses": [
-                "how many staffs are there in EEE department",
-                "number of staffs in EEE department",
-                "EEE department staffs"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "non teaching staffs in EEE department",
-            "patterns": [
-                "how many non teaching staffs in EEE department"
-            ],
-            "responses": [
-                "how many non teaching staffs are there in EEE department",
-                "non teaching staffs in EEE department",
-                "number of non teaching staffs in EEE department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who is the head of EEE department",
-            "patterns": [
-                "how many staffs are there in EEE department",
-                "number of staffs in EEE department",
-                "EEE department staffs",
-                "how many staffs are there in E E Edepartment",
-                "number of staffs in E E E department",
-                "E E E department staffs",
-                "how many staffs are there in Electronics department",
-                "number of staffs in Electronics department",
-                "Elecetronics department staffs"
-            ],
-            "responses": [
-                "Dr Sree renga raja is the head of EEE department"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "handles Cloud computing subject",
-            "patterns": [
-                "who handles cloud computing subject",
-                "cloud computing subject staff",
-                "staff of cloud computing subject"
-            ],
-            "responses": [
-                "Mr Sugumaran"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "handles Mobile computing subject",
-            "patterns": [
-                "who handles mobile computing subject",
-                "mobile computing subject staff",
-                "staff of mobile computing subject"
-            ],
-            "responses": [
-                "Mr Sugumaran"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "handles Information Retrieval techniques subject",
-            "patterns": [
-                "who handles Information Retrieval techniques subject",
-                "Information Retrieval techniques subject staff",
-                "staff of Information Retrieval techniques subject"
-            ],
-            "responses": [
-                "Mr Sugumaran"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "handles Professional ethics in egineering subject",
-            "patterns": [
-                "who handles Professional ethics in egineering subject",
-                "Professional ethics in egineering subject staff",
-                "staff of Professional ethics in egineering subject"
-            ],
-            "responses": [
-                "Dr mahendiran handles Professional ethics in egineering subject"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "handles c# and .net programming subject",
-            "patterns": [
-                "who handles c# and .net programming subject",
-                "c# and .net programming subject staff",
-                "staff of c# and .net programming subject"
-            ],
-            "responses": [
-                "Mrs antony sheela c# and .net programming subject"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "handles Software project management subject",
-            "patterns": [
-                "who handles Software project management subject",
-                "Software project management subject staff",
-                "staff of Software project management subject"
-            ],
-            "responses": [
-                "Mrs Asha deepika handles the Software project management"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "handles Cryptography and network security subject",
-            "patterns": [
-                "who handles Software Cryptography and network security subject",
-                "Cryptography and network security subject staff",
-                "staff of Cryptography and network security subject"
-            ],
-            "responses": [
-                "Mr Narendiran handles the Cryptography and network security subject"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "sugumaran sir location",
-            "patterns": [
-                "where i can find sugumaran sir",
-                "room number of sugumaran sir",
-                "staff room of sugumaran sir",
-                "location of sugumaran sir"
-            ],
-            "responses": [
-                "You can find mr sugumaran in 206"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "narendiran sir location",
-            "patterns": [
-                "where i can find narendiran sir",
-                "room number of narendiran sir",
-                "staff room of narendiran sir",
-                "location of narendiran sir"
-            ],
-            "responses": [
-                "You can find mr narendiran in 206"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "jeba anandh sir location",
-            "patterns": [
-                "where i can find jeba anandh sir",
-                "room number of jeba anandh sir",
-                "staff room of jeba anandh sir",
-                "location of jeba anandh sir"
-            ],
-            "responses": [
-                "You can find mr jeba anandh in 205"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "find Asha deepika mam location",
-            "patterns": [
-                "where i can find Asha deepika mam",
-                "room number of Asha deepika mam",
-                "staff room of Asha deepika mam",
-                "location of Asha deepika mam"
-            ],
-            "responses": [
-                "You can find mrs Asha deepika in room number 206"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "muthuselvi mam location",
-            "patterns": [
-                "where i can find muthuselvi mam",
-                "room number of muthuselvi mam",
-                "staff room of muthuselvi mam",
-                "location of muthuselvi mam"
-            ],
-            "responses": [
-                "You can find mrs muthuselvi in room number 220"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "karthika mam location",
-            "patterns": [
-                "where i can find karthika mam",
-                "room number of karthika mam",
-                "staff room of karthika mam",
-                "location of karthika mam"
-            ],
-            "responses": [
-                "You can find mrs karthika mam in room number 200"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "number of subjects first sem",
-            "patterns": [
-                "How many subjects are there in first sem",
-                "number of subjects in first sem",
-                "total number of subjects in first sem",
-                "How many subjects are there in first semester",
-                "number of subjects in first semester",
-                "total number of subjects in first semester"
-            ],
-            "responses": [
-                "There are six Theory and two practicals"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "list first sem subjects with code",
-            "patterns": [
-                "name the subjects in first semester with subject code",
-                "list first sem subjects with code",
-                "first sem subjects with code",
-                "display first sem subjects with code"
-            ],
-            "responses": [
-                "HS8151-Communicative english,py8151 engineering physics,ma8151-engineering mathematics 1,Ge8152-engineering graphics and physics chemistry laboratory and problem solving and python programming laboratory"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "number of subjects in second sem",
-            "patterns": [
-                "How many subjects are there in second sem",
-                "number of subjects in second sem",
-                "total number of subjects in second sem",
-                "How many subjects are there in second semester",
-                "number of subjects in second semester",
-                "total number of subjects in second semester"
-            ],
-            "responses": [
-                "There are six Theory and two practicals"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "number of subjects in third sem",
-            "patterns": [
-                "How many subjects are there in third sem",
-                "number of subjects in third sem",
-                "total number of subjects in third sem",
-                "How many subjects are there in third semester",
-                "number of subjects in third semester",
-                "total number of subjects in third semester"
-            ],
-            "responses": [
-                "There are five Theory and four practicals"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "number of subjects in fourth sem",
-            "patterns": [
-                "How many subjects are there in fourth sem",
-                "number of subjects in fourth sem",
-                "total number of subjects in fourth sem",
-                "How many subjects are there in fourth semester",
-                "number of subjects in fourth semester",
-                "total number of subjects in fourth semester"
-            ],
-            "responses": [
-                "There are six Theory and three practicals"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "number of subjects in fifth sem",
-            "patterns": [
-                "How many subjects are there in fifth sem",
-                "number of subjects in fifth sem",
-                "total number of subjects in fifth sem",
-                "How many subjects are there in fifth semester",
-                "number of subjects in fifth semester",
-                "total number of subjects in fifth semester"
-            ],
-            "responses": [
-                "There are six Theory and three practicals"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "number of subjects in sixth sem",
-            "patterns": [
-                "How many subjects are there in sixth sem",
-                "number of subjects in sixth sem",
-                "total number of subjects in sixth sem",
-                "How many subjects are there in sixth semester",
-                "number of subjects in sixth semester",
-                "total number of subjects in sixth semester"
-            ],
-            "responses": [
-                "There are six Theory and four practicals"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "number of subjects in seventh sem",
-            "patterns": [
-                "How many subjects are there in seventh sem",
-                "number of subjects in seventh sem",
-                "total number of subjects in seventh sem",
-                "How many subjects are there in seventh semester",
-                "number of subjects in seventh semester",
-                "total number of subjects in seventh semester"
-            ],
-            "responses": [
-                "There are six Theory and two  practicals"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "number of subjects in eight sem",
-            "patterns": [
-                "How many subjects are there in eight sem",
-                "number of subjects in eight sem",
-                "total number of subjects in eight sem",
-                "How many subjects are there in eight semester",
-                "number of subjects in eight semester",
-                "total number of subjects in eight semester"
-            ],
-            "responses": [
-                "There are two Theory and one practical"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "eight sem subjects",
-            "patterns": [
-                "name the subjects in eight sem",
-                "what subjects are there in eight sem",
-                "eight sem subjects",
-                "display eight sem subjects"
-            ],
-            "responses": [
-                "professional elective 1 and professional elective 2"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "principles of management subject code",
-            "patterns": [
-                "what is the subject code for principles of management in seventh sem",
-                "subject code for principles of management",
-                "principles of management subject code",
-                "subject code of principles of management"
-            ],
-            "responses": [
-                "MG8591 is the subject code "
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "cloud computing subject code",
-            "patterns": [
-                "what is the subject code for cloud computing in seventh sem",
-                "subject code for cloud computing",
-                "cloud computing subject code",
-                "subject code of cloud computing"
-            ],
-            "responses": [
-                "CS8791 is the subject code for cloud computing"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "cns subject code",
-            "patterns": [
-                "what is the subject code for cns in seventh sem",
-                "subject code for cns",
-                "cns subject code",
-                "subject code of cns"
-            ],
-            "responses": [
-                "CS8792 is the subject code for cns"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "IRT subject code",
-            "patterns": [
-                "what is the subject code for IRT in seventh sem",
-                "subject code for IRT",
-                "IRT subject code",
-                "subject code of IRT"
-            ],
-            "responses": [
-                "CS8080 is the subject code for IRT"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "computer networks subject code",
-            "patterns": [
-                "what is the subject code for computer networks in seventh sem",
-                "subject code for computer networks",
-                "computer networks subject code",
-                "subject code of computer networks"
-            ],
-            "responses": [
-                "CS8591 is the subject code for computer networks"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "compiler design subect code",
-            "patterns": [
-                "what is the subject code for compiler design in seventh sem",
-                "subject code for compiler design",
-                "compiler design subject code",
-                "subject code of compiler design"
-            ],
-            "responses": [
-                "CS8602 is the subject code for compiler designs"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "operating systems subject code",
-            "patterns": [
-                "what is the subject code for operating systems",
-                "subject code for operating systems",
-                "operating systems subject code",
-                "subject code of operating systems"
-            ],
-            "responses": [
-                "CS8493 is the subject code for operating systems"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "software engineering subject code",
-            "patterns": [
-                "what is the subject code for software engineering",
-                "subject code for software engineering",
-                "software engineering subject code",
-                "subject code of software engineering"
-            ],
-            "responses": [
-                "CS8494 is the subject code for software engineering"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "data structures subject code",
-            "patterns": [
-                "what is the subject code for data structures",
-                "subject code for data structures",
-                "data structures subject code",
-                "subject code of data structures"
-            ],
-            "responses": [
-                "CS8391 is the subject code for data structures"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "discrete mathematics subject code",
-            "patterns": [
-                "what is the subject code for discrete mathematics",
-                "subject code fordiscrete mathematics",
-                "discrete mathematics subject code",
-                "subject code of discrete mathematics"
-            ],
-            "responses": [
-                "ma8351 is the subject code for discrete mathematics"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "subject code for c programming",
-            "patterns": [
-                "what is the subject code for c programming",
-                "subject code for c programming",
-                "c programming subject code",
-                "programming in c subject code"
-            ],
-            "responses": [
-                "cs8251 is the subject code for programming in c"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "engineering mathemtics 2 subject",
-            "patterns": [
-                "subject code for engineering mathemtics 2",
-                "m2 subject code",
-                "mathematics 2 subject code"
-            ],
-            "responses": [
-                "MA8251 is the subject code for engineering mathemtics 2"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "subject code for engineering mathemtics 1",
-            "patterns": [
-                "subject code for engineering mathemtics 1",
-                "m1 subject code",
-                "mathematucs 1 subject code"
-            ],
-            "responses": [
-                "MA8151 is the subject code for engineering mathemtics 1"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "engineering physics subject code",
-            "patterns": [
-                "what is the subject code for engineering physics",
-                "subject code for engineering physics",
-                "engineering physics subject code",
-                "subject code of engineering physics"
-            ],
-            "responses": [
-                "PH8151 is the subject code for engineering physics"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "tell me about jerin sir",
-            "patterns": [
-                "tell me about jerin sir"
-            ],
-            "responses": [
-                "answer need to be provided"
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Dr.M.Muthuselvi",
-            "patterns": [
-                "Dr.M.Muthuselvi"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mrs.T.Viveka",
-            "patterns": [
-                "Mrs.T.Viveka"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mr.M.Ramadas",
-            "patterns": [
-                "Mr.M.Ramadas"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mr.C.Manikandan",
-            "patterns": [
-                "Mr.C.Manikandan"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mr.V.R.Sugumaran",
-            "patterns": [
-                "Mr.V.R.Sugumaran"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mr.R.Narendran",
-            "patterns": [
-                "Mr.R.Narendran"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mrs.T.Asha Deepika",
-            "patterns": [
-                "Mrs.T.Asha Deepika"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Dr.S.Petchimuthu",
-            "patterns": [
-                "Dr.S.Petchimuthu"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mrs.P.Sneha Tharshini",
-            "patterns": [
-                "Mrs.P.Sneha Tharshini"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Dr.R.Latha Devi",
-            "patterns": [
-                "Dr.R.Latha Devi"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Dr.B.Anish Krishna Nayar",
-            "patterns": [
-                "Dr.B.Anish Krishna Nayar"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mrs.M.Sukumari",
-            "patterns": [
-                "Mrs.M.Sukumari"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Dr.S.Jeba Anand",
-            "patterns": [
-                "Dr.S.Jeba Anand"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mrs.K.Karthika Lekshmi",
-            "patterns": [
-                "Mrs.K.Karthika Lekshmi"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Mrs.A.Jeya Sheeba",
-            "patterns": [
-                "Mrs.A.Jeya Sheeba"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Who is Muthuselvi",
-            "patterns": [
-                "Who is Muthuselvi"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Who is Viveka",
-            "patterns": [
-                "Who is Viveka"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "Who is Ramadas",
-            "patterns": [
-                "Who is Ramadas"
-            ],
-            "responses": [
                 ""
             ],
             "context_set": [
@@ -1332,9 +257,10 @@
             ]
         },
         {
-            "tag": "Who is Manikandan",
+            "tag": "Viveka",
             "patterns": [
-                "Who is Manikandan"
+                "Viveka",
+                "who is viveka"
             ],
             "responses": [
                 ""
@@ -1344,9 +270,10 @@
             ]
         },
         {
-            "tag": "Who is Sugumaran",
+            "tag": "Ramadas",
             "patterns": [
-                "Who is Sugumaran"
+                "Ramadas",
+                "ramaadas"
             ],
             "responses": [
                 ""
@@ -1356,9 +283,10 @@
             ]
         },
         {
-            "tag": "Who is Narendran",
+            "tag": "Manikandan",
             "patterns": [
-                "Who is Narendran"
+                "Manikandan",
+                "manigandan"
             ],
             "responses": [
                 ""
@@ -1368,9 +296,9 @@
             ]
         },
         {
-            "tag": "Who is Asha Deepika",
+            "tag": "Sugumaran",
             "patterns": [
-                "Who is Asha Deepika"
+                "Sugumaran"
             ],
             "responses": [
                 ""
@@ -1380,9 +308,10 @@
             ]
         },
         {
-            "tag": "Who is Petchimuthu",
+            "tag": "Narendran",
             "patterns": [
-                "Who is Petchimuthu"
+                "Narendran",
+                "narandiran"
             ],
             "responses": [
                 ""
@@ -1392,9 +321,11 @@
             ]
         },
         {
-            "tag": "Who is Sneha Tharshini",
+            "tag": "Asha Deepika",
             "patterns": [
-                "Who is Sneha Tharshini"
+                "Asha Deepika",
+                "ashaDepika",
+                "ashaDeepika"
             ],
             "responses": [
                 ""
@@ -1404,9 +335,10 @@
             ]
         },
         {
-            "tag": "Who is Latha Devi",
+            "tag": "Petchimuthu",
             "patterns": [
-                "Who is Latha Devi"
+                "Petchimuthu",
+                "pechumuthu"
             ],
             "responses": [
                 ""
@@ -1416,9 +348,10 @@
             ]
         },
         {
-            "tag": "Who is Anish Krishna Nayar",
+            "tag": "Sneha Tharshini",
             "patterns": [
-                "Who is Anish Krishna Nayar"
+                "Sneha Tharshini",
+                "snehatharshini"
             ],
             "responses": [
                 ""
@@ -1428,9 +361,9 @@
             ]
         },
         {
-            "tag": "Who is Sukumari",
+            "tag": "Latha Devi",
             "patterns": [
-                "Who is Sukumari"
+                "Latha Devi"
             ],
             "responses": [
                 ""
@@ -1440,9 +373,9 @@
             ]
         },
         {
-            "tag": "Who is Jeba Anand",
+            "tag": "Anish Krishna Nayar",
             "patterns": [
-                "Who is Jeba Anand"
+                "Anish Krishna Nayar"
             ],
             "responses": [
                 ""
@@ -1452,9 +385,9 @@
             ]
         },
         {
-            "tag": "Who is Karthika Lekshmi",
+            "tag": "Sukumari",
             "patterns": [
-                "Who is Karthika Lekshmi"
+                "Sukumari"
             ],
             "responses": [
                 ""
@@ -1464,9 +397,11 @@
             ]
         },
         {
-            "tag": "Who is Jeya Sheeba",
+            "tag": "Jeba Anand",
             "patterns": [
-                "Who is Jeya Sheeba"
+                "Jeba Anand",
+                "jebaAnand",
+                "jebaAnanth"
             ],
             "responses": [
                 ""
@@ -1476,9 +411,9 @@
             ]
         },
         {
-            "tag": "Mr.M.Mahendren",
+            "tag": "Karthika Lekshmi",
             "patterns": [
-                "Mr.M.Mahendren"
+                "Karthika Lekshmi"
             ],
             "responses": [
                 ""
@@ -1488,9 +423,9 @@
             ]
         },
         {
-            "tag": "Who is Mahendren",
+            "tag": "Jeya Sheeba",
             "patterns": [
-                "Who is Mahendren"
+                "Jeya Sheeba"
             ],
             "responses": [
                 ""
@@ -1500,8 +435,10 @@
             ]
         },
         {
-            "tag": "list of cse staff names",
+            "tag": "cse staff names",
             "patterns": [
+                "cse staff names",
+                "cse staffs",
                 "list of cse staff names"
             ],
             "responses": [
@@ -1512,9 +449,9 @@
             ]
         },
         {
-            "tag": "where is final year class located",
+            "tag": "where is final year class",
             "patterns": [
-                "where is final year class located"
+                "where is final year class"
             ],
             "responses": [
                 ""
@@ -1524,9 +461,9 @@
             ]
         },
         {
-            "tag": "where is third year class located",
+            "tag": "where is third year class",
             "patterns": [
-                "where is third year class located"
+                "where is third year class"
             ],
             "responses": [
                 ""
@@ -1548,9 +485,10 @@
             ]
         },
         {
-            "tag": "where is first year class located",
+            "tag": "where is first year class",
             "patterns": [
-                "where is first year class located"
+                "where is first year class",
+                "first year class location"
             ],
             "responses": [
                 ""
@@ -1562,7 +500,9 @@
         {
             "tag": "working hours",
             "patterns": [
-                "working hours"
+                "working hours",
+                "college working hours",
+                "college operational hours"
             ],
             "responses": [
                 ""
@@ -1586,7 +526,8 @@
         {
             "tag": "how many floors does ucen have",
             "patterns": [
-                "how many floors does ucen have"
+                "how many floors does ucen have",
+                "floors in ucen"
             ],
             "responses": [
                 ""
@@ -1598,7 +539,8 @@
         {
             "tag": "oes ucen have medical facilities",
             "patterns": [
-                "oes ucen have medical facilities"
+                "does ucen have medical facilities",
+                "is medical facilities available in ucen"
             ],
             "responses": [
                 ""
@@ -1610,7 +552,8 @@
         {
             "tag": "what about the staffs in ucen",
             "patterns": [
-                "what about the staffs in ucen"
+                "what about the staffs in ucen",
+                "character of ucen staffs"
             ],
             "responses": [
                 ""
@@ -1622,7 +565,8 @@
         {
             "tag": "does ucen works after 4.30 pm",
             "patterns": [
-                "does ucen works after 4.30 pm"
+                "does ucen works after 4.30 pm",
+                "college have extra working hours"
             ],
             "responses": [
                 ""
@@ -1646,7 +590,8 @@
         {
             "tag": "does ucen is the number 1 college in kanyakumari",
             "patterns": [
-                "does ucen is the number 1 college in kanyakumari"
+                "does ucen is the number 1 college in kanyakumari",
+                "is ucen number one"
             ],
             "responses": [
                 ""
@@ -1730,7 +675,8 @@
         {
             "tag": "time of class starts",
             "patterns": [
-                "time of class starts"
+                "time of class starts",
+                "class starting hours"
             ],
             "responses": [
                 ""
@@ -1742,7 +688,8 @@
         {
             "tag": "time of class ends",
             "patterns": [
-                "time of class ends"
+                "time of class ends",
+                "when will class end"
             ],
             "responses": [
                 ""
@@ -1790,7 +737,8 @@
         {
             "tag": "categories of scholarships for students",
             "patterns": [
-                "categories of scholarships for students"
+                "categories of scholarships for students",
+                "various categories in scholarship"
             ],
             "responses": [
                 ""
@@ -1800,9 +748,9 @@
             ]
         },
         {
-            "tag": "is scholarship available for oc students",
+            "tag": "scholarship for oc students",
             "patterns": [
-                "is scholarship available for oc students"
+                "scholarship for oc students"
             ],
             "responses": [
                 ""
@@ -1812,9 +760,9 @@
             ]
         },
         {
-            "tag": "is scholarship available for obc students",
+            "tag": "scholarship for obc students",
             "patterns": [
-                "is scholarship available for obc students"
+                "scholarship for obc students"
             ],
             "responses": [
                 ""
@@ -1824,9 +772,9 @@
             ]
         },
         {
-            "tag": "is scholarship available for bc students",
+            "tag": "is scholarship for bc students",
             "patterns": [
-                "is scholarship available for bc students"
+                "is scholarship for bc students"
             ],
             "responses": [
                 ""
@@ -1836,9 +784,9 @@
             ]
         },
         {
-            "tag": "is scholarship available for sc students",
+            "tag": "is scholarship for sc students",
             "patterns": [
-                "is scholarship available for sc students"
+                "is scholarship for sc students"
             ],
             "responses": [
                 ""
@@ -1850,7 +798,8 @@
         {
             "tag": "how many working employees in office",
             "patterns": [
-                "how many working employees in office"
+                "how many working employees in office",
+                "how many employees in office"
             ],
             "responses": [
                 ""
@@ -2030,7 +979,7 @@
         {
             "tag": "how many staffs are there in I T department",
             "patterns": [
-                "how many staffs are there in I T department"
+                "how many staffsin IT department"
             ],
             "responses": [
                 ""
@@ -2054,7 +1003,9 @@
         {
             "tag": "who is the head of IT department",
             "patterns": [
-                "who is the head of IT department"
+                "who is the head of IT department",
+                "head of it department",
+                "head of Information Technology"
             ],
             "responses": [
                 ""
@@ -2066,7 +1017,8 @@
         {
             "tag": "how many staffs are there in EEE department",
             "patterns": [
-                "how many staffs are there in EEE department"
+                "how many staffs are there in EEE department",
+                "staffs is E E E department"
             ],
             "responses": [
                 ""
@@ -2114,7 +1066,8 @@
         {
             "tag": "is ucen college have bike parking facility",
             "patterns": [
-                "is ucen college have bike parking facility"
+                "is ucen college have bike parking facility",
+                "does ucen have pracking lot"
             ],
             "responses": [
                 ""
@@ -2126,7 +1079,8 @@
         {
             "tag": "name the subjects in first semester with subject code",
             "patterns": [
-                "name the subjects in first semester with subject code"
+                "name the subjects in first semester with subject code",
+                "subjects in first sem"
             ],
             "responses": [
                 ""
@@ -2136,9 +1090,9 @@
             ]
         },
         {
-            "tag": "How many subjects are there in second sem",
+            "tag": "subjects in second sem",
             "patterns": [
-                "How many subjects are there in second sem"
+                "subjects in second sem"
             ],
             "responses": [
                 ""
@@ -2148,9 +1102,9 @@
             ]
         },
         {
-            "tag": "How many subjects are there in third sem",
+            "tag": "subjects  in third sem",
             "patterns": [
-                "How many subjects are there in third sem"
+                "subjects  in third sem"
             ],
             "responses": [
                 ""
@@ -2160,9 +1114,9 @@
             ]
         },
         {
-            "tag": "How many subjects are there in fourth sem",
+            "tag": "subjects in fourth sem",
             "patterns": [
-                "How many subjects are there in fourth sem"
+                "subjects in fourth sem"
             ],
             "responses": [
                 ""
@@ -2172,9 +1126,9 @@
             ]
         },
         {
-            "tag": "How many subjects are there in fifth sem",
+            "tag": "subjects in fifth sem",
             "patterns": [
-                "How many subjects are there in fifth sem"
+                "subjects in fifth sem"
             ],
             "responses": [
                 ""
@@ -2184,9 +1138,9 @@
             ]
         },
         {
-            "tag": "How many subjects are there in sixth sem",
+            "tag": "subjects in sixth sem",
             "patterns": [
-                "How many subjects are there in sixth sem"
+                "subjects in sixth sem"
             ],
             "responses": [
                 ""
@@ -2196,9 +1150,9 @@
             ]
         },
         {
-            "tag": "How many subjects are there in seventh sem",
+            "tag": "How many subjects in seventh sem",
             "patterns": [
-                "How many subjects are there in seventh sem"
+                "How many subjects in seventh sem"
             ],
             "responses": [
                 ""
@@ -2208,9 +1162,9 @@
             ]
         },
         {
-            "tag": "How many subjects are there in eight sem",
+            "tag": "subjects in eight sem",
             "patterns": [
-                "How many subjects are there in eight sem"
+                "subjects in eight sem"
             ],
             "responses": [
                 ""
@@ -2256,9 +1210,9 @@
             ]
         },
         {
-            "tag": "hat is the subject code for cns in seventh sem",
+            "tag": "subject code for cns in seventh sem",
             "patterns": [
-                "hat is the subject code for cns in seventh sem"
+                "subject code for cns in seventh sem"
             ],
             "responses": [
                 ""
@@ -2268,9 +1222,9 @@
             ]
         },
         {
-            "tag": "hat is the subject code for IRT in seventh sem",
+            "tag": "subject code for IRT in seventh sem",
             "patterns": [
-                "hat is the subject code for IRT in seventh sem"
+                "subject code for IRT in seventh sem"
             ],
             "responses": [
                 ""
@@ -2280,9 +1234,10 @@
             ]
         },
         {
-            "tag": "hat is the subject code for computer networks in seventh sem",
+            "tag": "subject code for computer networks in seventh sem",
             "patterns": [
-                "hat is the subject code for computer networks in seventh sem"
+                "subject code for computer networks in seventh sem",
+                "computer networks subject code"
             ],
             "responses": [
                 ""
@@ -2292,9 +1247,10 @@
             ]
         },
         {
-            "tag": "what is the subject code for compiler design in seventh sem",
+            "tag": "subject code for compiler design in seventh sem",
             "patterns": [
-                "what is the subject code for compiler design in seventh sem"
+                "subject code for compiler design in seventh sem",
+                "compiler design subject code"
             ],
             "responses": [
                 ""
@@ -2304,9 +1260,10 @@
             ]
         },
         {
-            "tag": "what is the subject code for operating systems",
+            "tag": "subject code for operating systems",
             "patterns": [
-                "what is the subject code for operating systems"
+                "subject code for operating systems",
+                "operating system subject code"
             ],
             "responses": [
                 ""
@@ -2316,9 +1273,9 @@
             ]
         },
         {
-            "tag": "what is the subject code for software engineering",
+            "tag": "subject code for software engineering",
             "patterns": [
-                "what is the subject code for software engineering"
+                "subject code for software engineering"
             ],
             "responses": [
                 ""
@@ -2328,9 +1285,9 @@
             ]
         },
         {
-            "tag": "what is the subject code for data structures",
+            "tag": "subject code for data structures",
             "patterns": [
-                "what is the subject code for data structures"
+                "subject code for data structures"
             ],
             "responses": [
                 ""
@@ -2340,9 +1297,9 @@
             ]
         },
         {
-            "tag": "what is the subject code for discrete mathematics",
+            "tag": "subject code for discrete mathematics",
             "patterns": [
-                "what is the subject code for discrete mathematics"
+                "subject code for discrete mathematics"
             ],
             "responses": [
                 ""
@@ -2352,9 +1309,9 @@
             ]
         },
         {
-            "tag": "what is the subject code for c programming",
+            "tag": "subject code for c programming",
             "patterns": [
-                "what is the subject code for c programming"
+                "subject code for c programming"
             ],
             "responses": [
                 ""
@@ -2388,21 +1345,9 @@
             ]
         },
         {
-            "tag": "what is the subject code for engineering physics",
+            "tag": "subject code for engineering physics",
             "patterns": [
-                "what is the subject code for engineering physics"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "list  of staffs in  computer science department",
-            "patterns": [
-                "list  of staffs in  computer science department"
+                "subject code for engineering physics"
             ],
             "responses": [
                 ""
@@ -2424,9 +1369,9 @@
             ]
         },
         {
-            "tag": "who handles compiler design",
+            "tag": "who handles operating system",
             "patterns": [
-                "who handles compiler design"
+                "who handles operating system"
             ],
             "responses": [
                 ""
@@ -2436,9 +1381,9 @@
             ]
         },
         {
-            "tag": "who handles mobile computing",
+            "tag": "who handles professional ethics in engineering",
             "patterns": [
-                "who handles mobile computing"
+                "who handles professional ethics in engineering"
             ],
             "responses": [
                 ""
@@ -2448,93 +1393,9 @@
             ]
         },
         {
-            "tag": "who handles database management system",
+            "tag": "who handles information retireval techniques",
             "patterns": [
-                "who handles database management system"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who handles design and analysys of algorithm",
-            "patterns": [
-                "who handles design and analysys of algorithm"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who handles information retrival system",
-            "patterns": [
-                "who handles information retrival system"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who handles computer architecture",
-            "patterns": [
-                "who handles computer architecture"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who handles c# and .net programming",
-            "patterns": [
-                "who handles c# and .net programming"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who handles probability queueing theory",
-            "patterns": [
-                "who handles probability queueing theory"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who handles software engineering",
-            "patterns": [
-                "who handles software engineering"
-            ],
-            "responses": [
-                ""
-            ],
-            "context_set": [
-                ""
-            ]
-        },
-        {
-            "tag": "who handles advanced reading and writing",
-            "patterns": [
-                "who handles advanced reading and writing"
+                "who handles information retireval techniques"
             ],
             "responses": [
                 ""
@@ -2568,9 +1429,9 @@
             ]
         },
         {
-            "tag": "who handles proffesional ethics in engineering",
+            "tag": "who handles mobile computing",
             "patterns": [
-                "who handles proffesional ethics in engineering"
+                "who handles mobile computing"
             ],
             "responses": [
                 ""
@@ -2592,9 +1453,9 @@
             ]
         },
         {
-            "tag": "does ucen college have symposium",
+            "tag": "who handles probabilty and queueing theory",
             "patterns": [
-                "does ucen college have symposium"
+                "who handles probabilty and queueing theory"
             ],
             "responses": [
                 ""
@@ -2604,9 +1465,9 @@
             ]
         },
         {
-            "tag": "does ucen college have sports day",
+            "tag": "who handles computer architecture",
             "patterns": [
-                "does ucen college have sports day"
+                "who handles computer architecture"
             ],
             "responses": [
                 ""
@@ -2616,9 +1477,9 @@
             ]
         },
         {
-            "tag": "does ucen college have cultural day",
+            "tag": "who handles database management system",
             "patterns": [
-                "does ucen college have cultural day"
+                "who handles database management system"
             ],
             "responses": [
                 ""
@@ -2628,9 +1489,9 @@
             ]
         },
         {
-            "tag": "how many functions were conducted by ucen college",
+            "tag": "who handles design and analysis of algorithms",
             "patterns": [
-                "how many functions were conducted by ucen college"
+                "who handles design and analysis of algorithms"
             ],
             "responses": [
                 ""
@@ -2640,45 +1501,369 @@
             ]
         },
         {
-            "tag": "subjects in 7th sem",
+            "tag": "who handles operating system",
             "patterns": [
-                "subjects in 7th sem"
+                "who handles operating system"
             ],
             "responses": [
-                "answer need to be provided"
+                ""
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "who is dean",
+            "tag": "who handles software engineering",
             "patterns": [
-                "who is dean"
+                "who handles software engineering"
             ],
             "responses": [
-                "answer need to be provided"
+                ""
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "who is the dean of ucen college",
+            "tag": "who handles database management laboratory",
             "patterns": [
-                "who is the dean of ucen college"
+                "who handles database management laboratory"
             ],
             "responses": [
-                "answer need to be provided"
+                ""
             ],
             "context_set": [
                 ""
             ]
         },
         {
-            "tag": "who is muthu selvi",
+            "tag": "who handles operating systems laboratory",
             "patterns": [
-                "who is muthu selvi"
+                "who handles operating systems laboratory"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles advanced reading and writing laboratory",
+            "patterns": [
+                "who handles advanced reading and writing laboratory"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles internet programming laboratory",
+            "patterns": [
+                "who handles internet programming laboratory"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles mobile application development laboratory",
+            "patterns": [
+                "who handles mobile application development laboratory"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles mini project laboratory",
+            "patterns": [
+                "who handles mini project laboratory"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles professional communication",
+            "patterns": [
+                "who handles professional communication"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles project laboratory for cse a",
+            "patterns": [
+                "who handles project laboratory for cse a"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles project laboratory for cse b",
+            "patterns": [
+                "who handles project laboratory for cse b"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles professional english 2",
+            "patterns": [
+                "who handles professional english 2"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles statistics and numerical methods",
+            "patterns": [
+                "who handles statistics and numerical methods"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles physics for information science",
+            "patterns": [
+                "who handles physics for information science"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles basic electrical and electronics engineering ",
+            "patterns": [
+                "who handles basic electrical and electronics engineering "
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles engineering graphics",
+            "patterns": [
+                "who handles engineering graphics"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles programming in c",
+            "patterns": [
+                "who handles programming in c"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles engineering practices laboratory",
+            "patterns": [
+                "who handles engineering practices laboratory"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "who handles programming in c laboratory",
+            "patterns": [
+                "who handles programming in c laboratory"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "list of staffs in computer science department",
+            "patterns": [
+                "list of staffs in computer science department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "staff room located for computer science department ",
+            "patterns": [
+                "staff room located for computer science department "
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "basic qualification of hod",
+            "patterns": [
+                "basic qualification of hod"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "how many gents staffs in computer science department",
+            "patterns": [
+                "how many gents staffs in computer science department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "how many lady staffs in computer science department",
+            "patterns": [
+                "how many lady staffs in computer science department"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "what all the functions(celebrations) does the ucen college have",
+            "patterns": [
+                "what all the functions(celebrations) does the ucen college have"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Is sports day available in ucen college",
+            "patterns": [
+                "Is sports day available in ucen college"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Is cultrals day available in ucen college",
+            "patterns": [
+                "Is cultrals day available in ucen college"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "Basic qualification of staffs ",
+            "patterns": [
+                "Basic qualification of staffs "
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "how to apply scholorship",
+            "patterns": [
+                "how to apply scholorship"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "is wifi free",
+            "patterns": [
+                "is wifi free"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks"
             ],
             "responses": [
                 "answer need to be provided"

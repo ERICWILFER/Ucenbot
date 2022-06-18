@@ -81,7 +81,8 @@ p {
 	height: auto;
 }
 #header .header {
-	min-height: 8vh;
+	
+	height: 8vh;
 	background-color: rgba(31, 30, 30, 0.24);
 	transition: 0.3s ease background-color;
 }
@@ -143,8 +144,8 @@ p {
 	color: crimson;
 }
 #header .hamburger {
-	height: 60px;
-	width: 60px;
+	height: 45px;
+	width: 45px;
 	display: inline-block;
 	border: 3px solid white;
 	border-radius: 50%;

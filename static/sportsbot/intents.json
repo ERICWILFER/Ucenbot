@@ -478,7 +478,9 @@
         {
             "tag": "P E T sir location",
             "patterns": [
-                "P E T sir location"
+                "P E T sir location",
+                "pet sir location",
+                "where is pet sir"
             ],
             "responses": [
                 ""
@@ -502,7 +504,8 @@
         {
             "tag": "pet sir details",
             "patterns": [
-                "pet sir details"
+                "pet sir details",
+                "P E T sir details"
             ],
             "responses": [
                 "answer need to be provided"

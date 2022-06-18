@@ -29,13 +29,13 @@ def contact(request):
 def college(request):
     context = {}
     def query_data(inp):
-        query = f"SELECT staff_details,staff_expyr,staff_doj,staff_room,staff_qualification,staff_handle_subs,year,class,staff_cont_num,staff_name,class_location,ucen_common_details,bus_cons_details,mark_sheet_ver,academic_details,common_details FROM clg_info_details WHERE clg_info_tag ='{inp}'" 
+        query = f"SELECT staff_details,common_details,staff_expyr,staff_doj,staff_room,staff_qualification,staff_handle_subs,year,class FROM clg_info_details WHERE clg_info_tag ='{inp}'" 
         conn = sqlite3.connect("db.sqlite3")
         c = conn.cursor()
         c.execute(query)
         results = c.fetchall()
         conn.close()
-        # print(results)
+        print(results)
         return results
     def chat(msg):
         rresponse = clginfobot.response(msg) 
@@ -63,7 +63,7 @@ def placement(request):
         c.execute(query)
         results = c.fetchall()
         conn.close()
-        # print(results)
+        print(results)
         return results
     def chat(msg):
         rresponse = placementbot.response(msg) 
@@ -91,6 +91,7 @@ def library(request):
         c.execute(query)
         results = c.fetchall()
         conn.close()
+        print(results)
         return results
 
     def chat(msg):
@@ -186,7 +187,6 @@ def sports(request):
         c.execute(query)
         results = c.fetchall()
         conn.close()
-
         print(results)
         return results
     def chat(msg):
