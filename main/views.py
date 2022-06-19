@@ -57,7 +57,7 @@ def college(request):
 def placement(request):
     context = {}
     def query_data(inp):
-        query = f"SELECT details,company,Atos2021_2022,officer,internship2021,tcs FROM placement_details WHERE placement_details_tag ='{inp}'" 
+        query = f"SELECT details FROM placement_details WHERE placement_details_tag ='{inp}'" 
         conn = sqlite3.connect("db.sqlite3")
         c = conn.cursor()
         c.execute(query)
@@ -98,7 +98,6 @@ def library(request):
         rresponse = librarybot.response(msg) 
         return rresponse
     
-
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
@@ -118,7 +117,6 @@ def booksearch(request):
         results = c.fetchall()
         conn.close()
         return results
-
     if request.method == 'POST':
         book = request.POST.get('input', '')
         correct_string = stringerrorforgiver.forgive_bookname(book)
@@ -137,7 +135,6 @@ def authorsearch(request):
         results = c.fetchall()
         conn.close()
         return results
-
     if request.method == 'POST':
         author = request.POST.get('input', '')
         correct_string = stringerrorforgiver.forgive_authorname(author)
@@ -152,7 +149,6 @@ def sss(request):
     def chat(msg):
         rresponse = sssbot.response(msg) 
         return rresponse
-
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
@@ -168,7 +164,6 @@ def canteen(request):
     def img():
         image = canteenbot.response.contextimg
         return image
-
     if request.method == 'POST':
         msg = request.POST.get('input', '')
         context['query'] = msg
@@ -180,7 +175,6 @@ def canteen(request):
 def sports(request):
     context = {}
     def query_data(inp):
-        
         query = f"SELECT time_of_game,game_list,captain_of_game,staff,grounds,tournament_timing,overview FROM sports_details WHERE sports_details_tag ='{inp}'" 
         conn = sqlite3.connect("db.sqlite3")
         c = conn.cursor()
@@ -202,9 +196,7 @@ def sports(request):
         context['chatresponse'] = chat(msg)
         context['imgresponse'] = img()
         tag = sportsbot.response.tagg
-
         context['dataresponse'] = query_data(tag)
-
     return render(request, "sportsbot.html",context)
 
 
